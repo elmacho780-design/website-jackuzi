@@ -1,20 +1,17 @@
 #!/usr/bin/env node
 // Screenshots for checking: one PNG per slide at its final step (all content visible).
-// Usage: node engine/shoot.js GR-003 [slideNumber]
-// Output: build/<CODE>/shots/s01.png ...
+// Usage: node engine/shoot.js GR-003 [slideNumber]      node engine/shoot.js all
+// Output: build/<CODE>/shots/s01.png ... and build/<CODE>/sheet.png
 
 const path = require('path');
 const fs = require('fs');
 const { chromium } = require('playwright');
+const { allCodes } = require('./build');
 
-(async () => {
-  const code = process.argv[2];
-  const only = process.argv[3] ? +process.argv[3] : null;
+async function shootLesson(page, code, only) {
   const dir = path.join(__dirname, '..', 'build', code);
   const out = path.join(dir, 'shots');
   fs.mkdirSync(out, { recursive: true });
-  const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
   await page.goto('file://' + path.join(dir, 'index.html') + '?export=1');
   await page.evaluate(() => window.HML.ready);
   const n = await page.evaluate(() => window.HML.count());
@@ -26,7 +23,16 @@ const { chromium } = require('playwright');
     const f = path.join(out, `s${String(i + 1).padStart(2, '0')}.png`);
     await page.screenshot({ path: f });
   }
-  await browser.close();
   console.log(`shots: build/${code}/shots/ (${n} slides)`);
-  if (!only) require('child_process').execFileSync(process.execPath, [require('path').join(__dirname, 'sheet.js'), code], { stdio: 'inherit' });
+  if (!only) require('child_process').execFileSync(process.execPath, [path.join(__dirname, 'sheet.js'), code], { stdio: 'inherit' });
+}
+
+(async () => {
+  const arg = process.argv[2] || 'all';
+  const only = process.argv[3] ? +process.argv[3] : null;
+  const codes = arg === 'all' ? allCodes() : arg.split(',');
+  const browser = await chromium.launch();
+  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+  for (const c of codes) await shootLesson(page, c, only);
+  await browser.close();
 })();
