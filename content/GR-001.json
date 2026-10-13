@@ -1,0 +1,657 @@
+{
+  "code": "GR-001",
+  "lesson": 4,
+  "level": "A1",
+  "title": {
+    "en": "Nouns: singular and plural",
+    "mn": "Нэр үг: ганц ба олон тоо"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "books",
+        "red-apple",
+        "package"
+      ],
+      "promise": {
+        "en": "By the end, you can turn one thing into many and say the ending right.",
+        "mn": "Энэ хичээлийн төгсгөлд нэг зүйлийг олон болгож, төгсгөлийг зөв дуудаж чадна."
+      },
+      "say": "One thing and many things. In Mongolian we say гурван ном, and the word ном doesn't change. In English it does. By the end of this video you will know exactly how.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "One and many",
+        "mn": "Нэг ба олон"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "120px 1fr 80px 290px 1fr",
+            "tones": [
+              "bare mid",
+              "",
+              "bare mid",
+              "bare mid",
+              ""
+            ],
+            "head": [
+              null,
+              {
+                "en": "One",
+                "mn": "Нэг"
+              },
+              null,
+              null,
+              {
+                "en": "Many",
+                "mn": "Олон"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "icon": "closed-book",
+                  "size": 84
+                },
+                {
+                  "en": "one book",
+                  "mn": "нэг ном"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "icon": "closed-book+closed-book",
+                  "size": 110
+                },
+                {
+                  "en": "two book**s**",
+                  "mn": "хоёр ном"
+                }
+              ],
+              [
+                {
+                  "icon": "package",
+                  "size": 84
+                },
+                {
+                  "en": "one box",
+                  "mn": "нэг хайрцаг"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "icon": "package+package+package",
+                  "size": 140
+                },
+                {
+                  "en": "three box**es**",
+                  "mn": "гурван хайрцаг"
+                }
+              ],
+              [
+                {
+                  "icon": "baby",
+                  "size": 84
+                },
+                {
+                  "en": "one bab**y**",
+                  "mn": "нэг нялх хүүхэд"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "icon": "baby+baby",
+                  "size": 110
+                },
+                {
+                  "en": "two bab**ies**",
+                  "mn": "хоёр нялх хүүхэд"
+                }
+              ],
+              [
+                {
+                  "icon": "child",
+                  "size": 84
+                },
+                {
+                  "en": "one **child**",
+                  "mn": "нэг хүүхэд"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "icon": "child+girl+boy+child",
+                  "size": 130
+                },
+                {
+                  "en": "four **children**",
+                  "mn": "дөрвөн хүүхэд"
+                }
+              ]
+            ],
+            "cls": "om"
+          }
+        },
+        {
+          "callout": {
+            "en": "Look at the end of each word.",
+            "mn": "Үг бүрийн төгсгөлийг ажигла."
+          }
+        }
+      ],
+      "say": "Read each pair twice. Then: look only at the end of each word. Book, books. Box, boxes. Baby, babies. Child, children. Four different ways of saying \"more than one\". By the end you will know which to use, and why.",
+      "teach": "The icons make the number visible without any explanation. Keep the endings highlighted from the start so the eye goes straight to them.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Rule 1: most nouns add -s",
+        "mn": "Дүрэм 1: ихэнх нэр үг -s авна"
+      },
+      "blocks": [
+        {
+          "pair": {
+            "en": "Singular means one. Plural means more than one.",
+            "mn": "Singular гэдэг нь ганц тоо. Plural гэдэг нь олон тоо."
+          },
+          "card": true,
+          "cls": "lead-card"
+        },
+        {
+          "row": [
+            {
+              "chip": "+ s",
+              "tone": "navy",
+              "size": "lg"
+            }
+          ],
+          "center": true
+        },
+        {
+          "cards": [
+            {
+              "with": "prev",
+              "icon": "closed-book",
+              "word": "book -> book**s**",
+              "gloss": "ном"
+            },
+            {
+              "with": "prev",
+              "icon": "cat",
+              "word": "cat -> cat**s**",
+              "gloss": "муур"
+            },
+            {
+              "with": "prev",
+              "icon": "pen",
+              "word": "pen -> pen**s**",
+              "gloss": "үзэг"
+            },
+            {
+              "with": "prev",
+              "icon": "girl",
+              "word": "girl -> girl**s**",
+              "gloss": "охин"
+            },
+            {
+              "with": "prev",
+              "icon": "red-apple",
+              "word": "apple -> apple**s**",
+              "gloss": "алим"
+            }
+          ],
+          "cols": 5
+        }
+      ],
+      "say": "Now the names. Singular means one, ганц тоо. Plural means more than one, олон тоо. [click] And the main rule is simple: most nouns just add s. That one rule covers most nouns in English.",
+      "teach": "This is where the two grammar terms enter, after the student has already seen the pattern on slide 2.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Rule 2: -s, -ss, -sh, -ch, -x add -es",
+        "mn": "Дүрэм 2: -s, -ss, -sh, -ch, -x-ээр төгссөн үг -es авна"
+      },
+      "blocks": [
+        {
+          "row": [
+            "-s",
+            "-ss",
+            "-sh",
+            "-ch",
+            "-x"
+          ],
+          "center": true
+        },
+        {
+          "cards": [
+            {
+              "icon": "bus",
+              "word": "bus -> bus**es**",
+              "gloss": "автобус"
+            },
+            {
+              "with": "prev",
+              "icon": "school",
+              "word": "class -> class**es**",
+              "gloss": "анги"
+            },
+            {
+              "with": "prev",
+              "icon": "fork-and-knife-with-plate",
+              "word": "dish -> dish**es**",
+              "gloss": "таваг"
+            },
+            {
+              "with": "prev",
+              "icon": "watch",
+              "word": "watch -> watch**es**",
+              "gloss": "бугуйн цаг"
+            },
+            {
+              "with": "prev",
+              "icon": "package",
+              "word": "box -> box**es**",
+              "gloss": "хайрцаг"
+            }
+          ],
+          "cols": 5
+        },
+        {
+          "callout": {
+            "en": "The word gets one syllable longer: bus, bus-es.",
+            "mn": "Үг нэг үеэр уртасна: bus, bus-es."
+          }
+        }
+      ],
+      "say": "Words that end in these hissing sounds add es. Why? Try to say bus with an s on the end. You can't. The e gives you a new syllable: bus, bus-es. [click] So here is the test. If the word gets longer when you say it, write es.",
+      "teach": "Clap the syllables on camera if it feels natural: bus, one clap; bus-es, two. Teaching the sound reason means the student can work out the spelling by ear instead of memorising a list of letters.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Rule 3: words ending in -y and -f",
+        "mn": "Дүрэм 3: -y, -f-ээр төгссөн үг"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "330px 70px 220px 1fr 180px",
+            "boxed": false,
+            "tones": [
+              "",
+              "bare mid",
+              "",
+              "",
+              ""
+            ],
+            "cls": "rule3",
+            "rows": [
+              [
+                {
+                  "chip": "consonant + y",
+                  "tone": "soft",
+                  "sub": "гийгүүлэгч + y"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "y -> ies",
+                  "tone": "navy"
+                },
+                "baby -> bab**ies** · city -> cit**ies** · family -> famil**ies**",
+                ""
+              ],
+              [
+                {
+                  "chip": "vowel + y",
+                  "tone": "soft",
+                  "sub": "эгшиг + y"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "+ s",
+                  "tone": "navy"
+                },
+                "boy -> boy**s** · day -> day**s** · key -> key**s**",
+                ""
+              ],
+              [
+                {
+                  "chip": "-f, -fe",
+                  "tone": "soft"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "-> ves",
+                  "tone": "navy"
+                },
+                "knife -> kni**ves** · leaf -> lea**ves** · wife -> wi**ves**",
+                {
+                  "label": {
+                    "en": "usually",
+                    "mn": "ихэвчлэн"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "For -y, look at the letter just before it.",
+            "mn": "-y-ийн яг өмнөх үсгийг хар."
+          }
+        }
+      ],
+      "say": "For words that end in y, look at the letter just before the y. If it's a consonant, the y changes to ies: baby, babies. [click] If it's a vowel, a, e, o, u, just add s: boy, boys. [click] And words ending in f or fe usually change to ves: knife, knives. Usually, not always: roof, roofs.",
+      "teach": "The vowel test is the whole of the y rule, so say the five vowels out loud. Words ending in -o also vary (tomato → tomatoes but photo → photos); mention them in one spoken sentence at most and keep them off the screen.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "How the ending sounds",
+        "mn": "Төгсгөл хэрхэн дуудагдах вэ?"
+      },
+      "columns": [
+        {
+          "icon": "speaker-high-volume",
+          "iconSize": 80,
+          "word": "/s/",
+          "head": {
+            "en": "a sharp s",
+            "mn": "хатуу s"
+          },
+          "items": [
+            "cat**s**",
+            "book**s**",
+            "map**s**",
+            "desk**s**"
+          ]
+        },
+        {
+          "icon": "speaker-high-volume",
+          "iconSize": 80,
+          "word": "/z/",
+          "head": {
+            "en": "a buzzing z",
+            "mn": "зөөлөн z"
+          },
+          "items": [
+            "dog**s**",
+            "pen**s**",
+            "day**s**",
+            "boy**s**"
+          ]
+        },
+        {
+          "icon": "speaker-high-volume",
+          "iconSize": 80,
+          "word": "/[ipa:ɪ]z/",
+          "head": {
+            "en": "a new syllable",
+            "mn": "шинэ үе"
+          },
+          "items": [
+            "bus**es**",
+            "box**es**",
+            "watch**es**",
+            "pag**es**"
+          ]
+        }
+      ],
+      "explain": {
+        "en": "One letter, three sounds.",
+        "mn": "Нэг үсэг, гурван дуудлага."
+      },
+      "say": "The written s has three sounds. Listen. Cats: a sharp s. [click] Dogs: a buzzing z. [click] Buses: a whole new syllable, iz. Say every word in each column, slowly, then naturally.",
+      "teach": "Mongolian learners tend either to say every plural with a hard s or to drop the ending completely in fast speech. They don't need the words voiced and voiceless. They need to hear the three sounds and copy them. Point out that the third column matches rule 2 exactly.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Irregular plurals",
+        "mn": "Дүрмийн бус олон тоо"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "110px 1fr 110px 1fr",
+            "tones": [
+              "bare mid",
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "irr",
+            "rows": [
+              [
+                {
+                  "icon": "man",
+                  "size": 90
+                },
+                {
+                  "en": "man -> **men**",
+                  "mn": "эрэгтэй хүн"
+                },
+                {
+                  "icon": "woman",
+                  "size": 90
+                },
+                {
+                  "en": "woman -> **women**",
+                  "mn": "эмэгтэй хүн"
+                }
+              ],
+              [
+                {
+                  "icon": "child",
+                  "size": 90
+                },
+                {
+                  "en": "child -> **children**",
+                  "mn": "хүүхэд"
+                },
+                {
+                  "icon": "person",
+                  "size": 90
+                },
+                {
+                  "en": "person -> **people**",
+                  "mn": "хүн"
+                }
+              ],
+              [
+                {
+                  "icon": "tooth",
+                  "size": 90
+                },
+                {
+                  "en": "tooth -> **teeth**",
+                  "mn": "шүд"
+                },
+                {
+                  "icon": "foot",
+                  "size": 90
+                },
+                {
+                  "en": "foot -> **feet**",
+                  "mn": "хөл"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "No rule here. Learn them as pairs.",
+            "mn": "Энд дүрэм байхгүй. Хосоор нь цээжил."
+          }
+        },
+        {
+          "callout": {
+            "en": "women is said wi-min.",
+            "mn": "women-ийг \"уимин\" гэж дуудна."
+          }
+        }
+      ],
+      "say": "Some of the most common nouns in English break every rule. There is no trick: learn them as pairs. [click] And one sound warning. Women is said wi-min. The o sounds like an i.",
+      "teach": "Women is mispronounced by nearly every learner, so give it its own moment. If you want one spoken extra: sheep and fish don't change at all, one sheep, ten sheep.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "After a number, Mongolian keeps the word the same. English changes it.",
+        "mn": "Монголоор тооны дараа үг өөрчлөгддөггүй. Англиар өөрчлөгдөнө."
+      },
+      "mistakes": [
+        {
+          "wrong": "three book[^]",
+          "right": {
+            "en": "three **books**",
+            "mn": "гурван ном"
+          }
+        },
+        {
+          "wrong": "two ~~childs~~",
+          "right": {
+            "en": "two **children**",
+            "mn": "хоёр хүүхэд"
+          }
+        },
+        {
+          "wrong": "many ~~peoples~~",
+          "right": {
+            "en": "many **people**",
+            "mn": "олон хүн"
+          }
+        }
+      ],
+      "say": "In Mongolian a number is enough and the noun stays the same. In English, after any number bigger than one, the noun must change. [click] Irregular nouns don't take s as well. [click] And people is already plural, so it never takes s.",
+      "teach": "The first mistake survives the longest because the missing s is almost invisible to a Mongolian ear. Say three books with a clear, slightly lengthened s.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: my school bag",
+        "mn": "Загвар эх: миний сургуулийн цүнх"
+      },
+      "scene": {
+        "w": 520,
+        "h": 600,
+        "items": [
+          {
+            "icon": "backpack",
+            "x": 110,
+            "y": 150,
+            "size": 300
+          },
+          {
+            "icon": "books",
+            "x": 30,
+            "y": 40,
+            "size": 140
+          },
+          {
+            "icon": "pen",
+            "x": 350,
+            "y": 40,
+            "size": 120
+          },
+          {
+            "icon": "crayon",
+            "x": 30,
+            "y": 430,
+            "size": 120
+          },
+          {
+            "icon": "bento-box",
+            "x": 200,
+            "y": 450,
+            "size": 120
+          },
+          {
+            "icon": "key",
+            "x": 370,
+            "y": 440,
+            "size": 110
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "This is my school bag.",
+          "mn": "Энэ миний сургуулийн цүнх."
+        },
+        {
+          "en": "I have two book**s** and one notebook.",
+          "mn": "Надад хоёр ном, нэг дэвтэр бий."
+        },
+        {
+          "en": "I have three pen**s**, five pencil**s** and two box**es** of crayon**s**.",
+          "mn": "Надад гурван үзэг, таван харандаа, хоёр хайрцаг өнгийн харандаа бий."
+        },
+        {
+          "en": "My key**s** are in the small pocket.",
+          "mn": "Түлхүүрүүд маань жижиг халаасанд байгаа."
+        },
+        {
+          "en": "My lunch is two sandwich**es** and an apple.",
+          "mn": "Өдрийн хоол маань хоёр сэндвич, нэг алим."
+        }
+      ],
+      "size": "xs",
+      "say": "Read each line twice and make each ending sound clear. Point out one notebook and an apple: one thing, no s.",
+      "teach": "Both spelling patterns and all three sounds appear: books (/s/), pens and keys (/z/), boxes and sandwiches (/ɪz/). The two singulars stop students adding s to everything.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "Most nouns **+ s** · -s, -sh, -ch, -x **+ es** · consonant + y -> **ies**",
+          "mn": "Ихэнх үг + s · -s, -sh, -ch, -x + es · гийгүүлэгч + y -> ies"
+        },
+        {
+          "en": "man -> **men** · child -> **children** · person -> **people**",
+          "mn": "Дүрмийн бус үгсийг хосоор нь цээжил."
+        },
+        {
+          "en": "After a number, use the plural: three book**s**",
+          "mn": "Тооны дараа олон тоо: three books"
+        }
+      ],
+      "say": "Line one: the spelling rules. Most nouns add s. Hissing sounds add es, and you can hear the extra syllable. A consonant before y makes ies. [click] Line two: the irregular words have no rule, so learn them as pairs. Man, men. Child, children. Person, people. And women sounds like wi-min. [click] Line three, the one that matters most for a Mongolian speaker: after any number bigger than one, the noun must change. Three books, never three book. Close: Now you can count and talk about more than one of anything, and say the ending so that people actually hear it. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "On line three, lengthen the final s of books slightly so it is unmistakable. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

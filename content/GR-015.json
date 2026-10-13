@@ -1,0 +1,598 @@
+{
+  "code": "GR-015",
+  "lesson": 9,
+  "level": "A1",
+  "title": {
+    "en": "there is and there are",
+    "mn": "There is / there are бүтэц"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "bed",
+        "school",
+        "cityscape"
+      ],
+      "promise": {
+        "en": "By the end, you can describe your room, your school or your town.",
+        "mn": "Энэ хичээлийн төгсгөлд өрөө, сургууль, хотоо дүрсэлж чадна."
+      },
+      "say": "There is and there are. This is how English tells someone what is in a place. By the end of this video you can describe your room, your school or your town.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "story",
+      "title": {
+        "en": "My room",
+        "mn": "Миний өрөө"
+      },
+      "scene": {
+        "w": 620,
+        "h": 560,
+        "items": [
+          {
+            "icon": "window",
+            "x": 40,
+            "y": 30,
+            "size": 130,
+            "ring": 3
+          },
+          {
+            "icon": "window",
+            "x": 210,
+            "y": 30,
+            "size": 130,
+            "ring": 3
+          },
+          {
+            "icon": "books",
+            "x": 440,
+            "y": 40,
+            "size": 130,
+            "ring": 4
+          },
+          {
+            "icon": "bed",
+            "x": 30,
+            "y": 250,
+            "size": 280,
+            "ring": 1
+          },
+          {
+            "icon": "desktop-computer",
+            "x": 390,
+            "y": 250,
+            "size": 150,
+            "ring": 2
+          },
+          {
+            "icon": "chair",
+            "x": 340,
+            "y": 410,
+            "size": 120
+          },
+          {
+            "icon": "chair",
+            "x": 470,
+            "y": 410,
+            "size": 120
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "**There is** a bed.",
+          "mn": "Ор байна."
+        },
+        {
+          "en": "**There is** a desk.",
+          "mn": "Ширээ байна."
+        },
+        {
+          "en": "**There are** two windows.",
+          "mn": "Хоёр цонх байна."
+        },
+        {
+          "en": "**There are** lots of books.",
+          "mn": "Олон ном байна."
+        }
+      ],
+      "explain": {
+        "en": "To say what is in a place, English starts with there.",
+        "mn": "Хаана юу байгааг хэлэхдээ англиар there-ээр эхэлнэ."
+      },
+      "say": "Read each caption twice. Then: when we tell someone what is in a place, English starts the sentence with there. And look: sometimes there is, sometimes there are. Why?",
+      "teach": "Describing a picture is one of the main things students are asked to do in English, at school and in speaking practice, so this structure pays off immediately.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "is or are?",
+        "mn": "is үү, are уу?"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "boxed": false,
+            "cols": "250px 60px 380px 1fr",
+            "tones": [
+              "",
+              "bare mid",
+              "",
+              ""
+            ],
+            "cls": "isare",
+            "rows": [
+              [
+                {
+                  "chip": "There is",
+                  "tone": "navy"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "chip": "one thing",
+                  "tone": "soft",
+                  "sub": "нэг зүйл"
+                },
+                {
+                  "en": "There's a bed in my room.",
+                  "mn": "Миний өрөөнд ор байна."
+                }
+              ],
+              [
+                {
+                  "chip": "There are",
+                  "tone": "navy"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "chip": "more than one",
+                  "tone": "soft",
+                  "sub": "олон зүйл"
+                },
+                {
+                  "en": "There are two windows.",
+                  "mn": "Хоёр цонх байна."
+                }
+              ],
+              [
+                {
+                  "chip": "There is",
+                  "tone": "navy"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "chip": "something you can't count",
+                  "tone": "soft",
+                  "sub": "тоолж болохгүй зүйл"
+                },
+                {
+                  "en": "There is milk in the fridge.",
+                  "mn": "Хөргөгчинд сүү байна."
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "In a list, the first thing decides: There is a bed and two chairs.",
+            "mn": "Жагсаахад эхний зүйл шийднэ: There is a bed and two chairs."
+          }
+        }
+      ],
+      "say": "Count first. One thing: there is, and in speaking, there's. [click] More than one: there are. [click] Things you can't count, like milk or water, also take there is. [click] And when you list several things, look only at the first one. A bed first: there is. Two chairs first: there are.",
+      "teach": "There are has no written short form; there're exists in speech but don't teach it for writing. The \"first thing decides\" rule is how people really speak; in very formal writing some prefer are for any list, but students will hear the first-thing pattern constantly.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Word order",
+        "mn": "Үгийн дараалал"
+      },
+      "wires": [
+        {
+          "from": "wo1",
+          "to": "wo2",
+          "fromSide": "bottom",
+          "toSide": "top",
+          "kind": "curve",
+          "step": 3,
+          "gap": 16,
+          "gapEnd": 20
+        }
+      ],
+      "blocks": [
+        {
+          "row": [
+            {
+              "chip": "Миний өрөөнд",
+              "tone": "soft",
+              "id": "wo1"
+            },
+            {
+              "chip": "ор",
+              "tone": "paper"
+            },
+            {
+              "chip": "байна.",
+              "tone": "paper"
+            }
+          ],
+          "label": {
+            "en": "Монгол"
+          },
+          "size": "lg"
+        },
+        {
+          "space": 90
+        },
+        {
+          "row": [
+            {
+              "chip": "There is",
+              "tone": "navy"
+            },
+            {
+              "chip": "a bed",
+              "tone": "paper"
+            },
+            {
+              "chip": "in my room.",
+              "tone": "soft",
+              "id": "wo2"
+            }
+          ],
+          "label": {
+            "en": "English"
+          },
+          "size": "lg"
+        },
+        {
+          "callout": {
+            "en": "The place comes first in Mongolian and last in English.",
+            "mn": "Байршил монголоор эхэнд, англиар төгсгөлд ордог."
+          },
+          "step": 4
+        }
+      ],
+      "say": "Look at the order. In Mongolian the place comes first and байна comes last. [click] In English it is the opposite: there is first, then the thing, and the place goes at the end. [click] Place at the front in Mongolian, at the back in English.",
+      "teach": "This is exactly where Mongolian speakers produce In my room is a bed or In my room has a bed. If a student wants the place first, English still needs there: In my room, there is a bed. Say that as one spoken line.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "The negative",
+        "mn": "Үгүйсгэх хэлбэр"
+      },
+      "cols": 3,
+      "cards": [
+        {
+          "icon": "no:television",
+          "iconSize": 130,
+          "en": "There **isn't** a TV in my room.",
+          "mn": "Миний өрөөнд зурагт байхгүй."
+        },
+        {
+          "icon": "no:chair",
+          "iconSize": 130,
+          "en": "There **aren't** any chairs in the kitchen.",
+          "mn": "Гал тогоонд сандал байхгүй."
+        },
+        {
+          "icon": "no:television",
+          "iconSize": 130,
+          "en": "There's **no** TV in my room.",
+          "mn": "Миний өрөөнд зурагт байхгүй."
+        }
+      ],
+      "explain": {
+        "en": "There's no means the same as there isn't a.",
+        "mn": "There's no, there isn't a хоёр утга нэг."
+      },
+      "say": "For the negative: isn't and aren't. With a plural, English usually adds any: There aren't any chairs. [click] And a very common second way: There's no TV. It means the same as There isn't a TV.",
+      "teach": "Keep no and isn't as two equal choices. Students who mix them produce There isn't no TV; if you want, say once that English uses only one negative word.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Questions and How many",
+        "mn": "Асуулт ба How many"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "1fr 60px 640px",
+            "tones": [
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "qa2",
+            "rows": [
+              [
+                {
+                  "en": "**Is there** a park near here? [up]",
+                  "mn": "Энд ойрхон цэцэрлэгт хүрээлэн байна уу?"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                [
+                  {
+                    "chip": "Yes, there is.",
+                    "tone": "soft"
+                  },
+                  {
+                    "chip": "No, there isn't.",
+                    "tone": "grey"
+                  }
+                ]
+              ],
+              [
+                {
+                  "en": "**Are there** any shops? [up]",
+                  "mn": "Дэлгүүр байна уу?"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                [
+                  {
+                    "chip": "Yes, there are.",
+                    "tone": "soft"
+                  },
+                  {
+                    "chip": "No, there aren't.",
+                    "tone": "grey"
+                  }
+                ]
+              ],
+              [
+                {
+                  "en": "**How many** students **are there** in your class? [down]",
+                  "mn": "Танай ангид хэдэн сурагч байдаг вэ?"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "en": "There are 28.",
+                  "mn": "28."
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "Your voice goes up for yes or no questions, and down for How many.",
+            "mn": "Тийм, үгүй асуултад дуу дээшилнэ, How many-д доошилно."
+          }
+        }
+      ],
+      "say": "For a question, swap there and is: Is there a park near here? The short answer keeps there: Yes, there is. [click] Same with plurals, and again with any. [click] And to ask about a number: How many, then a plural noun, then are there. Listen to the voice: up for yes or no questions, down for How many.",
+      "teach": "How many always takes a plural noun and are there; say the pattern twice as a chunk: How many ... are there?",
+      "time": "55 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "there is or it is?",
+        "mn": "there is үү, it is үү?"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "150px 1fr 80px 1fr",
+            "tones": [
+              "bare mid",
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "next",
+            "rows": [
+              [
+                {
+                  "icon": "national-park",
+                  "size": 90
+                },
+                {
+                  "en": "**There is** a park near my house.",
+                  "mn": "Манай байрны ойролцоо цэцэрлэгт хүрээлэн бий."
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**It** is very big.",
+                  "mn": "Тэр их том."
+                }
+              ],
+              [
+                {
+                  "icon": "cat+cat",
+                  "size": 90
+                },
+                {
+                  "en": "**There are** two cats in our flat.",
+                  "mn": "Манай байранд хоёр муур бий."
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**They** are both black.",
+                  "mn": "Хоёулаа хар."
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "there is says something new is there.",
+            "mn": "there is: шинэ зүйл байгааг хэлнэ."
+          }
+        },
+        {
+          "callout": {
+            "en": "it is describes that thing.",
+            "mn": "it is: тухайн зүйлийг тайлбарлана."
+          }
+        }
+      ],
+      "say": "There is brings something new into the conversation. Once it is there, we describe it with it or they. First there, then it. There is a park near my house. It is very big.",
+      "teach": "Mongolian байна covers both \"exists\" and \"is\", which is why students say It is a park near my house. Showing the two sentences working together is how real English flows, and it fixes the mistake by giving each structure its own job.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "Mongolian puts the place first. English starts with There is.",
+        "mn": "Монголоор: Миний өрөөнд ор байна. Англиар: There is a bed in my room."
+      },
+      "mistakes": [
+        {
+          "wrong": "There ~~is~~ two windows.",
+          "right": {
+            "en": "There **are** two windows.",
+            "mn": "Хоёр цонх байна."
+          }
+        },
+        {
+          "wrong": "!!In my room is!! a bed.",
+          "right": {
+            "en": "**There is** a bed in my room.",
+            "mn": "Миний өрөөнд ор байна."
+          }
+        },
+        {
+          "wrong": "~~It is~~ a park near my house.",
+          "right": {
+            "en": "**There is** a park near my house.",
+            "mn": "Манай байрны ойролцоо цэцэрлэгт хүрээлэн бий."
+          }
+        }
+      ],
+      "say": "First: count, then choose. [click] Second: the Mongolian order. There is goes first, the place goes last. [click] Third: a new thing needs there is, not it is.",
+      "teach": "The three mistakes come from slides 3, 4 and 7. The second is the most deeply Mongolian of the three and is worth reading twice.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: our school",
+        "mn": "Загвар эх: манай сургууль"
+      },
+      "size": "xs",
+      "scene": {
+        "w": 480,
+        "h": 600,
+        "items": [
+          {
+            "icon": "school",
+            "x": 100,
+            "y": 30,
+            "size": 280
+          },
+          {
+            "icon": "books",
+            "x": 20,
+            "y": 340,
+            "size": 130
+          },
+          {
+            "icon": "person-lifting-weights",
+            "x": 175,
+            "y": 340,
+            "size": 130
+          },
+          {
+            "icon": "stadium",
+            "x": 330,
+            "y": 340,
+            "size": 130
+          },
+          {
+            "icon": "soccer-ball",
+            "x": 190,
+            "y": 480,
+            "size": 100
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "Our school is in the centre of the city.",
+          "mn": "Манай сургууль хотын төвд байдаг."
+        },
+        {
+          "en": "**There are** 30 classrooms and a big library.",
+          "mn": "30 анги, бас том номын сан бий."
+        },
+        {
+          "en": "**There's** a gym next to the library. It's new.",
+          "mn": "Номын сангийн хажууд биеийн тамирын заал бий. Шинэ заал."
+        },
+        {
+          "en": "**There isn't** a swimming pool, but **there are** two sports fields.",
+          "mn": "Усан сан байхгүй ч хоёр спорт талбай бий."
+        },
+        {
+          "en": "How many students **are there**? **There are** about 900.",
+          "mn": "Хэдэн сурагч байдаг вэ? 900 орчим."
+        }
+      ],
+      "say": "Read each line twice. Point out there's a gym followed by It's new, the negative with but, and the How many question answered in the same line.",
+      "teach": "Every structure in the lesson appears once. Students can rewrite it about their own school or their own town straight away.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**There is** + one · **There are** + many",
+          "mn": "There is + нэг · There are + олон"
+        },
+        {
+          "en": "There is a bed **in my room**: the place goes at the end.",
+          "mn": "Байршил өгүүлбэрийн төгсгөлд ордог."
+        },
+        {
+          "en": "**there is** (new) -> **it is** (describing)",
+          "mn": "there is (шинэ зүйл) -> it is (тайлбар)"
+        }
+      ],
+      "say": "Line one: count first. One thing: there is. More than one: there are. In a list, the first thing decides. [click] Line two: the order is the opposite of Mongolian. There is comes first and the place goes at the end: There is a bed in my room. [click] Line three: there is brings something new into the conversation, and it describes it after that. There is a park near my house. It is very big. Close: Now you can describe your room, your school or your town, and ask what is in a place and how many there are. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "On line two, say the Mongolian sentence and the English sentence one after the other so the order flip is heard, not just seen. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

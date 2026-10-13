@@ -1,0 +1,660 @@
+{
+  "code": "GR-016",
+  "lesson": 10,
+  "level": "A1",
+  "title": {
+    "en": "Prepositions of place",
+    "mn": "Байршлын угтвар үг"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "package",
+        "soccer-ball",
+        "cat"
+      ],
+      "promise": {
+        "en": "By the end, you can say exactly where anything is.",
+        "mn": "Энэ хичээлийн төгсгөлд юм хаана байгааг яг таг хэлж чадна."
+      },
+      "say": "Where is it? Seven small words answer that question exactly. By the end of this video you can describe where everything is in a room.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "One ball, five places",
+        "mn": "Нэг бөмбөг, таван байршил"
+      },
+      "lead": {
+        "en": "The ball is ... the box.",
+        "mn": "Бөмбөг хайрцагны ... байна."
+      },
+      "cols": 5,
+      "cards": [
+        {
+          "icon": "diagram:in",
+          "iconSize": 210,
+          "word": "**in**",
+          "gloss": "дотор"
+        },
+        {
+          "icon": "diagram:on",
+          "iconSize": 210,
+          "word": "**on**",
+          "gloss": "дээр"
+        },
+        {
+          "icon": "diagram:under",
+          "iconSize": 210,
+          "word": "**under**",
+          "gloss": "доор"
+        },
+        {
+          "icon": "diagram:next-to",
+          "iconSize": 210,
+          "word": "**next to**",
+          "gloss": "хажууд"
+        },
+        {
+          "icon": "diagram:between",
+          "iconSize": 210,
+          "word": "**between**",
+          "gloss": "хооронд"
+        }
+      ],
+      "explain": {
+        "en": "Only one word changes.",
+        "mn": "Зөвхөн нэг үг өөрчлөгдөнө."
+      },
+      "say": "Read each full sentence twice: The ball is in the box. The ball is on the box. And so on, ending with The ball is between the boxes. Then: only one word changes, but the picture changes completely.",
+      "teach": "In this lesson the diagrams teach and the words label them, so keep the drawings large and identical in style: the same box, the same ball, only the position changing. The ball is highlight blue so the eye goes straight to it.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "The core five",
+        "mn": "Үндсэн таван үг"
+      },
+      "blocks": [
+        {
+          "side": [
+            {
+              "table": {
+                "perRow": true,
+                "boxed": false,
+                "cols": "200px 60px auto auto",
+                "tones": [
+                  "bare mid",
+                  "bare mid",
+                  "",
+                  ""
+                ],
+                "cls": "core",
+                "rows": [
+                  [
+                    {
+                      "icon": "diagram:in",
+                      "size": 190
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "in",
+                      "tone": "navy"
+                    },
+                    {
+                      "chip": "дотор",
+                      "tone": "grey"
+                    }
+                  ],
+                  [
+                    {
+                      "icon": "diagram:on",
+                      "size": 190
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "on",
+                      "tone": "navy"
+                    },
+                    {
+                      "chip": "дээр",
+                      "tone": "grey"
+                    }
+                  ],
+                  [
+                    {
+                      "icon": "diagram:under",
+                      "size": 190
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "under",
+                      "tone": "navy"
+                    },
+                    {
+                      "chip": "доор",
+                      "tone": "grey"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "table": {
+                "perRow": true,
+                "boxed": false,
+                "cols": "200px 60px auto auto",
+                "tones": [
+                  "bare mid",
+                  "bare mid",
+                  "",
+                  ""
+                ],
+                "cls": "core",
+                "rows": [
+                  [
+                    {
+                      "icon": "diagram:next-to",
+                      "size": 190
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "next to",
+                      "tone": "navy"
+                    },
+                    {
+                      "chip": "хажууд",
+                      "tone": "grey"
+                    }
+                  ],
+                  [
+                    {
+                      "icon": "diagram:between",
+                      "size": 190
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "between",
+                      "tone": "navy"
+                    },
+                    {
+                      "chip": "хооронд",
+                      "tone": "grey"
+                    }
+                  ]
+                ]
+              }
+            }
+          ],
+          "cols": "auto auto",
+          "gap": 90
+        },
+        {
+          "callout": {
+            "en": "next to is two words. between needs two things.",
+            "mn": "next to хоёр үгтэй. between-д хоёр зүйл хэрэгтэй."
+          }
+        }
+      ],
+      "say": "Now the name: prepositions of place, байршлын угтвар үг. Give the Mongolian for each as it appears. Then two warnings. Next to is two words, always. And between needs two things: between the boxes, or between the box and the bag.",
+      "teach": "Saying the Mongolian equivalent beside each word works well here because the meanings match closely. The differences are in how the words are used, which the next slides cover.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Two more: behind and in front of",
+        "mn": "Дахиад хоёр: behind ба in front of"
+      },
+      "cols": 2,
+      "iconTop": true,
+      "cards": [
+        {
+          "icon": "diagram:behind",
+          "iconSize": 230,
+          "word": "behind",
+          "gloss": "ард",
+          "en": "The ball is **behind** the box.",
+          "mn": "Бөмбөг хайрцагны ард байна."
+        },
+        {
+          "icon": "diagram:in-front-of",
+          "iconSize": 230,
+          "word": "in front of",
+          "gloss": "өмнө",
+          "en": "The ball is **in front of** the box.",
+          "mn": "Бөмбөг хайрцагны өмнө байна."
+        }
+      ],
+      "explain": {
+        "en": "in front of is three words.",
+        "mn": "in front of гурван үгтэй."
+      },
+      "say": "Two more. Behind: at the back, so you can't see all of it. [click] In front of: the opposite. And count the words: in, front, of. Three words, all three needed.",
+      "teach": "The overlap is what makes these readable in a flat drawing: behind means the box covers the ball, in front of means the ball covers the box. Students often drop the of; that comes back on the Анхаар! slide.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "in or on?",
+        "mn": "in үү, on уу?"
+      },
+      "columns": [
+        {
+          "icon": "diagram:in",
+          "iconSize": 150,
+          "word": "in",
+          "head": {
+            "en": "inside a space",
+            "mn": "орон зайн дотор"
+          },
+          "items": [
+            {
+              "en": "in the box",
+              "mn": "хайрцган дотор"
+            },
+            {
+              "en": "in the bag",
+              "mn": "цүнхэн дотор"
+            },
+            {
+              "en": "in the room",
+              "mn": "өрөөнд"
+            },
+            {
+              "en": "in the car",
+              "mn": "машинд"
+            }
+          ],
+          "big": true
+        },
+        {
+          "icon": "diagram:table",
+          "iconSize": 150,
+          "word": "on",
+          "head": {
+            "en": "touching a surface",
+            "mn": "гадаргуу дээр"
+          },
+          "items": [
+            {
+              "en": "on the table",
+              "mn": "ширээн дээр"
+            },
+            {
+              "en": "on the wall",
+              "mn": "хананд"
+            },
+            {
+              "en": "on the floor",
+              "mn": "шалан дээр"
+            },
+            {
+              "en": "on the bed",
+              "mn": "орон дээр"
+            }
+          ],
+          "big": true
+        }
+      ],
+      "explain": {
+        "en": "A picture is on the wall because it touches the wall.",
+        "mn": "Зураг хананд хүрч байгаа учраас on the wall гэнэ."
+      },
+      "say": "In means inside something that has sides around it: a box, a bag, a room, a car. [click] On means touching a surface: the top of a table, the floor, and also a wall. A picture is on the wall because it touches the wall.",
+      "teach": "Mongolian says хананд зураг өлгөөтэй, and students often turn that into in the wall. If a student asks: in bed means lying under the covers, while on the bed means on top of it. Say that as one spoken line only if it fits.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "next to or near?",
+        "mn": "next to уу, near уу?"
+      },
+      "cols": 2,
+      "iconTop": true,
+      "cards": [
+        {
+          "icon": "diagram:next-to",
+          "iconSize": 230,
+          "word": "next to",
+          "gloss": {
+            "en": "right beside",
+            "mn": "яг хажууд"
+          },
+          "en": "My bag is **next to** my desk.",
+          "mn": "Цүнх маань ширээний яг хажууд байна."
+        },
+        {
+          "icon": "diagram:near",
+          "iconSize": 230,
+          "word": "near",
+          "gloss": {
+            "en": "close, but not touching",
+            "mn": "ойрхон, гэхдээ хүрэлцэхгүй"
+          },
+          "en": "The school is **near** my house.",
+          "mn": "Сургууль манай байрны ойролцоо байдаг."
+        }
+      ],
+      "say": "Next to means right beside it, with nothing in between. [click] Near means close, but not touching: a short walk away, a little distance. My bag is next to my desk. The school is near my house.",
+      "teach": "Two buildings that share a wall are next to each other; a shop down the street is near. That is the cleanest real-world test if you want to add one example.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Word order",
+        "mn": "Үгийн дараалал"
+      },
+      "wires": [
+        {
+          "from": "mn1",
+          "to": "en1",
+          "fromSide": "bottom",
+          "toSide": "top",
+          "kind": "curve",
+          "step": 1,
+          "gap": 12,
+          "gapEnd": 16
+        },
+        {
+          "from": "mn2",
+          "to": "en2",
+          "fromSide": "bottom",
+          "toSide": "top",
+          "kind": "curve",
+          "step": 2,
+          "gap": 12,
+          "gapEnd": 16
+        }
+      ],
+      "blocks": [
+        {
+          "side": [
+            {
+              "group": [
+                {
+                  "row": [
+                    {
+                      "chip": "хайрцган",
+                      "tone": "paper"
+                    },
+                    {
+                      "chip": "**дотор**",
+                      "tone": "soft",
+                      "id": "mn1"
+                    }
+                  ],
+                  "label": {
+                    "en": "Монгол"
+                  }
+                },
+                {
+                  "space": 30
+                },
+                {
+                  "with": "prev",
+                  "row": [
+                    {
+                      "chip": "**in**",
+                      "tone": "soft",
+                      "id": "en1"
+                    },
+                    {
+                      "chip": "the box",
+                      "tone": "paper"
+                    }
+                  ],
+                  "label": {
+                    "en": "English"
+                  }
+                }
+              ],
+              "card": true
+            },
+            {
+              "group": [
+                {
+                  "row": [
+                    {
+                      "chip": "ширээн",
+                      "tone": "paper"
+                    },
+                    {
+                      "chip": "**дээр**",
+                      "tone": "soft",
+                      "id": "mn2"
+                    }
+                  ],
+                  "label": {
+                    "en": "Монгол"
+                  }
+                },
+                {
+                  "space": 30
+                },
+                {
+                  "with": "prev",
+                  "row": [
+                    {
+                      "chip": "**on**",
+                      "tone": "soft",
+                      "id": "en2"
+                    },
+                    {
+                      "chip": "the table",
+                      "tone": "paper"
+                    }
+                  ],
+                  "label": {
+                    "en": "English"
+                  }
+                }
+              ],
+              "card": true
+            }
+          ]
+        },
+        {
+          "row": [
+            {
+              "chip": "The ball",
+              "tone": "paper"
+            },
+            {
+              "chip": "is",
+              "tone": "paper"
+            },
+            {
+              "chip": "**in**",
+              "tone": "soft"
+            },
+            {
+              "chip": "**the**",
+              "tone": "soft"
+            },
+            {
+              "chip": "box",
+              "tone": "paper"
+            }
+          ],
+          "mn": "Бөмбөг хайрцган дотор байна.",
+          "center": true,
+          "size": "lg"
+        },
+        {
+          "callout": {
+            "en": "In English, the place word comes first, and it needs the.",
+            "mn": "Англиар угтвар үг урд ордог бөгөөд the хэрэгтэй."
+          }
+        }
+      ],
+      "say": "In Mongolian, the place word comes after the noun: хайрцган дотор. In English it comes before: in the box. That is why these are called pre-positions: pre means before. [click] And English adds one more small word. The. In the box, never in box.",
+      "teach": "The \"pre means before\" line gives students a reason to remember the order. The missing the is very common in speech; pointing at the chip makes it visible.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "Mongolian puts the place word after the noun. English puts it before.",
+        "mn": "Монголоор: хайрцган дотор. Англиар: in the box."
+      },
+      "mistakes": [
+        {
+          "wrong": "The cat is next [^] the sofa.",
+          "right": {
+            "en": "The cat is **next to** the sofa.",
+            "mn": "Муур буйдангийн хажууд байна."
+          }
+        },
+        {
+          "wrong": "The car is in front [^] the house.",
+          "right": {
+            "en": "The car is **in front of** the house.",
+            "mn": "Машин байшингийн өмнө байна."
+          }
+        },
+        {
+          "wrong": "The picture is ~~in~~ the wall.",
+          "right": {
+            "en": "The picture is **on** the wall.",
+            "mn": "Зураг хананд өлгөөтэй байна."
+          }
+        }
+      ],
+      "say": "First: next to, always two words. [click] Second: in front of, always three. [click] Third: a picture touches the wall, so on.",
+      "teach": "Between with only one thing (between the box) is the fourth common mistake; it was flagged on slide 3, so mention it aloud here in one sentence rather than adding a fourth row.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: my bedroom",
+        "mn": "Загвар эх: миний унтлагын өрөө"
+      },
+      "cols": 2,
+      "split": 4,
+      "size": "xs",
+      "band": [
+        {
+          "icon": "window",
+          "size": 104,
+          "step": 2
+        },
+        {
+          "icon": "bed",
+          "size": 112,
+          "step": 2
+        },
+        {
+          "icon": "desktop-computer",
+          "size": 104,
+          "step": 4
+        },
+        {
+          "icon": "door",
+          "size": 104,
+          "step": 4
+        },
+        {
+          "icon": "books",
+          "size": 104,
+          "step": 5
+        },
+        {
+          "icon": "backpack",
+          "size": 104,
+          "step": 5
+        },
+        {
+          "icon": "t-shirt",
+          "size": 104,
+          "step": 6
+        },
+        {
+          "icon": "cat",
+          "size": 104,
+          "step": 7
+        }
+      ],
+      "lines": [
+        {
+          "en": "This is my bedroom.",
+          "mn": "Энэ миний унтлагын өрөө."
+        },
+        {
+          "en": "My bed is **next to** the window.",
+          "mn": "Ор маань цонхны хажууд."
+        },
+        {
+          "en": "There's a small rug **in front of** my bed.",
+          "mn": "Орны өмнө жижиг хивс бий."
+        },
+        {
+          "en": "My desk is **between** the bed and the door.",
+          "mn": "Ширээ маань ор, хаалганы хооронд."
+        },
+        {
+          "en": "My books are **on** the shelf, and my bag is **under** the desk.",
+          "mn": "Ном маань тавиур дээр, цүнх маань ширээн доор."
+        },
+        {
+          "en": "My clothes are **in** the wardrobe.",
+          "mn": "Хувцас маань шүүгээнд."
+        },
+        {
+          "en": "And my cat? It's usually **on** my bed, or **behind** the curtain!",
+          "mn": "Харин муур маань? Ихэвчлэн орон дээр, эсвэл хөшигний ард!"
+        }
+      ],
+      "say": "Read each line twice and point to the object in the drawing as you go.",
+      "teach": "All seven prepositions appear, and on appears twice in its two meanings (shelf, bed). Revealing the drawing piece by piece with the text turns the model into a mini-tour, which keeps the last minute of the video moving.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**in** · **on** · **under** · **next to** · **between** · **behind** · **in front of**",
+          "mn": "Байршлын долоон үг."
+        },
+        {
+          "en": "**in** = inside · **on** = touching a surface",
+          "mn": "in = дотор · on = гадаргуу дээр"
+        },
+        {
+          "en": "The place word comes before the noun: **in the** box",
+          "mn": "Угтвар үг нэр үгийн өмнө ордог: in the box"
+        }
+      ],
+      "say": "Line one: the seven place words. In, on, under, next to, between, behind, in front of. Next to is two words, in front of is three, and between needs two things. [click] Line two: in means inside a space with sides around it. On means touching a surface, and that includes a wall. [click] Line three: in English the preposition comes before the noun, the opposite of Mongolian, and it needs the: in the box. Close: Now you can say exactly where anything is, in a room, a house or a street. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "If the bedroom drawing from slide 9 can sit faintly behind this dark slide, it gives the last ten seconds a visual anchor. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

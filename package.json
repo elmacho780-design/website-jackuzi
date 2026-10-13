@@ -1,0 +1,19 @@
+{
+  "name": "hml-slides",
+  "version": "1.0.0",
+  "description": "HML Academy video lesson slides, built from content files",
+  "scripts": {
+    "build": "node engine/build.js",
+    "check": "node engine/check.js",
+    "shots": "node engine/shoot.js",
+    "export": "node engine/export.js",
+    "icons": "node engine/icons.js",
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "playwright": "1.56.0",
+    "pptxgenjs": "4.0.1"
+  },
+  "private": true
+}

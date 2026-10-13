@@ -1,0 +1,585 @@
+{
+  "code": "GR-006",
+  "lesson": 6,
+  "level": "A1",
+  "title": {
+    "en": "this, that, these, those",
+    "mn": "Заах төлөөний үг"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "backpack",
+        "running-shoe",
+        "house"
+      ],
+      "promise": {
+        "en": "By the end, you can point to anything, near or far, one or many.",
+        "mn": "Энэ хичээлийн төгсгөлд ойр, хол, нэг, олон юуг ч зааж хэлж чадна."
+      },
+      "say": "Four pointing words. By the end of this video you can point at anything in a room or a shop, and say this and these so they really sound different.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "story",
+      "title": {
+        "en": "Near and far",
+        "mn": "Ойр ба хол"
+      },
+      "scene": {
+        "w": 640,
+        "h": 540,
+        "dots": [
+          [
+            150,
+            250,
+            470,
+            150
+          ],
+          [
+            150,
+            300,
+            470,
+            380
+          ]
+        ],
+        "items": [
+          {
+            "icon": "boy",
+            "x": 20,
+            "y": 190,
+            "size": 170
+          },
+          {
+            "icon": "backpack",
+            "x": 60,
+            "y": 380,
+            "size": 130,
+            "ring": 1
+          },
+          {
+            "icon": "running-shoe+running-shoe",
+            "x": 210,
+            "y": 405,
+            "size": 120,
+            "ring": 3
+          },
+          {
+            "icon": "house",
+            "x": 480,
+            "y": 80,
+            "size": 110,
+            "ring": 2
+          },
+          {
+            "icon": "girl+boy",
+            "x": 470,
+            "y": 340,
+            "size": 90,
+            "ring": 4
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "**This** is my bag.",
+          "mn": "Энэ миний цүнх."
+        },
+        {
+          "en": "**That** is my house.",
+          "mn": "Тэр миний байшин."
+        },
+        {
+          "en": "**These** are my shoes.",
+          "mn": "Эдгээр миний гутал."
+        },
+        {
+          "en": "**Those** are my friends.",
+          "mn": "Тэдгээр миний найзууд."
+        }
+      ],
+      "explain": {
+        "en": "Mongolian has энэ and тэр. Why does English need four words?",
+        "mn": "Монголоор энэ, тэр гэдэг. Англиар яагаад дөрвөн үг хэрэгтэй вэ?"
+      },
+      "say": "Read each caption twice, slowly. Then ask: in Mongolian we have энэ and тэр. Why does English need four words?",
+      "teach": "The video has no face and no hands, so the drawing must do the pointing. Make distance obvious: near objects big and touching the person, far objects small with the dotted line. This slide is also the examples slide; no separate Жишээ slide is needed.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "grid",
+      "title": {
+        "en": "Two questions",
+        "mn": "Хоёр асуулт"
+      },
+      "labelWidth": 360,
+      "cols": [
+        {
+          "en": "One",
+          "mn": "Нэг"
+        },
+        {
+          "en": "Many",
+          "mn": "Олон"
+        }
+      ],
+      "cellSteps": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "rows": [
+        {
+          "icon": "backpack",
+          "label": {
+            "en": "Near",
+            "mn": "Ойр"
+          },
+          "cells": [
+            {
+              "word": "this",
+              "mn": "энэ"
+            },
+            {
+              "word": "these",
+              "mn": "эдгээр"
+            }
+          ]
+        },
+        {
+          "icon": "house",
+          "label": {
+            "en": "Far",
+            "mn": "Хол"
+          },
+          "cells": [
+            {
+              "word": "that",
+              "mn": "тэр"
+            },
+            {
+              "word": "those",
+              "mn": "тэдгээр"
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "Near or far? One or many?",
+        "mn": "Ойр уу, хол уу? Нэг үү, олон уу?"
+      },
+      "say": "Two questions decide the word, every time. Is it near or far? Is it one or many? [click] Near and one: this. [click] Near and many: these. [click] Far and one: that. [click] Far and many: those. And notice that Mongolian тэр also means that. Same Mongolian word, another English job.",
+      "teach": "The тэр observation explains why students mix that and it: one Mongolian word covers both. Say it as a fact, without referring to any other lesson.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "With a noun, everything agrees",
+        "mn": "Нэр үгтэй бол бүгд зохицно"
+      },
+      "columns": [
+        {
+          "head": {
+            "en": "One",
+            "mn": "Нэг"
+          },
+          "icon": "closed-book",
+          "iconSize": 72,
+          "items": [
+            {
+              "en": "this book",
+              "mn": "энэ ном"
+            },
+            {
+              "en": "that car",
+              "mn": "тэр машин"
+            },
+            {
+              "en": "This **is** my pen.",
+              "mn": "Энэ миний үзэг.",
+              "plain": true,
+              "wide": true
+            }
+          ],
+          "big": true
+        },
+        {
+          "head": {
+            "en": "Many",
+            "mn": "Олон"
+          },
+          "icon": "books",
+          "iconSize": 72,
+          "items": [
+            {
+              "en": "these book**s**",
+              "mn": "эдгээр ном"
+            },
+            {
+              "en": "those car**s**",
+              "mn": "тэдгээр машин"
+            },
+            {
+              "en": "These **are** my pen**s**.",
+              "mn": "Эдгээр миний үзэгнүүд.",
+              "plain": true,
+              "wide": true
+            }
+          ],
+          "big": true
+        }
+      ],
+      "below": {
+        "row": [
+          {
+            "chip": "these",
+            "tone": "navy"
+          },
+          {
+            "plus": true
+          },
+          {
+            "chip": "books",
+            "tone": "navy"
+          },
+          {
+            "plus": true
+          },
+          {
+            "chip": "are",
+            "tone": "navy"
+          }
+        ],
+        "label": {
+          "en": "all plural",
+          "mn": "бүгд олон тоо"
+        }
+      },
+      "explain": {
+        "with": "prev",
+        "en": "Three words change together.",
+        "mn": "Гурван үг хамт өөрчлөгдөнө."
+      },
+      "say": "When the pointing word becomes plural, two other things change with it. The noun takes an s, and is becomes are. [click] Three words, and all three move together. These books are. Never one without the others.",
+      "teach": "If you are animating, have the three chips slide in together so the eye reads them as one unit.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "What is this?",
+        "mn": "Энэ юу вэ?"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "1fr 90px 1fr",
+            "tones": [
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "next",
+            "head": [
+              {
+                "en": "Question",
+                "mn": "Асуулт"
+              },
+              null,
+              {
+                "en": "Answer",
+                "mn": "Хариулт"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "What is **this**?",
+                  "mn": "Энэ юу вэ?"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**It's** a pen.",
+                  "mn": "Үзэг."
+                }
+              ],
+              [
+                {
+                  "en": "What are **those**?",
+                  "mn": "Тэдгээр юу вэ?"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**They're** my shoes.",
+                  "mn": "Миний гутал."
+                }
+              ],
+              [
+                {
+                  "en": "Who is **that**?",
+                  "mn": "Тэр хэн бэ?"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**That's** my brother.",
+                  "mn": "Миний ах."
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "In the answer, this becomes it, and these becomes they.",
+            "mn": "Хариултад this нь it, these нь they болдог."
+          }
+        }
+      ],
+      "say": "When someone asks What is this?, the answer usually doesn't repeat this. It uses it: It's a pen. For more than one, they: They're my shoes. The question does the pointing; the answer just names the thing. For people, That's my brother is completely natural.",
+      "teach": "This is a pen as an answer is not wrong, only stiff. Present the natural version as the model and don't call the other a mistake.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Two everyday uses",
+        "mn": "Өдөр тутмын хоёр хэрэглээ"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "label": {
+            "en": "Introducing someone",
+            "mn": "Хүн танилцуулах"
+          },
+          "icon": "boy+girl",
+          "iconSize": 130,
+          "en": "**This is** my friend, Anu.",
+          "mn": "Энэ миний найз Ану."
+        },
+        {
+          "label": {
+            "en": "On the phone",
+            "mn": "Утсаар ярихад"
+          },
+          "icon": "mobile-phone",
+          "iconSize": 120,
+          "en": "Hello, **this is** Tuvshin.",
+          "mn": "Сайн байна уу, би Түвшин байна."
+        }
+      ],
+      "say": "Two phrases you will use every week. When you introduce someone standing next to you: This is my friend, Anu. [click] And on the phone, English says this is, not I am: Hello, this is Tuvshin.",
+      "teach": "Both are fixed, high-frequency phrases students need straight away and usually meet late. Read them warmly, as you would actually say them.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "How they sound",
+        "mn": "Хэрхэн дуудагдах вэ?"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "boxed": false,
+            "cols": "1fr 1fr",
+            "cls": "sounds",
+            "rows": [
+              [
+                [
+                  {
+                    "chip": "this",
+                    "tone": "navy",
+                    "size": "lg"
+                  },
+                  {
+                    "label": {
+                      "en": "short i, sharp s",
+                      "mn": "богино i, хатуу s"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "chip": "these",
+                    "tone": "navy",
+                    "size": "lg"
+                  },
+                  {
+                    "label": {
+                      "en": "long ee, buzzing z",
+                      "mn": "урт ee, зөөлөн z"
+                    }
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "chip": "that",
+                    "tone": "navy",
+                    "size": "lg"
+                  },
+                  {
+                    "label": {
+                      "en": "open a",
+                      "mn": "нээлттэй a"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "chip": "those",
+                    "tone": "navy",
+                    "size": "lg"
+                  },
+                  {
+                    "label": {
+                      "en": "o, buzzing z",
+                      "mn": "o, зөөлөн z"
+                    }
+                  }
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "icon": "mouth",
+            "en": "th: put your tongue between your teeth.",
+            "mn": "th: хэлээ шүдний завсарт хавчуул."
+          }
+        }
+      ],
+      "say": "Two sounds make this and these different. The vowel: this is short, these is long. The ending: this ends in s, these ends in z. Say them back to back: this, these, this, these. [click] That, those. [click] And all four start with th: put your tongue lightly between your teeth and let it buzz.",
+      "teach": "Learners often say zis or dis and make this and these sound identical. If they can't hear the difference, they will write the wrong word too, so this slide protects their grammar as well as their accent.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "These and those need a plural noun and are.",
+        "mn": "These, those-той бол нэр үг олон тоо, үйл үг are байна."
+      },
+      "mistakes": [
+        {
+          "wrong": "~~This~~ books are new.",
+          "right": {
+            "en": "**These** books are new.",
+            "mn": "Эдгээр ном шинэ."
+          }
+        },
+        {
+          "wrong": "These ~~is~~ my friends.",
+          "right": {
+            "en": "These **are** my friends.",
+            "mn": "Эдгээр миний найзууд."
+          }
+        },
+        {
+          "wrong": "These are my ~~pen~~.",
+          "right": {
+            "en": "These are my **pens**.",
+            "mn": "Эдгээр миний үзэгнүүд."
+          }
+        }
+      ],
+      "say": "In each wrong sentence, one of the three words forgot to agree. First the pointing word. [click] Then the verb. [click] Then the noun. All three must be plural together.",
+      "teach": "In everyday Mongolian speech энэ often covers one or many, which is why these gets forgotten. Linking all three mistakes to the single \"everything agrees\" idea makes them one rule, not three.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "dialogue",
+      "title": {
+        "en": "Model text: in a shop",
+        "mn": "Загвар эх: дэлгүүрт"
+      },
+      "speakers": {
+        "Customer": {
+          "icon": "woman@handbag",
+          "side": "a"
+        },
+        "Seller": {
+          "icon": "man@running-shoe",
+          "side": "b"
+        }
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "who": "Customer",
+          "en": "Excuse me, how much is **this** bag?",
+          "mn": "Уучлаарай, энэ цүнх ямар үнэтэй вэ?"
+        },
+        {
+          "who": "Seller",
+          "en": "**That** one? It's 40,000 tugriks.",
+          "mn": "Тэр үү? 40,000 төгрөг."
+        },
+        {
+          "who": "Customer",
+          "en": "And **those** shoes?",
+          "mn": "Тэгвэл тэдгээр гутал?"
+        },
+        {
+          "who": "Seller",
+          "en": "**These**? They're 85,000.",
+          "mn": "Эдгээр үү? 85,000."
+        },
+        {
+          "who": "Customer",
+          "en": "OK. I'll take **this** bag, please.",
+          "mn": "За, энэ цүнхийг авъя."
+        }
+      ],
+      "explain": {
+        "en": "Near and far depend on who is speaking.",
+        "mn": "Ойр, хол нь хэн ярьж байгаагаас хамаарна."
+      },
+      "say": "Read with two voices. Then point out the clever part: the customer says this bag and the seller says that one, about the same bag. Near and far depend on who is speaking.",
+      "teach": "The change of perspective is the deepest idea in the lesson and the drawing must show it: the bag beside the customer, the shoes beside the seller. It's and They're in the answers repeat slide 5.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**this** / **these**: near · **that** / **those**: far",
+          "mn": "this / these: ойр · that / those: хол"
+        },
+        {
+          "en": "**these** + book**s** + **are**: all plural",
+          "mn": "these + books + are: бүгд олон тоо"
+        },
+        {
+          "en": "What is this? **It's** a pen.",
+          "mn": "Хариултад it эсвэл they хэрэглэнэ."
+        }
+      ],
+      "say": "Line one: two questions decide the word. Near or far? One or many? This and these are near. That and those are far. [click] Line two: everything agrees. These books are: the pointing word, the noun and the verb are all plural together. [click] Line three: when someone asks What is this?, answer with it or they: It's a pen. And keep this and these sounding different: a short i with s, a long ee with z. Close: Now you can point to anything around you, in a room or in a shop, introduce a friend, and answer the phone in English. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Say this, these back to back once more on line three; it is worth the extra two seconds. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

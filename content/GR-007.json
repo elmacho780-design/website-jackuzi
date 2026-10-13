@@ -1,0 +1,506 @@
+{
+  "code": "GR-007",
+  "lesson": 8,
+  "level": "A1",
+  "title": {
+    "en": "have got",
+    "mn": "Have got бүтэц"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "girl",
+        "bicycle",
+        "boy"
+      ],
+      "promise": {
+        "en": "By the end, you can talk about your family, your things and how people look.",
+        "mn": "Энэ хичээлийн төгсгөлд гэр бүл, эд зүйл, хүмүүсийн гадаад төрхийн тухай ярьж чадна."
+      },
+      "say": "Have got. How English talks about what you have: your family, your things, even your eyes and your hair.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "story",
+      "title": {
+        "en": "Describing someone",
+        "mn": "Хүнийг дүрслэх"
+      },
+      "scene": {
+        "w": 620,
+        "h": 560,
+        "items": [
+          {
+            "icon": "girl",
+            "x": 190,
+            "y": 150,
+            "size": 240,
+            "ring": 1,
+            "tag": "Nomin"
+          },
+          {
+            "icon": "boy",
+            "x": 30,
+            "y": 30,
+            "size": 130,
+            "ring": 3
+          },
+          {
+            "icon": "boy",
+            "x": 460,
+            "y": 30,
+            "size": 130,
+            "ring": 3
+          },
+          {
+            "icon": "bicycle",
+            "x": 30,
+            "y": 390,
+            "size": 140,
+            "ring": 4
+          },
+          {
+            "icon": "no:automobile",
+            "x": 460,
+            "y": 400,
+            "size": 120,
+            "ring": 4
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "This is Nomin.",
+          "mn": "Энэ Номин."
+        },
+        {
+          "en": "She**'s got** long black hair and brown eyes.",
+          "mn": "Тэр урт хар үстэй, бор нүдтэй."
+        },
+        {
+          "en": "She**'s got** two brothers.",
+          "mn": "Тэр хоёр ахтай."
+        },
+        {
+          "en": "She**'s got** a bike, but she **hasn't got** a car.",
+          "mn": "Тэр дугуйтай ч машингүй."
+        }
+      ],
+      "explain": {
+        "en": "Hair, eyes, family, things: all with have got.",
+        "mn": "Үс, нүд, гэр бүл, эд зүйл: бүгд have got-оор."
+      },
+      "say": "Read each line twice. Then: her hair, her eyes, her brothers, her bike. Four very different things, and English uses the same two words for all of them: have got.",
+      "teach": "Appearance surprises students. Mongolian describes it with a form like урт хар үстэй, so they don't expect a possession verb. Opening with hair and eyes makes that difference memorable.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "What have got is for",
+        "mn": "Have got юунд хэрэглэгддэг вэ?"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "label": {
+            "en": "Family",
+            "mn": "Гэр бүл"
+          },
+          "icon": "girl+woman",
+          "iconSize": 120,
+          "en": "I**'ve got** a sister.",
+          "mn": "Надад эгч бий."
+        },
+        {
+          "label": {
+            "en": "Things you own",
+            "mn": "Эзэмшдэг зүйл"
+          },
+          "icon": "mobile-phone",
+          "en": "He**'s got** a new phone.",
+          "mn": "Түүнд шинэ утас бий."
+        },
+        {
+          "label": {
+            "en": "Looks",
+            "mn": "Гадаад төрх"
+          },
+          "icon": "eye",
+          "en": "She**'s got** blue eyes.",
+          "mn": "Тэр цэнхэр нүдтэй."
+        },
+        {
+          "label": {
+            "en": "Illness",
+            "mn": "Өвчин"
+          },
+          "icon": "face-with-thermometer",
+          "en": "I**'ve got** a cold.",
+          "mn": "Би ханиад хүрсэн."
+        }
+      ],
+      "say": "Have got does four jobs. Family. [click] Things you own. [click] How someone looks. [click] And when you are ill: I've got a cold, I've got a headache. Now look at the Mongolian under each one. Mongolian uses different shapes for these; English uses one.",
+      "teach": "The Mongolian lines show that one English pattern replaces several Mongolian ones (надад ... бий, ...тэй). I've got a headache and I've got a cold are some of the most useful sentences an A1 student can learn; say both.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "have got, has got",
+        "mn": "Have got-ийн хэлбэрүүд"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cls": "rules",
+            "cols": "auto auto auto",
+            "tones": [
+              "soft",
+              "navy",
+              ""
+            ],
+            "head": [
+              {
+                "en": "Subject",
+                "mn": "Өгүүлэгдэхүүн"
+              },
+              {
+                "en": "Full",
+                "mn": "Бүтэн"
+              },
+              {
+                "en": "Short",
+                "mn": "Товч"
+              }
+            ],
+            "rows": [
+              [
+                "I / you / we / they",
+                "have got",
+                "'ve got"
+              ],
+              [
+                "he / she / it",
+                "has got",
+                "'s got"
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "The same split as is and are.",
+            "mn": "is, are-тэй адил хуваагдана."
+          }
+        },
+        {
+          "callout": {
+            "en": "If the next word is got, 's means has.",
+            "mn": "Дараагийн үг нь got бол 's нь has гэсэн үг."
+          }
+        }
+      ],
+      "say": "The same split you know from is and are. He, she, it: has got. Everyone else: have got. In speaking we use the short forms: I've got, she's got. [click] And one thing that confuses people. 's can mean is or has. Look at the next word. If the next word is got, the 's means has.",
+      "teach": "The swap-for-a-pronoun trick works here as well: Bat is he, so Bat has got; my parents are they, so my parents have got. Students reading He's got often understand He is got; the test chip removes that.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "The negative",
+        "mn": "Үгүйсгэх хэлбэр"
+      },
+      "cols": 3,
+      "cards": [
+        {
+          "icon": "no:automobile",
+          "iconSize": 130,
+          "en": "I **haven't got** a car.",
+          "mn": "Надад машин байхгүй."
+        },
+        {
+          "icon": "no:mobile-phone",
+          "iconSize": 130,
+          "en": "She **hasn't got** a phone.",
+          "mn": "Түүнд утас байхгүй."
+        },
+        {
+          "icon": "no:dog",
+          "iconSize": 130,
+          "en": "We **haven't got** any pets.",
+          "mn": "Манайд гэрийн тэжээвэр амьтан байхгүй."
+        }
+      ],
+      "explain": {
+        "en": "With a plural, add any.",
+        "mn": "Олон тоотой бол any нэмнэ."
+      },
+      "say": "For the negative, not goes after have or has, and it nearly always shortens: haven't, hasn't. [on the third sentence] With a plural in a negative sentence, English usually adds any: We haven't got any pets.",
+      "teach": "Keep any to that one example and one spoken sentence. It gets its own lesson later.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Questions and short answers",
+        "mn": "Асуулт ба богино хариулт"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "1fr 380px 400px",
+            "boxed": false,
+            "head": [
+              {
+                "en": "Question",
+                "mn": "Асуулт"
+              },
+              {
+                "en": "Yes",
+                "mn": "Тийм"
+              },
+              {
+                "en": "No",
+                "mn": "Үгүй"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "**Have** you got a pen?",
+                  "mn": "Чамд үзэг байна уу?"
+                },
+                {
+                  "chip": "Yes, I have.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, I haven't.",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "en": "**Has** she got a sister?",
+                  "mn": "Түүнд эгч байдаг уу?"
+                },
+                {
+                  "chip": "Yes, she has.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, she hasn't.",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "en": "**Have** they got a car?",
+                  "mn": "Тэдэнд машин байдаг уу?"
+                },
+                {
+                  "chip": "Yes, they have.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, they haven't.",
+                  "tone": "grey"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "In short answers, got disappears.",
+            "mn": "Богино хариултад got байхгүй."
+          }
+        }
+      ],
+      "say": "For a question, move have or has to the front: the same swap again. You have got a pen. Have you got a pen? The voice goes up at the end. [click] And in the short answer, got disappears completely. Yes, I have. Never Yes, I have got.",
+      "teach": "Model the rising intonation on each question. The disappearing got is the single most common short-answer mistake with this structure.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "have or have got?",
+        "mn": "have уу, have got уу?"
+      },
+      "columns": [
+        {
+          "big": true,
+          "icon": "automobile",
+          "iconSize": 80,
+          "head": {
+            "en": "Owning: both are correct",
+            "mn": "Эзэмших: хоёулаа зөв"
+          },
+          "items": [
+            {
+              "en": "I have a car. = I**'ve got** a car.",
+              "mn": "Надад машин бий.",
+              "plain": true,
+              "wide": true
+            }
+          ]
+        },
+        {
+          "big": true,
+          "icon": "fork-and-knife-with-plate",
+          "iconSize": 80,
+          "head": {
+            "en": "Actions: only have",
+            "mn": "Үйлдэл: зөвхөн have"
+          },
+          "items": [
+            {
+              "en": "I **have** breakfast at 8.",
+              "mn": "Би 8 цагт өглөөний цай уудаг.",
+              "plain": true,
+              "wide": true
+            },
+            {
+              "en": "We **have** lunch at school.",
+              "mn": "Бид сургууль дээрээ өдрийн хоол иддэг.",
+              "plain": true,
+              "wide": true
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "have got is more common in everyday speech.",
+        "mn": "have got өдөр тутмын ярианд илүү түгээмэл."
+      },
+      "say": "When we talk about owning something, have and have got mean exactly the same. Have got is more common in everyday British speech; have is fine everywhere. [click] But have has a second job: actions, like eating and washing. I have breakfast at 8. Have got can never do that job.",
+      "teach": "This slide stops students overusing have got once they like it. One spoken line is enough on American English: Americans usually just say I have.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "Mongolian says \"to me there is\". English says I've got.",
+        "mn": "Монголоор: Надад ах бий. Англиар: I've got a brother."
+      },
+      "mistakes": [
+        {
+          "wrong": "He ~~have~~ got a dog.",
+          "right": {
+            "en": "He **has** got a dog.",
+            "mn": "Түүнд нохой бий."
+          }
+        },
+        {
+          "wrong": "Have you got a pen?\nYes, I have ~~got~~.",
+          "right": {
+            "en": "Have you got a pen?\nYes, I **have**.",
+            "mn": "Чамд үзэг байна уу? Тийм ээ."
+          }
+        },
+        {
+          "wrong": "I~~'ve got~~ breakfast at 8.",
+          "right": {
+            "en": "I **have** breakfast at 8.",
+            "mn": "Би 8 цагт өглөөний цай уудаг."
+          }
+        }
+      ],
+      "say": "First: he, she, it need has. [click] Second: in a short answer, got disappears. [click] Third: breakfast is an action, not something you own, so just have.",
+      "teach": "The three mistakes come from slides 4, 6 and 7 in that order. Read each correct sentence a little slower than the wrong one.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: my best friend",
+        "mn": "Загвар эх: миний хамгийн дотны найз"
+      },
+      "scene": {
+        "w": 500,
+        "h": 600,
+        "items": [
+          {
+            "icon": "girl",
+            "x": 30,
+            "y": 70,
+            "size": 210,
+            "tag": "Ganaa"
+          },
+          {
+            "icon": "bicycle",
+            "x": 20,
+            "y": 360,
+            "size": 200
+          },
+          {
+            "icon": "boy",
+            "x": 270,
+            "y": 70,
+            "size": 200
+          },
+          {
+            "icon": "skateboard",
+            "x": 290,
+            "y": 370,
+            "size": 170
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "This is my best friend, Ganaa.",
+          "mn": "Энэ миний хамгийн дотны найз Ганаа."
+        },
+        {
+          "en": "She**'s got** short hair and big brown eyes.",
+          "mn": "Тэр богино үстэй, том бор нүдтэй."
+        },
+        {
+          "en": "She**'s got** two sisters, but she **hasn't got** a brother.",
+          "mn": "Тэр хоёр эгч дүүтэй ч ах дүүгүй."
+        },
+        {
+          "en": "She**'s got** a new bike. It's red.",
+          "mn": "Тэр шинэ дугуйтай. Дугуй нь улаан."
+        },
+        {
+          "en": "**Have** I **got** a bike? No, I **haven't**. But I**'ve got** a skateboard!",
+          "mn": "Надад дугуй бий юу? Үгүй. Харин скейтборд бий!"
+        }
+      ],
+      "say": "Read each line twice. Point out every job from the lesson: looks, family, owning, a negative, and a question with its short answer.",
+      "teach": "The student can rewrite this about their own best friend by changing four or five words. The last line asks and answers its own question, which models short answers without asking the viewer anything.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "he / she / it -> **has got** · everyone else -> **have got**",
+          "mn": "he / she / it -> has got · бусад -> have got"
+        },
+        {
+          "en": "**'s got** = has got",
+          "mn": "'s got нь has got гэсэн үг."
+        },
+        {
+          "en": "Yes, I **have**. · No, I **haven't**.",
+          "mn": "Богино хариултад got байхгүй."
+        }
+      ],
+      "say": "Line one: he, she, it take has got. Everyone else takes have got. The same split as is and are. [click] Line two: 's got means has got, never is got. Look at the next word. [click] Line three: in short answers, got disappears. Yes, I have. No, I haven't. And have got is only for owning, never for actions like breakfast. Close: Now you can describe your family, the things you own and what people look like, and tell someone when you are not well. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "The closing sentence deliberately lists all four jobs of have got, which quietly reviews slide 3. Hold the slide silently for three seconds after it.",
+      "time": "45 sec"
+    }
+  ]
+}

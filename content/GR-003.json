@@ -1,0 +1,482 @@
+{
+  "code": "GR-003",
+  "lesson": 1,
+  "level": "A1",
+  "title": {
+    "en": "Personal pronouns",
+    "mn": "Хувийн төлөөний үг"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "boy",
+        "girl",
+        "cat"
+      ],
+      "promise": {
+        "en": "By the end, you will never mix up he and she.",
+        "mn": "Энэ хичээлийн төгсгөлд he, she хоёрыг хэзээ ч андуурахгүй."
+      },
+      "say": "Personal pronouns, хувийн төлөөний үг. Seven small words that stand in for people and things. By the end of this video you will know all seven, and you will never mix up he and she again.",
+      "teach": "The promise names the exact mistake Mongolian students make, so it feels personal from the first ten seconds.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "panels",
+      "title": {
+        "en": "Why we need pronouns",
+        "mn": "Төлөөний үг яагаад хэрэгтэй вэ?"
+      },
+      "panels": [
+        {
+          "label": {
+            "en": "Without pronouns",
+            "mn": "Төлөөний үггүй"
+          },
+          "icon": "boy",
+          "tag": "Bat",
+          "tone": "plain",
+          "lines": [
+            {
+              "en": "**Bat** is my friend.",
+              "mn": "Бат миний найз."
+            },
+            {
+              "en": "**Bat** is 12.",
+              "mn": "Бат 12 настай."
+            },
+            {
+              "en": "**Bat** is very tall.",
+              "mn": "Бат их өндөр."
+            },
+            {
+              "en": "**Bat** is in my class.",
+              "mn": "Бат манай ангийнх."
+            }
+          ]
+        },
+        {
+          "label": {
+            "en": "With a pronoun",
+            "mn": "Төлөөний үгтэй"
+          },
+          "icon": "boy",
+          "tag": "Bat",
+          "tone": "good",
+          "lines": [
+            {
+              "en": "Bat is my friend.",
+              "mn": "Бат миний найз."
+            },
+            {
+              "en": "**He** is 12.",
+              "mn": "Тэр 12 настай."
+            },
+            {
+              "en": "**He** is very tall.",
+              "mn": "Тэр их өндөр."
+            },
+            {
+              "en": "**He** is in my class.",
+              "mn": "Тэр манай ангийнх."
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "Say the name once. After that, a pronoun does the job.",
+        "mn": "Нэрийг нэг удаа хэлнэ. Дараа нь төлөөний үг орлоно."
+      },
+      "say": "Read the first version slowly, a little robotically. Does that sound normal? No. We said Bat four times. Nobody talks like that, in English or in Mongolian. [click] Read the second version. Much better. We say the name once, and after that one small word does the job: he. That small word is called a pronoun.",
+      "teach": "This slide gives the reason before the rule. Mongolian does exactly the same with тэр, so the idea is already familiar; the student only has to learn the English words. Read the first version with deliberate, slightly silly repetition so the problem is felt, not explained.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Examples",
+        "mn": "Жишээ"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "icon": "man-student",
+          "en": "__Bat__ is a student.\n**He** is 12.",
+          "mn": "Бат сурагч. Тэр 12 настай."
+        },
+        {
+          "icon": "woman-health-worker",
+          "en": "__Saraa__ is my sister.\n**She** is a doctor.",
+          "mn": "Сараа миний эгч. Тэр эмч."
+        },
+        {
+          "icon": "mobile-phone",
+          "en": "This is __my phone__.\n**It** is new.",
+          "mn": "Энэ миний утас. Тэр шинэ."
+        },
+        {
+          "icon": "boy+girl",
+          "en": "__Bat and I__ are friends.\n**We** are in the same class.",
+          "mn": "Бат бид хоёр найзууд. Бид нэг ангийнх."
+        }
+      ],
+      "explain": {
+        "en": "A pronoun replaces a word you already said.",
+        "mn": "Төлөөний үг өмнө хэлсэн үгийг орлодог."
+      },
+      "size": "sm",
+      "say": "Read each sentence twice. After each one, answer your own question. He. Who is he? Bat. She. Who is she? Saraa. It. What is it? My phone. We. Who are we? Bat and me.",
+      "teach": "The arrow is the single most important visual in the lesson. It shows that a pronoun always points back to something already said. Every sentence uses only be so nothing else competes for attention.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "grid",
+      "title": {
+        "en": "The seven pronouns",
+        "mn": "Долоон төлөөний үг"
+      },
+      "cols": [
+        {
+          "en": "One",
+          "mn": "Нэг"
+        },
+        {
+          "en": "More than one",
+          "mn": "Олон"
+        }
+      ],
+      "rows": [
+        {
+          "icon": "girl@speech-balloon",
+          "label": {
+            "en": "The speaker",
+            "mn": "Ярьж буй хүн"
+          },
+          "cells": [
+            {
+              "word": "I",
+              "mn": "би"
+            },
+            {
+              "word": "we",
+              "mn": "бид"
+            }
+          ]
+        },
+        {
+          "icon": "boy@ear",
+          "label": {
+            "en": "The listener",
+            "mn": "Сонсож буй хүн"
+          },
+          "cells": [
+            {
+              "word": "you",
+              "mn": "чи, та"
+            },
+            {
+              "word": "you",
+              "mn": "та нар"
+            }
+          ]
+        },
+        {
+          "icon": "man+woman+cat",
+          "label": {
+            "en": "Everyone else",
+            "mn": "Бусад"
+          },
+          "cells": [
+            {
+              "word": "he, she, it",
+              "mn": "тэр"
+            },
+            {
+              "word": "they",
+              "mn": "тэд"
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "Seven words, one simple system.",
+        "mn": "Долоон үг, нэг энгийн систем."
+      },
+      "say": "Every conversation has three kinds of people. First, me, the person speaking. One person: I. More than one: we. [click] Second, the person I am talking to. One person: you. More than one: also you. [click] Third, everyone and everything else. One: he, she or it. More than one: they. Seven words. That is the whole system.",
+      "teach": "Teach the grid, not a list. Students then hold one system (three kinds of person, one or many) instead of memorising seven unrelated words. Point at the two empty-looking spots where English repeats itself (you and you) and where it splits (he, she, it); the next two slides take each in turn.",
+      "time": "55 sec",
+      "labelWidth": 460
+    },
+    {
+      "layout": "converge",
+      "title": {
+        "en": "One you for three Mongolian words",
+        "mn": "Монгол хэлний гурван үгэнд ганц you"
+      },
+      "items": [
+        {
+          "chip": "чи",
+          "icon": "boy",
+          "label": {
+            "en": "your little brother",
+            "mn": "дүү"
+          }
+        },
+        {
+          "chip": "та",
+          "icon": "woman-teacher",
+          "label": {
+            "en": "your teacher",
+            "mn": "багш"
+          }
+        },
+        {
+          "chip": "та нар",
+          "icon": "boy+girl+boy",
+          "label": {
+            "en": "a whole class",
+            "mn": "бүх анги"
+          }
+        }
+      ],
+      "target": "you",
+      "build": "together",
+      "explain": {
+        "en": "Politeness comes from words like please, not from a different you.",
+        "mn": "Эелдэг байдлыг өөр you-гээр биш, please гэх мэт үгээр илэрхийлнэ."
+      },
+      "say": "Mongolian has three words here. English has one. Your little brother: you. Your teacher: you. A whole class: you. In English, politeness does not come from a different you. It comes from other words, like please.",
+      "teach": "Students regularly ask how to say та politely in English. Answering it here in one line stops it becoming a question later. Do not start teaching polite requests; name please and move on.",
+      "time": "30 sec"
+    },
+    {
+      "layout": "split",
+      "title": {
+        "en": "One тэр, three English words",
+        "mn": "Нэг \"тэр\", англиар гурван үг"
+      },
+      "source": "тэр",
+      "rows": [
+        {
+          "word": "he",
+          "icon": "man",
+          "head": {
+            "en": "a man or a boy",
+            "mn": "эрэгтэй хүн, хүү"
+          },
+          "items": [
+            {
+              "en": "Bat",
+              "mn": "Бат"
+            },
+            {
+              "en": "my father",
+              "mn": "аав"
+            },
+            {
+              "en": "my brother",
+              "mn": "ах"
+            }
+          ]
+        },
+        {
+          "word": "she",
+          "icon": "woman",
+          "head": {
+            "en": "a woman or a girl",
+            "mn": "эмэгтэй хүн, охин"
+          },
+          "items": [
+            {
+              "en": "Saraa",
+              "mn": "Сараа"
+            },
+            {
+              "en": "my mother",
+              "mn": "ээж"
+            },
+            {
+              "en": "my sister",
+              "mn": "эгч"
+            }
+          ]
+        },
+        {
+          "word": "it",
+          "icon": "mobile-phone+cat",
+          "head": {
+            "en": "a thing, a place, an animal",
+            "mn": "юм, газар, амьтан"
+          },
+          "items": [
+            {
+              "en": "my phone",
+              "mn": "утас"
+            },
+            {
+              "en": "the school",
+              "mn": "сургууль"
+            },
+            {
+              "en": "my cat",
+              "mn": "муур"
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "Ask first: a man, a woman or a thing?",
+        "mn": "Эхлээд асуу: эрэгтэй юү, эмэгтэй юү, эсвэл юм уу?"
+      },
+      "say": "This is the most important slide in the lesson for a Mongolian speaker. In Mongolian, тэр is everybody and everything. English splits тэр into three. [click] A man or a boy: he. [click] A woman or a girl: she. [click] A thing, a place or an animal: it. So before you say тэр in English, ask yourself one question. Man, woman, or thing?",
+      "teach": "Slow down here; this slide is the lesson. Read every example in each column aloud. If you want to add one line about animals: people often say he or she about their own pet, but for any other animal it is correct. Keep that spoken, not on screen.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "rules2",
+      "title": {
+        "en": "Two rules English never breaks",
+        "mn": "Англи хэлэнд хэзээ ч зөрчигддөггүй хоёр дүрэм"
+      },
+      "rules": [
+        {
+          "num": 1,
+          "head": {
+            "en": "**I** is always a capital letter.",
+            "mn": "I үргэлж том үсгээр бичигдэнэ."
+          },
+          "items": [
+            {
+              "en": "**I** am a student.",
+              "mn": "Би сурагч."
+            },
+            {
+              "en": "Today **I** am tired.",
+              "mn": "Өнөөдөр би ядарч байна."
+            },
+            {
+              "en": "Bat and **I** are friends.",
+              "mn": "Бат бид хоёр найзууд."
+            }
+          ]
+        },
+        {
+          "num": 2,
+          "head": {
+            "en": "Every sentence needs a subject.",
+            "mn": "Өгүүлбэр бүрт өгүүлэгдэхүүн хэрэгтэй."
+          },
+          "flips": [
+            {
+              "mn": "Хүйтэн байна.",
+              "en": "**It** is cold."
+            },
+            {
+              "mn": "12 настай.",
+              "en": "**He** is 12."
+            }
+          ]
+        }
+      ],
+      "say": "Two rules. First, I is always a capital letter: at the start of a sentence, in the middle, everywhere. No other pronoun does this. [click] Second, and this one matters a lot for us. In Mongolian we can say Хүйтэн байна with no subject at all. In English, every sentence must start with someone or something. Even the weather gets a subject: It is cold.",
+      "teach": "Mongolian drops the subject freely, so students say Is cold and Am student in speech without noticing. The weather it is the clearest proof because nobody real is behind it. Optional spoken extra: English says Bat and I, not I and Bat, because putting yourself last is polite.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "In Mongolian, тэр is the same for a man and a woman.",
+        "mn": "Монголоор \"тэр\" эрэгтэй, эмэгтэйг ялгадаггүй."
+      },
+      "mistakes": [
+        {
+          "wrong": "My mother is a teacher.\n~~He~~ is kind.",
+          "right": {
+            "en": "My mother is a teacher.\n**She** is kind.",
+            "mn": "Ээж маань багш. Тэр сайхан сэтгэлтэй."
+          }
+        },
+        {
+          "wrong": "Bat is my friend.\n[^] Is very tall.",
+          "right": {
+            "en": "Bat is my friend.\n**He is** very tall.",
+            "mn": "Бат миний найз. Тэр их өндөр."
+          }
+        },
+        {
+          "wrong": "~~i~~ am a student.",
+          "right": {
+            "en": "**I** am a student.",
+            "mn": "Би сурагч."
+          }
+        }
+      ],
+      "say": "The first one is the mistake I hear most, even from strong students. Mother is a woman, so she. [click] The second: no subject. In Mongolian that is fine. In English the sentence is broken. [click] The third: small i. Always capital.",
+      "teach": "Read each wrong sentence once, in a slightly puzzled voice, then the right one clearly and a little slower. Never end a pair on the wrong form; the correct sentence must be the last thing the student hears.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: my family",
+        "mn": "Загвар эх: миний гэр бүл"
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "en": "This is my family.",
+          "mn": "Энэ миний гэр бүл."
+        },
+        {
+          "en": "My father is Bold. **He** is a driver.",
+          "mn": "Аав маань Болд. Тэр жолооч."
+        },
+        {
+          "en": "My mother is Saraa. **She** is a doctor.",
+          "mn": "Ээж маань Сараа. Тэр эмч."
+        },
+        {
+          "en": "My sister and I are students. **We** are in the same school.",
+          "mn": "Эгч бид хоёр сурагчид. Бид нэг сургуульд сурдаг."
+        },
+        {
+          "en": "This is our cat. **It** is black and white.",
+          "mn": "Энэ манай муур. Тэр хар цагаан өнгөтэй."
+        },
+        {
+          "en": "My grandparents are in Khovd. **They** are very kind.",
+          "mn": "Өвөө эмээ маань Ховдод байдаг. Тэд их сайхан сэтгэлтэй."
+        }
+      ],
+      "say": "Read each line twice. After each pronoun, name who it points back to: he, my father; she, my mother; we, my sister and me; it, the cat; they, my grandparents.",
+      "teach": "Every pronoun from the grid appears here except you. This paragraph is the student's template: change the names and jobs and it describes their own family. Our appears once as natural exposure; do not explain it in this video.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**I / we** · **you** · **he, she, it / they**",
+          "mn": "Ярьж буй хүн, сонсож буй хүн, бусад."
+        },
+        {
+          "en": "тэр -> **he** (a man) · **she** (a woman) · **it** (a thing)",
+          "mn": "тэр -> he (эрэгтэй) · she (эмэгтэй) · it (юм)"
+        },
+        {
+          "en": "**I** is always a capital. Every sentence needs a subject.",
+          "mn": "I үргэлж том үсгээр. Өгүүлбэр бүрт өгүүлэгдэхүүн хэрэгтэй."
+        }
+      ],
+      "say": "Line one: the seven pronouns in their three groups. The speaker, the listener, and everyone else; one or many. [click] Line two, the one to take away: тэр is three words in English. Before you speak, ask yourself: man, woman or thing? [click] Line three: I is always a capital letter, and every English sentence needs a subject, even It is cold. Close: Now you can talk about anyone in your family without repeating their name, and without ever mixing up he and she. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Read each line exactly as it appears, then add its one-sentence reason. Line two gets the most weight; say it slowest. After the closing sentence, stay silent and hold the slide for three seconds so students can screenshot it.",
+      "time": "45 sec"
+    }
+  ]
+}

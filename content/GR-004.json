@@ -1,0 +1,546 @@
+{
+  "code": "GR-004",
+  "lesson": 2,
+  "level": "A1",
+  "title": {
+    "en": "to be: positive",
+    "mn": "To be үйл үг: эерэг хэлбэр"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "girl",
+        "boy",
+        "woman-teacher"
+      ],
+      "promise": {
+        "en": "By the end, you can introduce yourself and describe anyone.",
+        "mn": "Энэ хичээлийн төгсгөлд өөрийгөө танилцуулж, бусдыг дүрсэлж чадна."
+      },
+      "say": "The verb to be. It is the most common verb in English. By the end of this video you can introduce yourself and describe anyone you know.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "story",
+      "title": {
+        "en": "A self-introduction",
+        "mn": "Өөрийгөө танилцуулах"
+      },
+      "icon": "girl@waving-hand",
+      "tag": "Anu",
+      "iconSize": 280,
+      "lines": [
+        {
+          "en": "I **am** Anu.",
+          "mn": "Би Ану."
+        },
+        {
+          "en": "I **am** 14.",
+          "mn": "Би 14 настай."
+        },
+        {
+          "en": "I **am** from Erdenet.",
+          "mn": "Би Эрдэнэтээс ирсэн."
+        },
+        {
+          "en": "My brother **is** 10.",
+          "mn": "Дүү маань 10 настай."
+        },
+        {
+          "en": "My parents **are** teachers.",
+          "mn": "Аав ээж маань багш нар."
+        }
+      ],
+      "explain": {
+        "en": "am, is, are: three forms of one verb.",
+        "mn": "am, is, are: нэг үйл үгийн гурван хэлбэр."
+      },
+      "say": "Read the lines as Anu, warmly and simply. Five short sentences, and she has told us her name, her age, her town and her family. [click] Now look at the small words in blue: am, is, are. One of them is in every sentence. They are three forms of the same verb.",
+      "teach": "A Mongolian name and a Mongolian town make the English feel like something the student could say tomorrow. Use full forms here; short forms arrive on slide 7.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Examples",
+        "mn": "Жишээ"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "icon": "woman-student",
+          "en": "I **am** a student.",
+          "mn": "Би сурагч."
+        },
+        {
+          "icon": "woman-teacher",
+          "en": "She **is** my teacher.",
+          "mn": "Тэр миний багш."
+        },
+        {
+          "icon": "cityscape",
+          "en": "They **are** from Ulaanbaatar.",
+          "mn": "Тэд Улаанбаатараас ирсэн."
+        },
+        {
+          "icon": "snowflake",
+          "en": "It **is** cold today.",
+          "mn": "Өнөөдөр хүйтэн байна."
+        }
+      ],
+      "explain": {
+        "en": "Which words go with is?",
+        "mn": "Аль үгс is-тэй хамт ордог вэ?"
+      },
+      "say": "Read each twice. Then name the pairs: I with am. She with is. They with are. It with is. Ask the question you will answer on the next slide: which words go with is?",
+      "teach": "The order deliberately mixes the three forms so the student has to search for the pattern rather than receive it.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "am, is, are",
+        "mn": "Be үйл үгийн гурван хэлбэр"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cls": "rules",
+            "boxed": false,
+            "cols": "520px 120px 300px",
+            "rows": [
+              [
+                {
+                  "chip": "I",
+                  "tone": "soft"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "am",
+                  "tone": "navy"
+                }
+              ],
+              [
+                {
+                  "chip": "he / she / it",
+                  "tone": "soft"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "is",
+                  "tone": "navy"
+                }
+              ],
+              [
+                {
+                  "chip": "you / we / they",
+                  "tone": "soft"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "are",
+                  "tone": "navy"
+                }
+              ]
+            ],
+            "tones": [
+              "end",
+              "mid",
+              ""
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "One verb, three forms. The subject decides.",
+            "mn": "Нэг үйл үг, гурван хэлбэр. Өгүүлэгдэхүүн шийднэ."
+          }
+        }
+      ],
+      "say": "Now we name it: the verb to be, to be үйл үг. In the present it has three forms, and the subject decides which one. [click] I always takes am. Only I. [click] He, she and it take is. [click] You, we and they take are.",
+      "teach": "Point out that am goes with exactly one word in the whole language. That fact alone makes it stick.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "Names and nouns",
+        "mn": "Хүний нэр ба нэр үг"
+      },
+      "columns": [
+        {
+          "icon": "boy",
+          "word": "is",
+          "head": {
+            "en": "one person or thing",
+            "mn": "нэг хүн эсвэл юм"
+          },
+          "items": [
+            "Bat **is**",
+            "my father **is**",
+            "the book **is**",
+            "Ulaanbaatar **is**"
+          ],
+          "hint": {
+            "chip": "Bat = he -> is",
+            "tone": "grey"
+          }
+        },
+        {
+          "icon": "boy+girl",
+          "word": "are",
+          "head": {
+            "en": "more than one",
+            "mn": "нэгээс олон"
+          },
+          "items": [
+            "Bat and Saraa **are**",
+            "my parents **are**",
+            "the books **are**",
+            "the students **are**"
+          ],
+          "hint": {
+            "chip": "my parents = they -> are",
+            "tone": "grey"
+          }
+        }
+      ],
+      "explain": {
+        "en": "Swap it for a pronoun in your head, then choose.",
+        "mn": "Толгойдоо төлөөний үгээр орлуулж бодоод, дараа нь сонго."
+      },
+      "say": "Usually we don't say he or they. We use a name or a noun. So how do you choose? Swap it for a pronoun in your head. Bat is a he, so Bat is. My parents are they, so my parents are. One thing: is. More than one: are.",
+      "teach": "The swap trick is the most useful tool in the lesson because it works on any subject, however long. Say it as a habit: swap, then choose.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "What be is used for",
+        "mn": "Be юунд хэрэглэгддэг вэ?"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "label": {
+            "en": "Who or what someone is",
+            "mn": "Хэн, юу болох"
+          },
+          "icon": "woman-health-worker",
+          "en": "She **is** a doctor.",
+          "mn": "Тэр эмч."
+        },
+        {
+          "label": {
+            "en": "What someone is like",
+            "mn": "Ямар байх"
+          },
+          "icon": "man",
+          "en": "He **is** tall.",
+          "mn": "Тэр өндөр."
+        },
+        {
+          "label": {
+            "en": "Where someone is from",
+            "mn": "Хаанаас ирсэн"
+          },
+          "icon": "globe-showing-asia-australia",
+          "en": "We **are** from Mongolia.",
+          "mn": "Бид Монголоос ирсэн."
+        },
+        {
+          "label": {
+            "en": "Age",
+            "mn": "Нас"
+          },
+          "icon": "girl",
+          "en": "I **am** 14.",
+          "mn": "Би 14 настай."
+        }
+      ],
+      "say": "To be connects a person to information about them. There are four kinds. [click] Who or what someone is: a name, a job, a nationality. [click] What someone is like: how they look, how they feel. [click] Where someone is, or where they come from. [click] And age. In English, age uses be: I am 14.",
+      "teach": "Age is the one that surprises. The correct forms are I am 14 or I am 14 years old. I am 14 years on its own is wrong, and I have 14 years is wrong. Say this as the closing line of the slide.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Short forms",
+        "mn": "Товчилсон хэлбэр"
+      },
+      "blocks": [
+        {
+          "side": [
+            {
+              "table": {
+                "cls": "rules sm",
+                "boxed": false,
+                "cols": "260px 70px 220px",
+                "head": [
+                  {
+                    "en": "Full",
+                    "mn": "Бүтэн"
+                  },
+                  null,
+                  {
+                    "en": "Short",
+                    "mn": "Товч"
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "chip": "I am",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "I'm",
+                      "tone": "navy"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "you are",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "you're",
+                      "tone": "navy"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "he is",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "he's",
+                      "tone": "navy"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "she is",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "she's",
+                      "tone": "navy"
+                    }
+                  ]
+                ],
+                "tones": [
+                  "end",
+                  "mid",
+                  ""
+                ]
+              }
+            },
+            {
+              "with": "prev",
+              "table": {
+                "cls": "rules sm",
+                "boxed": false,
+                "cols": "260px 70px 220px",
+                "head": [
+                  {
+                    "en": "Full",
+                    "mn": "Бүтэн"
+                  },
+                  null,
+                  {
+                    "en": "Short",
+                    "mn": "Товч"
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "chip": "it is",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "it's",
+                      "tone": "navy"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "we are",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "we're",
+                      "tone": "navy"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "they are",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 44
+                    },
+                    {
+                      "chip": "they're",
+                      "tone": "navy"
+                    }
+                  ]
+                ],
+                "tones": [
+                  "end",
+                  "mid",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "callout": {
+            "en": "The apostrophe ( ' ) shows a missing letter.",
+            "mn": "Апостроф ( ' ) хасагдсан үсгийг заана."
+          }
+        },
+        {
+          "callout": {
+            "en": "Short forms for speaking, full forms for formal writing.",
+            "mn": "Ярихдаа товч хэлбэр, албан бичигт бүтэн хэлбэр."
+          }
+        }
+      ],
+      "say": "In speaking, people almost always use the short forms. The apostrophe shows where a letter is missing: I am becomes I'm, and the a is gone. Both forms are correct. Short forms for speaking and friendly writing, full forms for formal writing. [click] Now listen to how they sound. Say each sentence slowly, then at natural speed. I'm a student sounds almost like one word.",
+      "teach": "Students sometimes think short forms are slang; make clear they are standard English. Two sound notes worth saying aloud: they're sounds exactly like there and their, and we're rhymes with here, not with her.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "Mongolian needs no verb here. English always does.",
+        "mn": "Монголоор: Би сурагч. Англиар: I am a student."
+      },
+      "mistakes": [
+        {
+          "wrong": "She [^] very happy.",
+          "right": {
+            "en": "She **is** very happy.",
+            "mn": "Тэр их баяртай байна."
+          }
+        },
+        {
+          "wrong": "My brother [^] 12 years old.",
+          "right": {
+            "en": "My brother **is** 12 years old.",
+            "mn": "Дүү маань 12 настай."
+          }
+        },
+        {
+          "wrong": "My parents ~~is~~ teachers.",
+          "right": {
+            "en": "My parents **are** teachers.",
+            "mn": "Аав ээж маань багш нар."
+          }
+        }
+      ],
+      "say": "In Mongolian, Би сурагч has no verb and needs none. English always needs one. So not She very happy, but She is very happy. [click] Same with age: My brother is 12 years old. [click] And the third: my parents are two people, so are.",
+      "teach": "The first two are the classic Mongolian-speaker mistake and appear in speech for years if not fixed early. The third catches students who pick the form by habit instead of by counting.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: about me",
+        "mn": "Загвар эх: миний тухай"
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "en": "Hi! **I'm** Temuulen.",
+          "mn": "Сайн уу! Би Тэмүүлэн."
+        },
+        {
+          "en": "**I'm** 15, and **I'm** from Darkhan.",
+          "mn": "Би 15 настай, Дарханаас ирсэн."
+        },
+        {
+          "en": "My father **is** an engineer, and my mother **is** a nurse.",
+          "mn": "Аав маань инженер, ээж маань сувилагч."
+        },
+        {
+          "en": "My brothers **are** 8 and 11.",
+          "mn": "Дүү нар маань 8, 11 настай."
+        },
+        {
+          "en": "Our flat **is** small, but **it's** warm.",
+          "mn": "Манай байр жижиг ч дулаахан."
+        },
+        {
+          "en": "**I'm** happy here.",
+          "mn": "Би энд аз жаргалтай байна."
+        }
+      ],
+      "say": "Read each line twice. Point out that every single sentence has a form of be, that the speaker mixes full and short forms naturally, and that all four uses from slide 6 appear: name, age, place, job, description.",
+      "teach": "This is the student's own self-introduction waiting to be written. Change the name, age, town and jobs and it is theirs.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "I **am** · he / she / it **is** · you / we / they **are**",
+          "mn": "am, is, are: өгүүлэгдэхүүнээс хамаарна."
+        },
+        {
+          "en": "One thing -> **is** · more than one -> **are**",
+          "mn": "Нэг зүйл -> is · олон -> are"
+        },
+        {
+          "en": "Every English sentence needs a verb.",
+          "mn": "Англи өгүүлбэрт үйл үг заавал байна."
+        }
+      ],
+      "say": "Line one: the three forms. I am. He, she, it is. You, we, they are. [click] Line two: for any name or noun, swap it for a pronoun in your head, then choose. One thing, is. More than one, are. [click] Line three, the most important one for us. In Mongolian, Би сурагч has no verb. In English every sentence needs one: I am a student. Close: Now you can introduce yourself and describe anyone: their name, their job, what they are like, where they are from and how old they are. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Say line three slowly and in both languages, because it is the habit that takes longest to break. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

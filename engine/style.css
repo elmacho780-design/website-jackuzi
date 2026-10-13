@@ -1,0 +1,177 @@
+/* =========================================================
+   HML Academy slide design system
+   One file. Every lesson uses it. Change a token here and
+   every slide in every lesson changes with it.
+   ========================================================= */
+
+/* ---------- Fonts (bundled, cover Mongolian ө ү) ---------- */
+@font-face{font-family:Rubik;font-weight:400;src:url(../assets/fonts/rubik-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Rubik;font-weight:400;src:url(../assets/fonts/rubik-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Rubik;font-weight:400;src:url(../assets/fonts/rubik-cyrillic-400-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Rubik;font-weight:400;src:url(../assets/fonts/rubik-cyrillic-ext-400-normal.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:Rubik;font-weight:500;src:url(../assets/fonts/rubik-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Rubik;font-weight:500;src:url(../assets/fonts/rubik-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Rubik;font-weight:500;src:url(../assets/fonts/rubik-cyrillic-500-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Rubik;font-weight:500;src:url(../assets/fonts/rubik-cyrillic-ext-500-normal.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:Rubik;font-weight:600;src:url(../assets/fonts/rubik-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Rubik;font-weight:600;src:url(../assets/fonts/rubik-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Rubik;font-weight:600;src:url(../assets/fonts/rubik-cyrillic-600-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Rubik;font-weight:600;src:url(../assets/fonts/rubik-cyrillic-ext-600-normal.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:Rubik;font-weight:700;src:url(../assets/fonts/rubik-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Rubik;font-weight:700;src:url(../assets/fonts/rubik-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Rubik;font-weight:700;src:url(../assets/fonts/rubik-cyrillic-700-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Rubik;font-weight:700;src:url(../assets/fonts/rubik-cyrillic-ext-700-normal.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:Rubik;font-weight:800;src:url(../assets/fonts/rubik-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Rubik;font-weight:800;src:url(../assets/fonts/rubik-latin-ext-800-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Rubik;font-weight:800;src:url(../assets/fonts/rubik-cyrillic-800-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:Rubik;font-weight:800;src:url(../assets/fonts/rubik-cyrillic-ext-800-normal.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+/* IPA symbols (ə ɪ) only */
+@font-face{font-family:IPA;font-weight:400 600;src:url(../assets/fonts/noto-sans-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0250-02AF}
+@font-face{font-family:IPA;font-weight:700 900;src:url(../assets/fonts/noto-sans-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0250-02AF}
+
+/* ---------- Tokens ---------- */
+:root{
+  --bg:#FBF7F0;          /* warm paper: every content slide */
+  --paper:#FFFFFF;       /* cards */
+  --ink:#13233F;         /* English text */
+  --ink-2:#4A5872;       /* labels, footer */
+  --brand:#174875;       /* logo blue */
+  --night:#0E1F3A;       /* title + summary background */
+  --night-2:#16305A;
+  --mn:#2E62A6;          /* every Mongolian line on light slides */
+  --mn-on-dark:#A9C8F5;  /* every Mongolian line on dark slides */
+  --hl:#E35D0B;          /* target word (the grammar point) */
+  --hl-soft:#FFE3C7;     /* marker behind target word */
+  --hl-on-dark:#FFB35C;
+  --sun-1:#F26B0F; --sun-2:#FBB21F;   /* logo brain gradient */
+  --tint-blue:#EAF1FB;
+  --tint-sun:#FFF1E2;
+  --tint-mint:#E4F4EC;
+  --tint-rose:#FDEBEC;
+  --line:#E9E0D3;
+  --wrong:#D33A3A; --wrong-bg:#FDEDEC;
+  --right:#14905A; --right-bg:#E5F5EC;
+  --shadow:0 10px 30px rgba(19,35,63,.07), 0 2px 6px rgba(19,35,63,.05);
+  --r-card:32px; --r-chip:22px;
+  --pad-x:112px;
+}
+
+/* ---------- Page + viewer ---------- */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0b0f17;overflow:hidden}
+body{font-family:Rubik,IPA,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:0 0}
+.slide{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:var(--bg);opacity:0;visibility:hidden;transition:opacity .4s ease,visibility 0s linear .4s}
+.slide.active{opacity:1;visibility:visible;transition:opacity .4s ease}
+body.export *{transition:none!important}
+body.idle{cursor:none}
+.slide.dark{background:var(--night);color:#fff}
+
+/* step reveal */
+[data-step]{transition:opacity .3s ease}
+.pending{opacity:0!important}
+
+/* ---------- Furniture: logo, footer, title ---------- */
+.logo{position:absolute;top:52px;right:84px;height:84px}
+.dark .logo{left:var(--pad-x);right:auto;top:76px;height:120px}
+.footer{position:absolute;right:84px;bottom:38px;font-size:22px;font-weight:500;color:var(--ink-2);letter-spacing:.01em}
+.dark .footer{color:var(--mn-on-dark)}
+
+.head{position:absolute;left:var(--pad-x);top:76px;right:420px}
+.head .en{font-size:76px;line-height:1.02;font-weight:800;letter-spacing:-.022em;color:var(--ink)}
+.head .mn{font-size:40px;line-height:1.2;font-weight:500;color:var(--mn);margin-top:12px}
+.head::before{content:"";position:absolute;left:0;top:-30px;width:72px;height:10px;border-radius:6px;background:linear-gradient(90deg,var(--sun-1),var(--sun-2))}
+
+.body{position:absolute;left:var(--pad-x);right:var(--pad-x);top:262px;bottom:96px;display:flex;flex-direction:column;gap:26px}
+
+/* ---------- Text atoms ---------- */
+.pair{display:flex;flex-direction:column;gap:6px}
+.pair .en{font-size:46px;line-height:1.18;font-weight:500;color:var(--ink)}
+.pair .mn{font-size:32px;line-height:1.25;font-weight:400;color:var(--mn)}
+.pair.sm .en{font-size:40px}
+.pair.sm .mn{font-size:30px}
+.pair.xs .en{font-size:34px}
+.pair.xs .mn{font-size:28px}
+.pair.lg .en{font-size:54px}
+.pair.lg .mn{font-size:36px}
+
+b.t{font-weight:700;color:var(--hl);background:linear-gradient(transparent 62%,var(--hl-soft) 62%,var(--hl-soft) 94%,transparent 94%);padding:0 .02em;border-radius:4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.dark b.t{color:var(--hl-on-dark);background:none;padding:0}
+.mn b.t{color:inherit;background:none;font-weight:600;padding:0}
+s.x{color:var(--wrong);text-decoration:line-through;text-decoration-thickness:4px;text-decoration-color:var(--wrong)}
+.ref{border-bottom:4px dotted var(--brand);padding-bottom:2px}
+.gap{display:inline-block;width:.62em;height:.62em;vertical-align:-.28em;margin:0 .06em}
+.gap svg{width:100%;height:100%;display:block}
+.ar{display:inline-block;width:.9em;height:.62em;vertical-align:.06em;margin:0 .14em}
+.ar svg{width:100%;height:100%;display:block}
+.ipa{font-family:IPA,Rubik,sans-serif}
+
+/* ---------- Chips ---------- */
+.chip{display:inline-flex;align-items:center;justify-content:center;gap:14px;height:88px;padding:0 34px;border-radius:var(--r-chip);font-size:44px;font-weight:700;white-space:nowrap;line-height:1}
+.chip.navy{background:var(--brand);color:#fff}
+.chip.soft{background:var(--tint-blue);color:var(--brand)}
+.chip.paper{background:var(--paper);color:var(--ink);box-shadow:var(--shadow)}
+.chip.grey{background:#EFE9DF;color:var(--ink)}
+.chip.sun{background:linear-gradient(135deg,var(--sun-1),var(--sun-2));color:#fff}
+.chip.sm{height:64px;font-size:32px;padding:0 24px;border-radius:18px}
+.chip.lg{height:120px;font-size:64px;padding:0 48px;border-radius:30px}
+.chip.xl{height:180px;font-size:104px;padding:0 64px;border-radius:44px}
+
+/* ---------- Cards ---------- */
+.card{background:var(--paper);border-radius:var(--r-card);box-shadow:var(--shadow);padding:36px 40px}
+.icon{display:block;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(19,35,63,.12))}
+
+/* ---------- Explanation callout (the key idea) ---------- */
+.callout{display:flex;align-items:center;gap:28px;background:var(--tint-sun);border-radius:28px;padding:20px 40px 20px 28px;margin-top:auto;flex:none}
+.callout .icon{width:76px!important;height:76px!important;flex:none}
+.callout .pair .en{font-size:38px;font-weight:600}
+.callout .pair .mn{font-size:30px}
+
+/* ---------- Title slide ---------- */
+.s-title .glow{position:absolute;right:-260px;top:-180px;width:1240px;height:1240px;border-radius:50%;background:radial-gradient(circle at 50% 50%,rgba(74,130,214,.34),rgba(46,98,166,.12) 45%,rgba(14,31,58,0) 70%)}
+.s-title .ring{position:absolute;right:120px;top:190px;width:700px;height:700px;border-radius:50%;background:linear-gradient(145deg,#1D3D6E,#132B52);box-shadow:inset 0 0 0 2px rgba(255,255,255,.06)}
+.s-title .hero{position:absolute;right:120px;top:190px;width:700px;height:700px}
+.s-title .hero img{position:absolute;filter:drop-shadow(0 24px 30px rgba(0,0,0,.35))}
+.s-title .meta{position:absolute;left:var(--pad-x);top:330px;display:flex;gap:16px}
+.s-title .meta .chip{height:64px;font-size:30px;padding:0 26px;border-radius:18px}
+.s-title .meta .code{background:rgba(255,255,255,.1);color:#fff}
+.s-title .meta .lvl{background:linear-gradient(135deg,var(--sun-1),var(--sun-2));color:#fff}
+.s-title h1{position:absolute;left:var(--pad-x);top:430px;width:1000px;font-size:124px;line-height:1;font-weight:800;letter-spacing:-.03em;color:#fff}
+.s-title .tmn{position:absolute;left:var(--pad-x);width:1000px;font-size:54px;font-weight:500;color:var(--mn-on-dark)}
+.s-title .promise{position:absolute;left:var(--pad-x);bottom:110px;width:980px;display:flex;gap:24px;align-items:flex-start}
+.s-title .promise .pair .en{color:#fff;font-size:36px;font-weight:500}
+.s-title .promise .pair .mn{color:var(--mn-on-dark);font-size:30px}
+.s-title .promise .dot{flex:none;width:14px;height:14px;border-radius:50%;background:var(--sun-2);margin-top:18px;box-shadow:0 0 0 8px rgba(251,178,31,.18)}
+
+/* ---------- Summary slide ---------- */
+.s-summary .glow{position:absolute;left:-300px;bottom:-500px;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(circle,rgba(74,130,214,.30),rgba(14,31,58,0) 65%)}
+.s-summary .shead{position:absolute;left:var(--pad-x);top:250px;width:520px}
+.s-summary .shead .en{font-size:96px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.s-summary .shead .mn{font-size:48px;color:var(--mn-on-dark);font-weight:500;margin-top:14px}
+.s-summary .shead img{width:200px;margin-top:56px}
+.s-summary .list{position:absolute;left:720px;right:var(--pad-x);top:150px;bottom:130px;display:flex;flex-direction:column;justify-content:center;gap:28px}
+.s-summary .item{display:flex;gap:30px;align-items:center;background:rgba(255,255,255,.07);border:1.5px solid rgba(255,255,255,.10);border-radius:30px;padding:34px 40px}
+.s-summary .num{flex:none;width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--sun-1),var(--sun-2));display:flex;align-items:center;justify-content:center;font-size:38px;font-weight:800;color:#fff}
+.s-summary .pair .en{color:#fff;font-size:40px;font-weight:500}
+.s-summary .pair .mn{color:var(--mn-on-dark);font-size:30px}
+
+/* ---------- Connector overlay ---------- */
+svg.wires{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:none;overflow:visible}
+svg.wires > path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- Icon clusters (several icons as one picture) ---------- */
+.cluster{display:inline-flex;align-items:flex-end;flex:none}
+.cluster .icon + .icon{margin-left:-18%}
+.badge-wrap{position:relative;display:inline-block;flex:none}
+.badge-wrap .badge{position:absolute;right:-12%;bottom:-6%;width:52%!important;height:52%!important}
+.br{display:block;height:0}
+
+/* ---------- Line breaking: no lonely last words ---------- */
+.pair .en,.pair .mn,.sent,.fen,.fmn{text-wrap:pretty}
+.head .en,.head .mn,.callout .pair .en,.callout .pair .mn,h1,.tmn,.s-summary .pair .en,.s-summary .pair .mn{text-wrap:balance}
+.mwrong .sent,.mright .pair .en,.mright .pair .mn,.sp-gloss .pair .en,.kcard .pair .en,.kcard .pair .mn,.cgloss .pair .en,.item .pair .en{text-wrap:balance}
+.ln{display:block}
+.xo{color:var(--wrong);text-decoration:underline wavy var(--wrong);text-decoration-thickness:3px;text-underline-offset:8px}
+.io{display:inline-block;width:.78em;height:.78em;vertical-align:-.08em;margin:0 .08em}
+.io svg{width:100%;height:100%;display:block}
+.circ{display:inline-flex;align-items:center;justify-content:center;width:1.2em;height:1.2em;border-radius:50%;background:#E6E0D6;margin-right:.04em;line-height:1;vertical-align:.02em}

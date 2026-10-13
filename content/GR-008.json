@@ -1,0 +1,653 @@
+{
+  "code": "GR-008",
+  "lesson": 7,
+  "level": "A1",
+  "title": {
+    "en": "Possessive adjectives",
+    "mn": "Хамаатуулах төлөөний үг"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "girl",
+        "backpack",
+        "dog"
+      ],
+      "promise": {
+        "en": "By the end, you can say who everything belongs to.",
+        "mn": "Энэ хичээлийн төгсгөлд юм хэнийх болохыг хэлж чадна."
+      },
+      "say": "Whose is it? Seven small words answer that question. And there is one trick with his and her that Mongolian speakers almost always get wrong. By the end you won't.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Whose is it?",
+        "mn": "Хэнийх вэ?"
+      },
+      "cols": 3,
+      "size": "lg",
+      "cards": [
+        {
+          "label": {
+            "en": "Bat",
+            "mn": "Бат"
+          },
+          "icon": "boy>backpack",
+          "iconSize": 130,
+          "en": "**his** bag",
+          "mn": "Батын цүнх"
+        },
+        {
+          "label": {
+            "en": "Saraa",
+            "mn": "Сараа"
+          },
+          "icon": "girl>mobile-phone",
+          "iconSize": 130,
+          "en": "**her** phone",
+          "mn": "Сараагийн утас"
+        },
+        {
+          "label": {
+            "en": "me",
+            "mn": "би"
+          },
+          "icon": "woman-raising-hand>closed-book",
+          "iconSize": 130,
+          "en": "**my** book",
+          "mn": "миний ном"
+        }
+      ],
+      "explain": {
+        "en": "One small word for each owner.",
+        "mn": "Эзэн бүрт нэг жижиг үг."
+      },
+      "say": "Everything belongs to someone. English has one small word for each owner. Bat's bag: his bag. Saraa's phone: her phone. My book: my book. Instead of saying the owner's name again and again, we use one of these words.",
+      "teach": "The arrow always runs from the owner to the object. That direction becomes important on slide 6, so set it up now.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Examples",
+        "mn": "Жишээ"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "icon": "dog",
+          "en": "I have a dog.\n**My** dog is small.",
+          "mn": "Надад нохой бий. Миний нохой жижиг."
+        },
+        {
+          "icon": "boy",
+          "en": "She has a brother.\n**Her** brother is 10.",
+          "mn": "Түүнд дүү бий. Түүний дүү 10 настай."
+        },
+        {
+          "icon": "automobile",
+          "en": "They have a car.\n**Their** car is red.",
+          "mn": "Тэдэнд машин бий. Тэдний машин улаан."
+        },
+        {
+          "icon": "woman-teacher",
+          "en": "We have a teacher.\n**Our** teacher is kind.",
+          "mn": "Бидэнд багш бий. Манай багш сайхан сэтгэлтэй."
+        }
+      ],
+      "explain": {
+        "en": "Whose dog? Mine: my dog.",
+        "mn": "Хэний нохой вэ? Минийх: my dog."
+      },
+      "say": "Read each twice. After each, ask and answer: whose dog? Mine, so my. Whose brother? Hers, so her. Whose car? Theirs, so their. Whose teacher? Ours, so our.",
+      "teach": "The words mine, hers, theirs and ours slip into your spoken answers naturally here; that is fine as exposure, but don't explain them in this video.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "The seven owner words",
+        "mn": "Эзэмшлийн долоон үг"
+      },
+      "blocks": [
+        {
+          "step": 0,
+          "row": [
+            {
+              "chip": "Person",
+              "tone": "soft",
+              "size": "sm"
+            },
+            {
+              "arrow": true,
+              "size": 40
+            },
+            {
+              "chip": "Owner word",
+              "tone": "navy",
+              "size": "sm"
+            },
+            {
+              "text": "Mongolian",
+              "size": "sm"
+            }
+          ],
+          "center": true,
+          "cls": "legend"
+        },
+        {
+          "side": [
+            {
+              "table": {
+                "cls": "owners",
+                "boxed": false,
+                "cols": "auto 44px auto auto",
+                "tones": [
+                  "end",
+                  "bare mid",
+                  "",
+                  ""
+                ],
+                "rows": [
+                  [
+                    {
+                      "chip": "I",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "my",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "миний"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "you",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "your",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "чиний / таны"
+                    }
+                  ]
+                ],
+                "card": true
+              }
+            },
+            {
+              "table": {
+                "cls": "owners",
+                "boxed": false,
+                "cols": "auto 44px auto auto",
+                "tones": [
+                  "end",
+                  "bare mid",
+                  "",
+                  ""
+                ],
+                "rows": [
+                  [
+                    {
+                      "chip": "he",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "his",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "түүний"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "she",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "her",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "түүний"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "it",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "its",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "түүний"
+                    }
+                  ]
+                ],
+                "card": true
+              }
+            },
+            {
+              "table": {
+                "cls": "owners",
+                "boxed": false,
+                "cols": "auto 44px auto auto",
+                "tones": [
+                  "end",
+                  "bare mid",
+                  "",
+                  ""
+                ],
+                "rows": [
+                  [
+                    {
+                      "chip": "we",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "our",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "бидний / манай"
+                    }
+                  ],
+                  [
+                    {
+                      "chip": "they",
+                      "tone": "soft"
+                    },
+                    {
+                      "arrow": true,
+                      "size": 40
+                    },
+                    {
+                      "chip": "their",
+                      "tone": "navy"
+                    },
+                    {
+                      "mn": "тэдний"
+                    }
+                  ]
+                ],
+                "card": true
+              }
+            }
+          ],
+          "cols": "auto auto auto",
+          "gap": 26
+        },
+        {
+          "callout": {
+            "en": "his, her and its are all түүний in Mongolian.",
+            "mn": "his, her, its: монголоор бүгд \"түүний\"."
+          }
+        }
+      ],
+      "say": "Each person has its own owner word. Name them now: possessive adjectives, хамаатуулах төлөөний үг. [click] Now look at the Mongolian column for these three. His, her, its: all түүний. Remember that; it matters in a minute. [click] And our and their.",
+      "teach": "Reading the person and the owner word side by side (I, my; he, his) helps memory more than learning the owner words alone. Point out that its has no apostrophe, and leave the reason for slide 7.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Where it goes",
+        "mn": "Хаана байрлах вэ?"
+      },
+      "blocks": [
+        {
+          "row": [
+            {
+              "chip": "my",
+              "tone": "navy"
+            },
+            {
+              "plus": true
+            },
+            {
+              "chip": "book",
+              "tone": "paper"
+            },
+            {
+              "eq": true
+            },
+            {
+              "text": "my book"
+            }
+          ],
+          "mn": "миний ном",
+          "size": "lg",
+          "center": true
+        },
+        {
+          "row": [
+            {
+              "chip": "my",
+              "tone": "navy"
+            },
+            {
+              "plus": true
+            },
+            {
+              "chip": "new",
+              "tone": "paper"
+            },
+            {
+              "plus": true
+            },
+            {
+              "chip": "phone",
+              "tone": "paper"
+            },
+            {
+              "eq": true
+            },
+            {
+              "text": "my new phone"
+            }
+          ],
+          "mn": "миний шинэ утас",
+          "size": "lg",
+          "center": true
+        },
+        {
+          "row": [
+            {
+              "chip": "the my book",
+              "tone": "strike"
+            },
+            {
+              "arrow": true
+            },
+            {
+              "chip": "my book",
+              "tone": "green"
+            }
+          ],
+          "size": "lg",
+          "center": true
+        },
+        {
+          "callout": {
+            "en": "Always right before a noun. Never with a or the.",
+            "mn": "Үргэлж нэр үгийн яг өмнө. a, the-тэй хамт хэрэглэхгүй."
+          }
+        }
+      ],
+      "say": "These words always stand right in front of a noun. [click] If there is an adjective, it goes in between: my new phone. [click] And they replace a and the. Never the my book. Just my book.",
+      "teach": "Mongolian миний ном already puts the owner first, so the order is easy for our students; the only new rule is \"no a or the\". If someone asks about This book is mine, that is a different word and a different lesson; for now these words always need a noun after them.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "The owner decides",
+        "mn": "Эзэн нь шийднэ"
+      },
+      "cols": 3,
+      "cards": [
+        {
+          "label": {
+            "en": "Bat, a boy",
+            "mn": "Бат, хүү"
+          },
+          "icon": "boy>woman",
+          "iconSize": 120,
+          "en": "Bat and **his** mother.",
+          "mn": "Бат ээжтэйгээ."
+        },
+        {
+          "label": {
+            "en": "Saraa, a girl",
+            "mn": "Сараа, охин"
+          },
+          "icon": "girl>man",
+          "iconSize": 120,
+          "en": "Saraa and **her** father.",
+          "mn": "Сараа аавтайгаа."
+        },
+        {
+          "label": {
+            "en": "the dog",
+            "mn": "нохой"
+          },
+          "icon": "dog>bowl-with-spoon",
+          "iconSize": 120,
+          "en": "the dog and **its** bowl.",
+          "mn": "нохой тавагтайгаа."
+        }
+      ],
+      "explain": {
+        "en": "his or her? Start from the owner, not the thing.",
+        "mn": "his үү, her үү? Юмнаас биш, эзнээс эхэлж бод."
+      },
+      "say": "This is where Mongolian speakers go wrong, because түүний is the same for everyone. In English, his or her is decided by the owner. Bat's mother is a woman, but the owner is Bat, and Bat is a boy. So: his mother. [click] Saraa's father is a man, but the owner is Saraa. So: her father. [click] A thing or an animal owns with its.",
+      "teach": "Slow down; this is the slide the lesson exists for. Many students have also studied a language where the word follows the thing owned, which makes the mistake stronger. Keep pointing at the arrow: start at the owner, every time.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Same sound, different word",
+        "mn": "Ижил дуудлага, өөр үг"
+      },
+      "blocks": [
+        {
+          "row": [
+            {
+              "icon": "speaker-high-volume",
+              "size": 70
+            },
+            {
+              "chip": "its",
+              "tone": "navy",
+              "sub": "түүний"
+            },
+            {
+              "eq": true
+            },
+            {
+              "chip": "it's",
+              "tone": "grey",
+              "sub": "it is"
+            }
+          ],
+          "size": "lg",
+          "center": true
+        },
+        {
+          "row": [
+            {
+              "icon": "speaker-high-volume",
+              "size": 70
+            },
+            {
+              "chip": "your",
+              "tone": "navy",
+              "sub": "чиний"
+            },
+            {
+              "eq": true
+            },
+            {
+              "chip": "you're",
+              "tone": "grey",
+              "sub": "you are"
+            }
+          ],
+          "size": "lg",
+          "center": true
+        },
+        {
+          "row": [
+            {
+              "icon": "speaker-high-volume",
+              "size": 70
+            },
+            {
+              "chip": "their",
+              "tone": "navy",
+              "sub": "тэдний"
+            },
+            {
+              "eq": true
+            },
+            {
+              "chip": "they're",
+              "tone": "grey",
+              "sub": "they are"
+            },
+            {
+              "eq": true
+            },
+            {
+              "chip": "there",
+              "tone": "grey",
+              "sub": "тэнд"
+            }
+          ],
+          "size": "lg",
+          "center": true
+        },
+        {
+          "callout": {
+            "en": "Can you say \"it is\"? Write it's. If not, write its.",
+            "mn": "\"It is\" гэж хэлж болох уу? Тэгвэл it's. Болохгүй бол its."
+          }
+        }
+      ],
+      "say": "These pairs sound exactly the same but they are different words. The apostrophe always means a letter is missing: it's is it is. [click] So here is the test. Try saying it is instead. If the sentence still works, write it's. If it doesn't, write its.",
+      "teach": "This is a writing problem more than a speaking one. Native speakers make these mistakes too, so a student who gets them right writes better than many native speakers, which is worth saying aloud.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "In Mongolian, түүний is the same for everyone.",
+        "mn": "Монголоор \"түүний\" бүгдэд нэг."
+      },
+      "mistakes": [
+        {
+          "wrong": "Bat loves ~~her~~ mother.",
+          "right": {
+            "en": "Bat loves **his** mother.",
+            "mn": "Бат ээждээ хайртай."
+          }
+        },
+        {
+          "wrong": "The cat is hungry.\n~~It's~~ bowl is empty.",
+          "right": {
+            "en": "The cat is hungry.\n**Its** bowl is empty.",
+            "mn": "Муур өлссөн. Түүний таваг хоосон."
+          }
+        },
+        {
+          "wrong": "This is ~~the~~ my book.",
+          "right": {
+            "en": "This is **my** book.",
+            "mn": "Энэ миний ном."
+          }
+        }
+      ],
+      "say": "First: start from the owner. Bat is a boy, so his. [click] Second: try it is bowl. It doesn't work, so no apostrophe. [click] Third: no the in front.",
+      "teach": "Each mistake maps to one teaching slide (6, 7 and 5). Saying the test aloud on the second pair shows students how to use it on their own writing.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: meet my family",
+        "mn": "Загвар эх: миний гэр бүлтэй танилц"
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "en": "Meet **my** family.",
+          "mn": "Миний гэр бүлтэй танилц."
+        },
+        {
+          "en": "**My** father is Bold. **His** car is old, but he loves it.",
+          "mn": "Аав маань Болд. Түүний машин хуучин ч тэр түүндээ хайртай."
+        },
+        {
+          "en": "**My** mother is Saraa. **Her** favourite food is buuz.",
+          "mn": "Ээж маань Сараа. Түүний дуртай хоол бол бууз."
+        },
+        {
+          "en": "**My** brother and I share a room. **Our** room is small.",
+          "mn": "Дүү бид хоёр нэг өрөөнд байдаг. Манай өрөө жижиг."
+        },
+        {
+          "en": "**My** grandparents are in the countryside. **Their** house is next to a river.",
+          "mn": "Өвөө эмээ маань хөдөө байдаг. Тэдний байшин голын хажууд."
+        },
+        {
+          "en": "We have a dog. **Its** name is Khasar.",
+          "mn": "Манайд нохой бий. Түүний нэр Хасар."
+        }
+      ],
+      "say": "Read each line twice. For each highlighted word, name the owner: his, my father; her, my mother; our, my brother and me; their, my grandparents; its, the dog.",
+      "teach": "Every owner word appears except your. Buuz and the countryside keep it Mongolian, so it reads as the student's own family rather than a textbook family.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**my** · **your** · **his** · **her** · **its** · **our** · **their**",
+          "mn": "Эзэмшлийн долоон үг."
+        },
+        {
+          "en": "The owner decides: Bat -> **his** mother",
+          "mn": "Эзэн нь шийднэ: Bat -> his mother"
+        },
+        {
+          "en": "**its** = belonging to it · **it's** = it is",
+          "mn": "its = түүний · it's = it is"
+        }
+      ],
+      "say": "Line one: the seven owner words, one for each person. My, your, his, her, its, our, their. They come right before a noun, and never after the. [click] Line two, the one a Mongolian speaker needs most: the owner decides. Start from the owner, every time. Bat is a boy, so his mother. [click] Line three: its with no apostrophe means түүний. It's means it is. If you can say it is, write the apostrophe. Close: Now you can say who everything belongs to, and write its and it's more correctly than many native speakers do. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Line two deserves the slowest delivery of the three. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+export/
+build/*/shots/
+build/*/sheet.*
+build/*/check.json
+build/icons.*
+scratch/

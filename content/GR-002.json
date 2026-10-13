@@ -1,0 +1,649 @@
+{
+  "code": "GR-002",
+  "lesson": 5,
+  "level": "A1",
+  "title": {
+    "en": "a and an",
+    "mn": "A ба an"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "red-apple",
+        "egg",
+        "cat"
+      ],
+      "promise": {
+        "en": "By the end, you will never forget the small word Mongolian doesn't have.",
+        "mn": "Энэ хичээлийн төгсгөлд монгол хэлэнд байхгүй жижиг үгийг хэзээ ч мартахгүй."
+      },
+      "say": "A and an. Two of the smallest words in English, and two of the most common. Mongolian doesn't have them at all, which is exactly why they get a whole video.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "The missing word",
+        "mn": "Монгол хэлэнд байдаггүй үг"
+      },
+      "cols": 3,
+      "cards": [
+        {
+          "icon": "boy",
+          "en": "I have **a** brother.",
+          "mn": "Надад ах бий."
+        },
+        {
+          "icon": "woman-health-worker",
+          "en": "She is **a** doctor.",
+          "mn": "Тэр эмч."
+        },
+        {
+          "icon": "red-apple",
+          "en": "This is **an** apple.",
+          "mn": "Энэ алим."
+        }
+      ],
+      "explain": {
+        "en": "Look at the Mongolian: nothing stands where a and an are.",
+        "mn": "Монгол өгүүлбэрт a, an-ий оронд юу ч байхгүй."
+      },
+      "say": "Read the English sentences. [click] Now look at the Mongolian. In the same place there is nothing. English puts a small word in front of one thing. Today: which one, a or an, and when.",
+      "teach": "Putting the Mongolian underneath makes the missing word visible, and visible is the point: students genuinely don't hear that it's missing when they speak.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Examples",
+        "mn": "Жишээ"
+      },
+      "cols": 4,
+      "cards": [
+        {
+          "icon": "cat",
+          "iconSize": 100,
+          "word": "**a** cat",
+          "gloss": "муур"
+        },
+        {
+          "with": "prev",
+          "icon": "dog",
+          "iconSize": 100,
+          "word": "**a** dog",
+          "gloss": "нохой"
+        },
+        {
+          "with": "prev",
+          "icon": "closed-book",
+          "iconSize": 100,
+          "word": "**a** book",
+          "gloss": "ном"
+        },
+        {
+          "with": "prev",
+          "icon": "house",
+          "iconSize": 100,
+          "word": "**a** house",
+          "gloss": "байшин"
+        },
+        {
+          "icon": "red-apple",
+          "iconSize": 100,
+          "word": "**an** apple",
+          "gloss": "алим"
+        },
+        {
+          "with": "prev",
+          "icon": "egg",
+          "iconSize": 100,
+          "word": "**an** egg",
+          "gloss": "өндөг"
+        },
+        {
+          "with": "prev",
+          "icon": "tangerine",
+          "iconSize": 100,
+          "word": "**an** orange",
+          "gloss": "жүрж"
+        },
+        {
+          "with": "prev",
+          "icon": "umbrella",
+          "iconSize": 100,
+          "word": "**an** umbrella",
+          "gloss": "шүхэр"
+        }
+      ],
+      "explain": {
+        "en": "What is different about the second row?",
+        "mn": "Хоёр дахь мөрийн үгс юугаараа өөр вэ?"
+      },
+      "say": "Read both rows twice. Then ask: what is different about the words in the second row? Answer it: they all start with a, e, o or u.",
+      "teach": "It is tempting to say \"vowel letter\" here. Hold back; the letter-versus-sound twist comes on slide 5 and lands better as a surprise.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "a or an?",
+        "mn": "a уу, an уу?"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "boxed": false,
+            "cols": "150px 90px 470px 90px 1fr",
+            "tones": [
+              "mid",
+              "bare mid",
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "aan",
+            "rows": [
+              [
+                {
+                  "chip": "a",
+                  "tone": "navy",
+                  "size": "lg"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "+ consonant sound",
+                  "tone": "soft",
+                  "sub": "гийгүүлэгч авиа"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "a cat, a book, a teacher",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "chip": "an",
+                  "tone": "navy",
+                  "size": "lg"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "+ vowel sound",
+                  "tone": "soft",
+                  "sub": "эгшиг авиа"
+                },
+                {
+                  "arrow": true
+                },
+                {
+                  "chip": "an apple, an egg, an orange",
+                  "tone": "grey"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "row": [
+            {
+              "chip": "a",
+              "size": "sm"
+            },
+            {
+              "chip": "e",
+              "size": "sm"
+            },
+            {
+              "chip": "i",
+              "size": "sm"
+            },
+            {
+              "chip": "o",
+              "size": "sm"
+            },
+            {
+              "chip": "u",
+              "size": "sm"
+            },
+            {
+              "label": {
+                "en": "vowels",
+                "mn": "эгшиг"
+              }
+            }
+          ],
+          "center": true
+        },
+        {
+          "row": [
+            {
+              "link": [
+                "an",
+                "apple"
+              ]
+            }
+          ],
+          "center": true
+        },
+        {
+          "with": "prev",
+          "callout": {
+            "en": "The n joins the next word: an apple.",
+            "mn": "n дараагийн үгтэйгээ холбогдоно: an apple."
+          }
+        }
+      ],
+      "say": "The rule: a before a consonant sound, an before a vowel sound. [click] The vowels are a, e, i, o, u. [click] Why does an exist at all? Try saying a apple. Two vowels crash into each other. The n builds a bridge: an apple. Listen: the n joins on to the next word, a-napple.",
+      "teach": "The bridge image is easy to remember and quietly teaches linking. Say an apple so the n clearly attaches forward.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "columns",
+      "title": {
+        "en": "Sound, not letter",
+        "mn": "Үсэг биш, авиа"
+      },
+      "columns": [
+        {
+          "icon": "ear",
+          "iconSize": 84,
+          "word": "a",
+          "head": {
+            "en": "starts with a \"you\" sound",
+            "mn": "\"ю\" авиагаар эхэлнэ"
+          },
+          "stack": true,
+          "size": "sm",
+          "items": [
+            {
+              "en": "**a** ((u))niversity",
+              "mn": "их сургууль"
+            },
+            {
+              "en": "**a** ((u))niform",
+              "mn": "дүрэмт хувцас"
+            }
+          ]
+        },
+        {
+          "icon": "ear",
+          "iconSize": 84,
+          "word": "an",
+          "head": {
+            "en": "the h is silent",
+            "mn": "h дуудагдахгүй"
+          },
+          "stack": true,
+          "size": "sm",
+          "items": [
+            {
+              "en": "**an** ((h))our",
+              "mn": "цаг"
+            },
+            {
+              "en": "**an** ((h))onest man",
+              "mn": "шударга хүн"
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "Your ears decide, not your eyes.",
+        "mn": "Нүд биш, чих шийднэ."
+      },
+      "say": "Here is the puzzle. University starts with u. But listen: you-niversity. It starts with a you sound, and that is a consonant sound. So: a university. [click] Hour starts with h. But the h is silent: our. It starts with a vowel sound. So: an hour. Your ears decide, not your eyes.",
+      "teach": "Say each word slowly, exaggerating the first sound, then naturally. At A1 only four words really matter: university, uniform, hour, honest. This is also the slide that separates a good learner from a careful one.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "The next word decides",
+        "mn": "Дараагийн үг шийднэ"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "120px 1fr 100px 1fr",
+            "tones": [
+              "bare mid",
+              "",
+              "bare mid",
+              ""
+            ],
+            "cls": "next",
+            "head": [
+              null,
+              {
+                "en": "Noun alone",
+                "mn": "Нэр үг дангаараа"
+              },
+              null,
+              {
+                "en": "With an adjective",
+                "mn": "Тэмдэг нэртэй"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "icon": "red-apple",
+                  "size": 84
+                },
+                "**an** apple",
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**a** red apple",
+                  "mn": "улаан алим"
+                }
+              ],
+              [
+                {
+                  "icon": "automobile",
+                  "size": 84
+                },
+                "**a** car",
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**an** old car",
+                  "mn": "хуучин машин"
+                }
+              ],
+              [
+                {
+                  "icon": "egg",
+                  "size": 84
+                },
+                "**an** egg",
+                {
+                  "arrow": true
+                },
+                {
+                  "en": "**a** big egg",
+                  "mn": "том өндөг"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "a and an look only at the next word.",
+            "mn": "a, an зөвхөн дараагийн үгээ хардаг."
+          }
+        }
+      ],
+      "say": "A and an only ever look at the very next word. Put an adjective in front and the choice can change. An apple, but a red apple. A car, but an old car.",
+      "teach": "Students learn \"apple takes an\" as a fixed pair and then write an red apple. This slide prevents that habit before it forms.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "When we use a and an",
+        "mn": "A, an-г хэзээ хэрэглэх вэ?"
+      },
+      "cols": 3,
+      "cards": [
+        {
+          "label": {
+            "en": "One of something",
+            "mn": "Нэг зүйл"
+          },
+          "icon": "boy",
+          "en": "I have **a** brother.",
+          "mn": "Надад ах бий."
+        },
+        {
+          "label": {
+            "en": "Jobs",
+            "mn": "Ажил мэргэжил"
+          },
+          "icon": "oncoming-taxi",
+          "en": "He is **a** driver.",
+          "mn": "Тэр жолооч."
+        },
+        {
+          "label": {
+            "en": "Never with plurals",
+            "mn": "Олон тоотой хэзээ ч хэрэглэхгүй"
+          },
+          "icon": "books",
+          "chips": [
+            {
+              "chip": "a book",
+              "tone": "green"
+            },
+            {
+              "chip": "books",
+              "tone": "green"
+            },
+            {
+              "chip": "a books",
+              "tone": "strike"
+            }
+          ]
+        }
+      ],
+      "explain": {
+        "en": "a and an mean one.",
+        "mn": "a, an нь \"нэг\" гэсэн утгатай."
+      },
+      "say": "A and an mean one, any one. So we use them with a single thing you can count. [click] With jobs, English always needs a or an: He is a driver. In Mongolian we just say Тэр жолооч. [click] And because a means one, it can never go with a plural. A book, or books. Never a books.",
+      "teach": "Jobs are the biggest single source of missing articles for Mongolian speakers. Uncountable nouns (water, rice) are a separate lesson; if you mention them at all, one spoken line.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "How a sounds",
+        "mn": "A хэрхэн дуудагдах вэ?"
+      },
+      "flow": true,
+      "blocks": [
+        {
+          "row": [
+            {
+              "chip": "a = /[ipa:ə]/",
+              "tone": "navy",
+              "size": "xl"
+            }
+          ],
+          "center": true
+        },
+        {
+          "with": "prev",
+          "callout": {
+            "en": "In speech, a is a quick, soft \"uh\".",
+            "mn": "Ярианд a нь богино, сул \"э\" авиа."
+          }
+        },
+        {
+          "space": 10
+        },
+        {
+          "row": [
+            {
+              "chip": "a **CAT**",
+              "tone": "paper",
+              "size": "lg"
+            },
+            {
+              "chip": "a **BOOK**",
+              "tone": "paper",
+              "size": "lg"
+            },
+            {
+              "chip": "an **AP**ple",
+              "tone": "paper",
+              "size": "lg"
+            }
+          ],
+          "center": true
+        },
+        {
+          "with": "prev",
+          "callout": {
+            "en": "The stress goes on the noun.",
+            "mn": "Өргөлт нэр үг дээр бууна."
+          }
+        }
+      ],
+      "say": "In normal speech, a is not ei. It is a tiny, quick uh: a cat, a book. And an is a quick un: an apple. The stress goes on the noun, never on the little word.",
+      "teach": "Mongolian learners often say ei every time, which sounds stiff. Model the weak form, exaggerated once, then naturally. Native speakers only say ei when stressing the number, as in I said A book, not two.",
+      "time": "30 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "Mongolian has no a or an, so it is easy to forget.",
+        "mn": "Монгол хэлэнд a, an байдаггүй тул амархан мартагддаг."
+      },
+      "mistakes": [
+        {
+          "wrong": "She is [^] teacher.",
+          "right": {
+            "en": "She is **a** teacher.",
+            "mn": "Тэр багш."
+          }
+        },
+        {
+          "wrong": "I have a ~~books~~.",
+          "right": {
+            "en": "I have **a book**.",
+            "mn": "Надад ном бий."
+          }
+        },
+        {
+          "wrong": "~~an~~ university",
+          "right": {
+            "en": "**a** university",
+            "mn": "их сургууль"
+          }
+        }
+      ],
+      "say": "First: jobs need a. [click] Second: a means one, so never with a plural. [click] Third: listen to the sound, not the letter.",
+      "teach": "For the second pair, add aloud that I have books is also correct; it just means more than one.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "model",
+      "title": {
+        "en": "Model text: my family",
+        "mn": "Загвар эх: миний гэр бүл"
+      },
+      "scene": {
+        "w": 520,
+        "h": 600,
+        "items": [
+          {
+            "icon": "man",
+            "x": 40,
+            "y": 60,
+            "size": 200
+          },
+          {
+            "icon": "woman",
+            "x": 280,
+            "y": 60,
+            "size": 200
+          },
+          {
+            "icon": "woman-student",
+            "x": 20,
+            "y": 280,
+            "size": 160
+          },
+          {
+            "icon": "girl",
+            "x": 180,
+            "y": 290,
+            "size": 160
+          },
+          {
+            "icon": "boy",
+            "x": 340,
+            "y": 290,
+            "size": 160
+          },
+          {
+            "icon": "dog",
+            "x": 70,
+            "y": 450,
+            "size": 130
+          },
+          {
+            "icon": "cat",
+            "x": 320,
+            "y": 450,
+            "size": 130
+          }
+        ]
+      },
+      "lines": [
+        {
+          "en": "My father is **an** engineer.",
+          "mn": "Аав маань инженер."
+        },
+        {
+          "en": "My mother is **a** teacher.",
+          "mn": "Ээж маань багш."
+        },
+        {
+          "en": "I have **a** brother and **an** older sister.",
+          "mn": "Надад нэг дүү, нэг эгч бий."
+        },
+        {
+          "en": "My sister is **a** university student.",
+          "mn": "Эгч маань их сургуулийн оюутан."
+        },
+        {
+          "en": "We have **a** dog and **an** old cat.",
+          "mn": "Манайд нохой, бас хөгшин муур бий."
+        }
+      ],
+      "say": "Read each line twice. For each highlighted word, say why: an engineer, vowel sound; an older sister, the adjective decides; a university, the you sound.",
+      "teach": "Every rule in the lesson appears once: vowel sound, consonant sound, jobs, an adjective changing the article, and the university trap.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "**a** + consonant sound · **an** + vowel sound",
+          "mn": "a + гийгүүлэгч авиа · an + эгшиг авиа"
+        },
+        {
+          "en": "The sound decides: **an** hour · **a** university",
+          "mn": "Авиа шийднэ: an hour · a university"
+        },
+        {
+          "en": "Jobs need a or an: He is **a** driver.",
+          "mn": "Ажил мэргэжилд a, an заавал хэрэгтэй."
+        }
+      ],
+      "say": "Line one: a before a consonant sound, an before a vowel sound. [click] Line two: the sound decides, not the letter. An hour, because the h is silent. A university, because it starts with a you sound. And only the very next word counts: an apple, but a red apple. [click] Line three: jobs always need a or an. In Mongolian, Тэр жолооч. In English, He is a driver. And in speech, a is a quick, soft uh. Close: Now you can talk about your family's jobs and describe single things without dropping the small word a Mongolian ear doesn't hear. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Say every a on this slide as a weak uh, so the final thing students hear models the pronunciation as well as the rule. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}

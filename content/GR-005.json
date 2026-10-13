@@ -1,0 +1,632 @@
+{
+  "code": "GR-005",
+  "lesson": 3,
+  "level": "A1",
+  "title": {
+    "en": "to be: negative and questions",
+    "mn": "To be: үгүйсгэх ба асуух хэлбэр"
+  },
+  "mn_review": "teaching-guide",
+  "slides": [
+    {
+      "layout": "title",
+      "hero": [
+        "girl",
+        "speech-balloon",
+        "boy"
+      ],
+      "promise": {
+        "en": "By the end, you can say no, ask questions and meet someone new.",
+        "mn": "Энэ хичээлийн төгсгөлд үгүйсгэж, асууж, шинэ хүнтэй танилцаж чадна."
+      },
+      "say": "To be: saying no, and asking questions. By the end of this video you can hold a first conversation with someone you have just met.",
+      "time": "15 sec"
+    },
+    {
+      "layout": "dialogue",
+      "title": {
+        "en": "A first conversation",
+        "mn": "Анхны танилцах яриа"
+      },
+      "speakers": {
+        "Saraa": {
+          "icon": "girl",
+          "side": "a"
+        },
+        "Tuvshin": {
+          "icon": "boy",
+          "side": "b"
+        }
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "who": "Saraa",
+          "en": "**Are** you a new student?",
+          "mn": "Чи шинэ сурагч уу?"
+        },
+        {
+          "who": "Tuvshin",
+          "en": "Yes, I am.",
+          "mn": "Тийм ээ."
+        },
+        {
+          "who": "Saraa",
+          "en": "**Are** you from Ulaanbaatar?",
+          "mn": "Чи Улаанбаатарынх уу?"
+        },
+        {
+          "who": "Tuvshin",
+          "en": "No, I'm **not**. I'm from Khovd.",
+          "mn": "Үгүй. Би Ховдынх."
+        },
+        {
+          "who": "Saraa",
+          "en": "**Is** your sister at this school too?",
+          "mn": "Эгч чинь бас энэ сургуульд сурдаг уу?"
+        },
+        {
+          "who": "Tuvshin",
+          "en": "No, she **isn't**. She's at university.",
+          "mn": "Үгүй. Тэр их сургуульд сурдаг."
+        }
+      ],
+      "explain": {
+        "en": "Questions start with are or is. To say no, use not.",
+        "mn": "Асуулт are, is-ээр эхэлнэ. Үгүйсгэхдээ not хэрэглэнэ."
+      },
+      "say": "Read it as a real conversation with two voices; change your tone between them. [final click] Two new things are happening. The questions start with are or is. And to say no, we use not.",
+      "teach": "If a colleague can voice the second speaker, use them; two real voices make dialogue slides far more natural. This exchange is the exact conversation a student will have on their first day with a foreign teacher.",
+      "time": "40 sec"
+    },
+    {
+      "layout": "cards",
+      "title": {
+        "en": "Saying no",
+        "mn": "Үгүйсгэх"
+      },
+      "cols": 2,
+      "cards": [
+        {
+          "icon": "smiling-face-with-smiling-eyes",
+          "en": "I am **not** tired.",
+          "mn": "Би ядраагүй байна."
+        },
+        {
+          "icon": "no:house",
+          "en": "He **isn't** at home.",
+          "mn": "Тэр гэртээ байхгүй."
+        },
+        {
+          "icon": "alarm-clock",
+          "en": "We **aren't** late.",
+          "mn": "Бид хоцроогүй."
+        },
+        {
+          "icon": "sun",
+          "en": "It is **not** cold today.",
+          "mn": "Өнөөдөр хүйтэн биш байна."
+        }
+      ],
+      "explain": {
+        "en": "not comes straight after am, is or are.",
+        "mn": "not нь am, is, are-ийн яг ард орно."
+      },
+      "say": "Read each twice. Then: look where not is every time. Straight after am, is or are.",
+      "teach": "Cards 2 and 3 already show short forms on purpose. The student meets them before the table explains them.",
+      "time": "35 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "The negative",
+        "mn": "Үгүйсгэх хэлбэр"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cls": "rules",
+            "cols": "430px 380px 1fr",
+            "tones": [
+              "soft",
+              "navy",
+              ""
+            ],
+            "head": [
+              {
+                "en": "Subject",
+                "mn": "Өгүүлэгдэхүүн"
+              },
+              {
+                "en": "Full form",
+                "mn": "Бүтэн хэлбэр"
+              },
+              {
+                "en": "Short form",
+                "mn": "Товч хэлбэр"
+              }
+            ],
+            "rows": [
+              [
+                "I",
+                "am not",
+                "I'm not"
+              ],
+              [
+                "he / she / it",
+                "is not",
+                "isn't · he's not"
+              ],
+              [
+                "you / we / they",
+                "are not",
+                "aren't · you're not"
+              ]
+            ]
+          }
+        },
+        {
+          "row": [
+            {
+              "chip": "I amn't",
+              "tone": "strike"
+            }
+          ]
+        },
+        {
+          "with": "prev",
+          "callout": {
+            "en": "There is no amn't.",
+            "mn": "Amn't гэж байдаггүй."
+          }
+        }
+      ],
+      "say": "The rule is short: put not after am, is or are. That is all. [click] For is not and are not there are two short forms, isn't or he's not, aren't or you're not. Both are correct and both are common. [click] For I there is only one: I'm not. There is no amn't.",
+      "teach": "Students find amn't logical and invent it. Kill it here, gently, with the struck-through line. Native speakers use he isn't and he's not about equally, so don't push a preference.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Making a question",
+        "mn": "Асуулт үүсгэх"
+      },
+      "wires": [
+        {
+          "from": "r1a",
+          "to": "r2b",
+          "fromSide": "bottom",
+          "toSide": "top",
+          "kind": "curve",
+          "step": 2,
+          "gap": 58
+        },
+        {
+          "from": "r1b",
+          "to": "r2a",
+          "fromSide": "bottom",
+          "toSide": "top",
+          "kind": "curve",
+          "step": 2,
+          "gap": 58
+        }
+      ],
+      "blocks": [
+        {
+          "row": [
+            {
+              "chip": "You",
+              "id": "r1a"
+            },
+            {
+              "chip": "are",
+              "tone": "navy",
+              "id": "r1b"
+            },
+            {
+              "chip": "a student.",
+              "tone": "paper"
+            }
+          ],
+          "mn": "Чи сурагч."
+        },
+        {
+          "space": 70
+        },
+        {
+          "row": [
+            {
+              "chip": "Are",
+              "tone": "navy",
+              "id": "r2a"
+            },
+            {
+              "chip": "you",
+              "id": "r2b"
+            },
+            {
+              "chip": "a student?",
+              "tone": "paper"
+            },
+            {
+              "intonation": "up"
+            }
+          ],
+          "mn": "Чи сурагч уу?"
+        },
+        {
+          "side": [
+            {
+              "pair": {
+                "en": "She is at home. -> **Is she** at home?",
+                "mn": "Тэр гэртээ байна уу?"
+              },
+              "size": "sm",
+              "card": true
+            },
+            {
+              "pair": {
+                "en": "Bat is 12. -> **Is Bat** 12?",
+                "mn": "Бат 12 настай юу?"
+              },
+              "size": "sm",
+              "card": true
+            }
+          ]
+        },
+        {
+          "callout": {
+            "en": "The verb jumps to the front. Your voice goes up.",
+            "mn": "Үйл үг урд гарна. Дуу дээшилнэ."
+          }
+        }
+      ],
+      "say": "To make a question you don't add anything. You swap the first two words: the verb jumps to the front. You are a student. Are you a student? [click] [click] Two more. [click] And listen to the voice. In these questions it goes up at the end. Are you a student? ↗",
+      "teach": "Mongolian adds уу or үү at the end and keeps the order, which is exactly why students say You are student? The crossing arrows make the alternative visible. Model the rising intonation clearly; exaggerate it once so nobody misses it.",
+      "time": "50 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Short answers",
+        "mn": "Богино хариулт"
+      },
+      "blocks": [
+        {
+          "table": {
+            "perRow": true,
+            "cols": "1fr 400px 400px",
+            "boxed": false,
+            "head": [
+              {
+                "en": "Question",
+                "mn": "Асуулт"
+              },
+              {
+                "en": "Yes",
+                "mn": "Тийм"
+              },
+              {
+                "en": "No",
+                "mn": "Үгүй"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Are you ready?",
+                  "mn": "Чи бэлэн үү?"
+                },
+                {
+                  "chip": "Yes, I am.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, I'm not.",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "en": "Is she your sister?",
+                  "mn": "Тэр чиний эгч үү?"
+                },
+                {
+                  "chip": "Yes, she is.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, she isn't.",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "en": "Are they at school?",
+                  "mn": "Тэд сургууль дээрээ байна уу?"
+                },
+                {
+                  "chip": "Yes, they are.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, they aren't.",
+                  "tone": "grey"
+                }
+              ],
+              [
+                {
+                  "en": "Is Bat 12?",
+                  "mn": "Бат 12 настай юу?"
+                },
+                {
+                  "chip": "Yes, he is.",
+                  "tone": "soft"
+                },
+                {
+                  "chip": "No, he isn't.",
+                  "tone": "grey"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "callout": {
+            "en": "Yes keeps the full form. No can be short.",
+            "mn": "Yes бол бүтэн хэлбэр, No бол товч хэлбэр болж болно."
+          }
+        }
+      ],
+      "say": "In English, a bare Yes or No can sound cold. So we add a short answer: the pronoun plus the verb. Two rules. First, a yes answer never shortens: Yes, I am, never Yes, I'm. A no answer can: No, I'm not. Second, answer with a pronoun, not the name: Is Bat 12? Yes, he is.",
+      "teach": "Stress falls on the last word of a yes short answer (Yes, I am), and a stressed word cannot be shortened. That is the real reason for the rule; the student only needs the rule itself. Say Yes, I am with clear stress on am.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "stack",
+      "title": {
+        "en": "Question words",
+        "mn": "Асуух үг"
+      },
+      "blocks": [
+        {
+          "row": [
+            {
+              "chip": "Question word",
+              "tone": "navy",
+              "sub": "асуух үг",
+              "size": "sm"
+            },
+            {
+              "plus": true
+            },
+            {
+              "chip": "am / is / are",
+              "tone": "soft",
+              "sub": "үйл үг",
+              "size": "sm"
+            },
+            {
+              "plus": true
+            },
+            {
+              "chip": "subject",
+              "tone": "paper",
+              "sub": "өгүүлэгдэхүүн",
+              "size": "sm"
+            }
+          ],
+          "center": true
+        },
+        {
+          "table": {
+            "perRow": true,
+            "cols": "1fr 80px 1fr",
+            "tones": [
+              "",
+              "bare mid",
+              ""
+            ],
+            "rows": [
+              [
+                {
+                  "en": "**What is** your name? [down]",
+                  "mn": "Чамайг хэн гэдэг вэ?",
+                  "size": "xs"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "en": "I'm Anu.",
+                  "mn": "Намайг Ану гэдэг.",
+                  "size": "xs"
+                }
+              ],
+              [
+                {
+                  "en": "**Where are** you from? [down]",
+                  "mn": "Чи хаанаас ирсэн бэ?",
+                  "size": "xs"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "en": "I'm from Khovd.",
+                  "mn": "Би Ховдоос ирсэн.",
+                  "size": "xs"
+                }
+              ],
+              [
+                {
+                  "en": "**How old is** your sister? [down]",
+                  "mn": "Дүү чинь хэдэн настай вэ?",
+                  "size": "xs"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "en": "She's 8.",
+                  "mn": "8 настай.",
+                  "size": "xs"
+                }
+              ],
+              [
+                {
+                  "en": "**Who is** that? [down]",
+                  "mn": "Тэр хэн бэ?",
+                  "size": "xs"
+                },
+                {
+                  "arrow": true,
+                  "size": 44
+                },
+                {
+                  "en": "That's my teacher.",
+                  "mn": "Тэр миний багш.",
+                  "size": "xs"
+                }
+              ]
+            ],
+            "cls": "qa"
+          }
+        },
+        {
+          "callout": {
+            "en": "With a question word, your voice goes down.",
+            "mn": "Асуух үгтэй асуултад дуу доошилно."
+          }
+        }
+      ],
+      "say": "When you want information, not just yes or no, put a question word at the very front. After it, the same swap: verb, then subject. What, where, how old, who. [click on the arrow] And notice the voice goes down at the end of these, not up.",
+      "teach": "Teach how old as one unit; it is how English asks age. What's your name? is the normal spoken form, so model it shortened. The two arrows, rising on slide 5 and falling here, are the whole of A1 question intonation.",
+      "time": "55 sec"
+    },
+    {
+      "layout": "watchout",
+      "title": {
+        "en": "Watch out!",
+        "mn": "Анхаар!"
+      },
+      "context": {
+        "en": "In Mongolian, the word order stays the same in a question.",
+        "mn": "Монголоор асуултад үгийн дараалал өөрчлөгддөггүй."
+      },
+      "mistakes": [
+        {
+          "wrong": "!!You are!! a student?",
+          "right": {
+            "en": "**Are you** a student?",
+            "mn": "Чи сурагч уу?"
+          }
+        },
+        {
+          "wrong": "Where !!you are!! from?",
+          "right": {
+            "en": "Where **are you** from?",
+            "mn": "Чи хаанаас ирсэн бэ?"
+          }
+        },
+        {
+          "wrong": "Yes, ~~I'm~~.",
+          "right": {
+            "en": "Yes, **I am**.",
+            "mn": "Тийм ээ."
+          }
+        }
+      ],
+      "say": "First: Mongolian keeps the order and adds уу. English swaps. [click] Second, the same swap after a question word. This one survives even in strong students. [click] Third: a yes answer stays in full.",
+      "teach": "The second mistake is the most persistent of the three and is still common at B1. Read Where are you from? slowly with clear stress on from.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "dialogue",
+      "title": {
+        "en": "Model text: meeting someone",
+        "mn": "Загвар эх: шинэ хүнтэй танилцах"
+      },
+      "speakers": {
+        "A": {
+          "icon": "girl",
+          "side": "a"
+        },
+        "B": {
+          "icon": "boy",
+          "side": "b"
+        }
+      },
+      "cols": 2,
+      "lines": [
+        {
+          "who": "A",
+          "en": "Hi! **What's** your name?",
+          "mn": "Сайн уу! Чамайг хэн гэдэг вэ?"
+        },
+        {
+          "who": "B",
+          "en": "I'm Tuvshin.",
+          "mn": "Намайг Түвшин гэдэг."
+        },
+        {
+          "who": "A",
+          "en": "**Where are you** from, Tuvshin?",
+          "mn": "Түвшин, чи хаанаас ирсэн бэ?"
+        },
+        {
+          "who": "B",
+          "en": "I'm from Khovd.",
+          "mn": "Би Ховдоос ирсэн."
+        },
+        {
+          "who": "A",
+          "en": "**Are you** a student here?",
+          "mn": "Чи энд сурдаг уу?"
+        },
+        {
+          "who": "B",
+          "en": "**Yes, I am.** I'm 15.",
+          "mn": "Тийм ээ. Би 15 настай."
+        },
+        {
+          "who": "A",
+          "en": "**Is** your sister here too?",
+          "mn": "Дүү чинь бас энд байна уу?"
+        },
+        {
+          "who": "B",
+          "en": "**No, she isn't.** She's only 6!",
+          "mn": "Үгүй. Тэр ердөө 6 настай!"
+        }
+      ],
+      "say": "Two voices again. After the last line, point out that everything from the lesson is here: a question word, the swap, rising and falling voices, both kinds of short answer, and a negative.",
+      "teach": "This is a script the student can act out with a friend straight away, changing the names, towns and ages.",
+      "time": "45 sec"
+    },
+    {
+      "layout": "summary",
+      "cards": [
+        {
+          "en": "Negative: **am not** · **isn't** · **aren't**",
+          "mn": "Үгүйсгэл: not-ийг үйл үгийн ард."
+        },
+        {
+          "en": "Question: swap. **Are you** ...? **Where is** ...?",
+          "mn": "Асуулт: байрыг соль."
+        },
+        {
+          "en": "Yes, **I am**. · No, **I'm not**.",
+          "mn": "Тийм бол бүтэн хэлбэр, үгүй бол товч хэлбэр."
+        }
+      ],
+      "say": "Line one: to say no, put not after the verb. Am not, isn't, aren't. And there is no amn't. [click] Line two: to ask, swap. The verb jumps to the front: Are you...? Where is...? Your voice goes up for yes or no questions, and down for question words. [click] Line three: answer with the pronoun and the verb. A yes stays full, Yes, I am. A no can be short, No, I'm not. Close: Now you can meet someone new in English, ask them where they are from and how old they are, and answer their questions naturally. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "teach": "Model both intonation arrows once more as you read line two; it is the last thing students hear about them. Hold the slide silently for three seconds after the closing sentence.",
+      "time": "45 sec"
+    }
+  ]
+}
