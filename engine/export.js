@@ -21,7 +21,8 @@ async function exportLesson(page, code) {
   const lesson = JSON.parse(fs.readFileSync(path.join(ROOT, 'content', `${code}.json`), 'utf8'));
   const name = `${code} ${lesson.title.en.replace(/[\\/:*?"<>|]/g, '')}`;
   const dir = path.join(ROOT, 'export', name);
-  fs.rmSync(dir, { recursive: true, force: true });
+  // clear only what this script makes, so a video made by "npm run video" stays
+  for (const sub of ['slides', 'steps']) fs.rmSync(path.join(dir, sub), { recursive: true, force: true });
   fs.mkdirSync(path.join(dir, 'slides'), { recursive: true });
   fs.mkdirSync(path.join(dir, 'steps'), { recursive: true });
 

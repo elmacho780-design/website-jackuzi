@@ -1,9 +1,11 @@
 // Presenter runtime: scales the 1920x1080 stage, steps through clicks, draws arrows.
 // Keys: Right / Space / click = next   Left = back   F = fullscreen   N = presenter notes window   Home / End
+// Opened by "npm run record" (?record=1) it also loads the voiceover recorder (engine/recorder.js).
 (function () {
   const stage = document.getElementById('stage');
   const slides = [...document.querySelectorAll('.slide')];
   const EXPORT = /[?&]export=1/.test(location.search);
+  const RECORD = /[?&]record=1/.test(location.search);
   if (EXPORT) document.body.classList.add('export');
   let si = 0, st = 0, scale = 1;
 
@@ -25,6 +27,7 @@
     });
     if (!EXPORT) history.replaceState(null, '', `#${si + 1}.${st}`);
     updateNotes();
+    if (window.HML && window.HML.onRender) window.HML.onRender();
   }
 
   // ---------- presenter notes (press N): opens a second window with what to say ----------
@@ -34,6 +37,7 @@
     if (!notesWin) return;
     notesWin.document.title = 'Notes';
     notesWin.document.body.style.cssText = 'margin:0;padding:28px;font:22px/1.5 system-ui,sans-serif;background:#111827;color:#E5E7EB';
+    notesWin.document.onkeydown = onKey; // keys pressed in the notes window still drive the deck
     updateNotes();
   }
   function updateNotes() {
@@ -41,10 +45,13 @@
     const s = slides[si];
     const max = maxStep(s);
     const parts = (s.dataset.say || '').split('[click]');
+    // when the guide has one part per click, light up the part for this click
+    const lit = parts.length === max + 1 ? st : -1;
     const esc = (x) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-    notesWin.document.body.innerHTML =
+    const extra = window.HML && window.HML.notesExtra ? window.HML.notesExtra() : '';
+    notesWin.document.body.innerHTML = extra +
       `<div style="font-size:16px;letter-spacing:.06em;text-transform:uppercase;color:#9CA3AF">Slide ${si + 1} of ${slides.length} · click ${st} of ${max}${s.dataset.time ? ' · ' + s.dataset.time : ''}</div>` +
-      parts.map((p, i) => `<p style="margin:18px 0">${i ? '<span style="color:#F59E0B;font-weight:700">[click]</span> ' : ''}${esc(p.trim())}</p>`).join('');
+      parts.map((p, i) => `<p style="margin:18px 0;${lit < 0 ? '' : i === lit ? 'color:#fff;background:#1F2A44;padding:10px 14px;border-radius:10px' : 'opacity:.45'}">${i ? '<span style="color:#F59E0B;font-weight:700">[click]</span> ' : ''}${esc(p.trim())}</p>`).join('');
   }
   function next() { if (st < maxStep(slides[si])) st++; else if (si < slides.length - 1) { si++; st = 0; } render(); }
   function prev() { if (st > 0) st--; else if (si > 0) { si--; st = maxStep(slides[si]); } render(); }
@@ -142,15 +149,18 @@
   }
 
   // ---------- input ----------
-  addEventListener('keydown', (e) => {
+  function onKey(e) {
+    if (window.HML && window.HML.keyHook && window.HML.keyHook(e)) return;
     if (['ArrowRight', ' ', 'PageDown', 'Enter'].includes(e.key)) { e.preventDefault(); next(); }
     else if (['ArrowLeft', 'PageUp', 'Backspace'].includes(e.key)) { e.preventDefault(); prev(); }
     else if (e.key === 'Home') { si = 0; st = 0; render(); }
     else if (e.key === 'End') { si = slides.length - 1; st = maxStep(slides[si]); render(); }
     else if (e.key === 'n' || e.key === 'N') { openNotes(); }
     else if (e.key === 'f' || e.key === 'F') { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
-  });
-  addEventListener('click', (e) => { if (e.clientX < innerWidth * 0.2) prev(); else next(); });
+  }
+  addEventListener('keydown', onKey);
+  // while recording only the keyboard moves the deck, so a stray mouse click cannot skip a click
+  if (!RECORD) addEventListener('click', (e) => { if (e.clientX < innerWidth * 0.2) prev(); else next(); });
   let idle; addEventListener('mousemove', () => { document.body.classList.remove('idle'); clearTimeout(idle); idle = setTimeout(() => document.body.classList.add('idle'), 1500); });
   addEventListener('resize', fit);
 
@@ -161,11 +171,15 @@
   render();
   const ready = document.fonts.ready.then(() => Promise.all([...document.images].map((im) => im.complete ? 1 : new Promise((r) => { im.onload = im.onerror = r; })))).then(() => { drawAll(); });
 
-  // API used by the exporter and the checker
+  // API used by the exporter, the checker and the recorder
   window.HML = {
     ready,
     count: () => slides.length,
     steps: (i) => maxStep(slides[i]),
     go: (i, s) => { si = i; st = s; render(); },
+    pos: () => [si, st],
+    next, prev,
+    refreshNotes: updateNotes,
   };
+  if (RECORD) { const rec = document.createElement('script'); rec.src = '../../engine/recorder.js'; document.body.appendChild(rec); }
 })();

@@ -55,7 +55,7 @@ The teaching guide also lives as a Claude doc in Batu's account: "HML Video Less
 | Timestamp logs for lessons 1 to 10 | Needed after recording (feeds the "watch again" links) |
 | Lessons 11 to 20 | Proposed, order not confirmed, no content yet (see section 5) |
 | **Plan from 20 October: 20 lessons live on 1 November, 200 before January, Batu alone** | **Read section 10 first. It overrides older priorities.** |
-| In-deck recorder and automatic video assembly | Proposed, not built (section 10) |
+| In-deck recorder and automatic video assembly | Built 20 October (`npm run record`, `npm run video`, see START HERE.md). Tested with a generated test sound, not yet with Batu's microphone |
 | Mongolian lesson titles for the whole library (sheet 04, column F) | Batu's task, not done |
 | Route ordering review (sheet 07) | Not done; the highest-value review left on the library |
 
@@ -158,7 +158,7 @@ The skills in `.claude/skills/` run these steps: `/draft-lesson`, `/build-lesson
 
 ## 9. Open decisions and to-dos
 
-0. **Section 10: confirm the plan** (launch set, the 200, the recorder) and build the recorder first.
+0. **Section 10: confirm the plan** (launch set, the 200). The recorder is built; next is Batu trying it on one real lesson.
 1. Lessons 11 to 20: confirm the list, and GR-030 vs GR-019 (section 5; section 10 recommends GR-019 as lesson 20 to follow the route).
 2. Mongolian lesson titles for the library (sheet 04, column F): Batu's pass.
 3. Route ordering in sheet 07: a teacher's review of the order within each stage.
@@ -184,8 +184,8 @@ The skills in `.claude/skills/` run these steps: `/draft-lesson`, `/build-lesson
 - **The 200:** General English route positions 1 to 200: A1 70, A2 59, B1 40, first 31 of B2. Rough targets at about 3 lessons a day: A1 by about 19 November, A2 by about 8 December, B1 by about 21 December, B2 part by 31 December. If behind, cut B2, never quality.
 - **Native-speaker lessons:** LS-010 British accents (position 164), LS-011 American accents (165) and LS-012 Australian and other accents (199) need native recordings Batu cannot make. Move them later and pull the next lessons up.
 - **Batu's time per lesson must drop from about 2 hours to about 40 minutes** (about 2 hours a day, one catch-up day a week):
-  1. Claude writes the full Mongolian voiceover script, slide by slide and click by click, so Batu reads instead of improvising. Mark it as a draft for him to check.
-  2. **In-deck recorder (build first):** in the browser deck, Batu presses a key and reads the current click's lines; each click's audio is saved separately; a key redoes just that click. Then the video is assembled automatically (each slide image held for exactly its audio, 1920 x 1080 MP4) and the "watch again" timestamps are written out. No screen recording, no editing, no timestamp log by hand.
+  1. Claude writes the full Mongolian voiceover script, slide by slide and click by click, so Batu reads instead of improvising. Mark it as a draft for him to check. Write it per deck click: the `[click]` marks in the current voiceover guide match the deck's clicks on only 21 of 101 slides, and the recorder records one take per deck click.
+  2. **In-deck recorder (built 20 October):** in the browser deck, Batu presses a key and reads the current click's lines; each click's audio is saved separately; a key redoes just that click. Then the video is assembled automatically (each slide image held for exactly its audio, 1920 x 1080 MP4) and the "watch again" timestamps are written out. No screen recording, no editing, no timestamp log by hand.
   3. **One review page per lesson:** slides, Mongolian script and quiz Mongolian side by side, so Batu only marks what is wrong.
   4. **Stay about 10 lessons ahead:** Claude drafts, builds slides and below-video content in batches without waiting, so Batu only reviews and records.
   5. **Templates per lesson type** (vocabulary, pronunciation, reading, writing, speaking), not only grammar. Vocabulary and pronunciation lessons can be 4 to 5 minutes.

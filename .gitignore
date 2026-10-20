@@ -5,3 +5,4 @@ build/*/sheet.*
 build/*/check.json
 build/icons.*
 scratch/
+recordings/

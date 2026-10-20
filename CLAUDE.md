@@ -29,7 +29,9 @@ content/        one JSON file per lesson (GR-003.json ...). Edit these to change
 engine/         the slide engine: layouts.js, style.css, layouts.css, runtime.js, check.js ...
 assets/         logo.png, logo-light.png, fonts/ (Rubik + Noto Sans IPA), icons/ (Fluent 3D, MIT)
 build/<CODE>/   index.html = the live deck. shots/ = one PNG per slide. sheet.png = all slides.
-export/<CODE> <Title>/   .pptx (one slide per click, speaker notes = what to say), .pdf, PNGs
+recordings/<CODE>/   the voiceover, one WAV per click (s03_02.wav = slide 3, click 2). Not in git.
+export/<CODE> <Title>/   .pptx (one slide per click, speaker notes = what to say), .pdf, PNGs,
+                <CODE>.mp4 and <CODE> timestamps.txt/.json (made by npm run video)
 reference/      HML_Lesson_Library.xlsx (all 690 lessons, codes, strands, programme routes),
                 HML_Content_Architecture.md (how lessons and programmes fit together),
                 HML_Below_Video_Content_L1-10.xlsx (notes, practice and quizzes under each video)
@@ -47,7 +49,13 @@ npm run shots GR-003       PNG of every slide in build/GR-003/shots/ + build/GR-
 npm run export GR-003      PowerPoint + PDF + PNGs into export/
 npm run check all          every lesson (same for shots/export)
 npm run icons              build/icons.png: every icon you can use, with its name
+npm run record GR-003      record the voiceover inside the deck, one take per click (keeps running: start it in the background)
+npm run video GR-003       MP4 from the takes + timestamp log into export/ (lists any click not recorded yet)
 ```
+
+The recorder (engine/record.js server, engine/recorder.js in the deck) and the video maker (engine/video.js)
+never put anything on the slides. A take that no longer matches the deck's clicks (because a slide's clicks
+changed) is reported by `npm run video`; that slide must be recorded again.
 
 ## How to do any job (always this loop)
 

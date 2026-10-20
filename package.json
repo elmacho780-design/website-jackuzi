@@ -8,9 +8,12 @@
     "shots": "node engine/shoot.js",
     "export": "node engine/export.js",
     "icons": "node engine/icons.js",
+    "record": "node engine/record.js",
+    "video": "node engine/video.js",
     "setup": "npm install && npx playwright install chromium"
   },
   "dependencies": {
+    "ffmpeg-static": "5.3.0",
     "pdf-lib": "1.17.1",
     "playwright": "1.56.0",
     "pptxgenjs": "4.0.1"
