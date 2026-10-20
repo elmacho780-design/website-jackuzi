@@ -16,6 +16,22 @@ Run "npm run check all" and "npm run shots GR-003", and open build/GR-003/sheet.
 Then tell me in five short lines: what this project is, what is finished, what is open, and whether everything works.
 ```
 
+## Next job: the recorder (after prompt 0)
+
+```
+Read section 10 of HANDOFF.md, then build the in-deck recorder and automatic video assembly it describes.
+- "npm run record GR-003" starts a small local server, opens the deck in Chrome and shows the voiceover
+  for the current click in the notes window (N). I press R to record that click, R again to stop,
+  arrow right for the next click, and a key to redo just the current click. Each click's audio is saved
+  in recordings/GR-003/. Show clearly on screen when it is recording.
+- "npm run video GR-003" makes export/GR-003 .../GR-003.mp4 (1920 x 1080): each click's screenshot held
+  for exactly its audio, a short pause between slides, the summary slide held 3 seconds at the end.
+  It also writes the timestamp log (slide number and start time) the website needs.
+- Use an ffmpeg that installs with npm so I do not have to install anything by hand.
+  Keep recordings and videos out of git.
+Test it yourself with a short generated test sound before handing it to me, then tell me in a few lines how to use it.
+```
+
 ## Shortcuts (type these in Claude Code)
 
 | Type | It does |

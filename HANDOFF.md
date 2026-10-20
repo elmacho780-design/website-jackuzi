@@ -1,7 +1,7 @@
 # HML video lessons: project handoff
 
 Read this first. It is everything the previous working sessions decided, made and left open, so you can carry on without asking Battumur to repeat himself.
-For how to build slides, read `CLAUDE.md` next.
+**Start with section 10: the current plan (20 October 2026).** For how to build slides, read `CLAUDE.md` next.
 
 ---
 
@@ -54,6 +54,8 @@ The teaching guide also lives as a Claude doc in Batu's account: "HML Video Less
 | Lessons 1 to 10: recording | Not started (Batu records next) |
 | Timestamp logs for lessons 1 to 10 | Needed after recording (feeds the "watch again" links) |
 | Lessons 11 to 20 | Proposed, order not confirmed, no content yet (see section 5) |
+| **Plan from 20 October: 20 lessons live on 1 November, 200 before January, Batu alone** | **Read section 10 first. It overrides older priorities.** |
+| In-deck recorder and automatic video assembly | Proposed, not built (section 10) |
 | Mongolian lesson titles for the whole library (sheet 04, column F) | Batu's task, not done |
 | Route ordering review (sheet 07) | Not done; the highest-value review left on the library |
 
@@ -69,7 +71,7 @@ The teaching guide also lives as a Claude doc in Batu's account: "HML Video Less
 - Twelve quiz components for the whole site (Q01 to Q12), not a custom quiz per module.
 - 12 strands: GR Grammar (Дүрэм), VO Vocabulary, RD Reading, WR Writing, AW Academic and argumentative writing, LS Listening, SP Speaking, PR Pronunciation, EX Exam technique, ES English for specific purposes, YL Young learners, SK Study skills.
 - In Mongolian, "grammar" is **дүрэм** (not хэл зүй).
-- Release order: 1 ЭЕШ, 2 General English A1–A2 + Kids, 3 Olympiad, 4 IELTS, 5 Academic writing + Speaking, 6 General English B1–C1 + School, 7 English for work + TOEFL.
+- Release order (original): 1 ЭЕШ, 2 General English A1–A2 + Kids, 3 Olympiad, 4 IELTS, 5 Academic writing + Speaking, 6 General English B1–C1 + School, 7 English for work + TOEFL. **Changed on 20 October 2026:** ЭЕШ is not a priority for now. See section 10.
 
 **Every video**
 - Faceless: slides plus voiceover. 6 to 7 minutes (the library originally assumed 8 to 15; 6 to 7 is what was agreed for production).
@@ -156,7 +158,8 @@ The skills in `.claude/skills/` run these steps: `/draft-lesson`, `/build-lesson
 
 ## 9. Open decisions and to-dos
 
-1. Lessons 11 to 20: confirm the list, and GR-030 vs GR-019 (section 5).
+0. **Section 10: confirm the plan** (launch set, the 200, the recorder) and build the recorder first.
+1. Lessons 11 to 20: confirm the list, and GR-030 vs GR-019 (section 5; section 10 recommends GR-019 as lesson 20 to follow the route).
 2. Mongolian lesson titles for the library (sheet 04, column F): Batu's pass.
 3. Route ordering in sheet 07: a teacher's review of the order within each stage.
 4. Instruction language by level: Mongolian throughout up to B1; where it fades out above that is not fixed.
@@ -167,6 +170,32 @@ The skills in `.claude/skills/` run these steps: `/draft-lesson`, `/build-lesson
 
 ---
 
-## 10. Words you will see
+## 10. The plan from 20 October 2026 (read this before anything else)
+
+**What Batu said (fixed):**
+- The website launches with a course on **1 November 2026**. Only 10 lessons existed on 20 October.
+- **At least 200 lessons before January 2027.**
+- **ЭЕШ is not important right now.**
+- **No other teachers can help with recording. Batu is the only person working on it.** Plan every step so he alone can do it.
+- The programme routes (sheet 07) were already made. He does not want to rebuild them.
+
+**What was proposed (not yet confirmed by Batu, ask before acting on a point):**
+- **Launch (1 November):** General English route positions 1 to 20. Routes stay as they are, except positions 1 to 10 should be reordered in sheet 07 (and in the School support and Kids routes) to match the teaching order of lessons 1 to 10. Lesson 20: GR-019 Imperatives was recommended for the launch set.
+- **The 200:** General English route positions 1 to 200: A1 70, A2 59, B1 40, first 31 of B2. Rough targets at about 3 lessons a day: A1 by about 19 November, A2 by about 8 December, B1 by about 21 December, B2 part by 31 December. If behind, cut B2, never quality.
+- **Native-speaker lessons:** LS-010 British accents (position 164), LS-011 American accents (165) and LS-012 Australian and other accents (199) need native recordings Batu cannot make. Move them later and pull the next lessons up.
+- **Batu's time per lesson must drop from about 2 hours to about 40 minutes** (about 2 hours a day, one catch-up day a week):
+  1. Claude writes the full Mongolian voiceover script, slide by slide and click by click, so Batu reads instead of improvising. Mark it as a draft for him to check.
+  2. **In-deck recorder (build first):** in the browser deck, Batu presses a key and reads the current click's lines; each click's audio is saved separately; a key redoes just that click. Then the video is assembled automatically (each slide image held for exactly its audio, 1920 x 1080 MP4) and the "watch again" timestamps are written out. No screen recording, no editing, no timestamp log by hand.
+  3. **One review page per lesson:** slides, Mongolian script and quiz Mongolian side by side, so Batu only marks what is wrong.
+  4. **Stay about 10 lessons ahead:** Claude drafts, builds slides and below-video content in batches without waiting, so Batu only reviews and records.
+  5. **Templates per lesson type** (vocabulary, pronunciation, reading, writing, speaking), not only grammar. Vocabulary and pronunciation lessons can be 4 to 5 minutes.
+  6. One bulk upload to the developer each week.
+- **Optional AI voice:** Microsoft Azure has Mongolian neural voices (mn-MN-BataaNeural, male; mn-MN-YesuiNeural, female). Recommendation: Batu's own voice for teaching, AI voices only where a second speaker is needed (dialogues, listening). Offer a test lesson before he decides.
+
+**Batu's daily rhythm (proposed):** 45 minutes checking 3 lessons, 40 minutes recording 3 lessons in one sitting, 25 minutes checking their quiz Mongolian.
+
+---
+
+## 11. Words you will see
 
 **ЭЕШ** national university entrance exam · **HIPPO, SOF IEO, USA English Olympiad** English olympiads HML prepares students for · **Дүрэм** grammar · **Жишээ** examples · **Анхаар!** Watch out! · **Санаж ав** Remember · **Загвар эх** model text · **Буруу / Зөв** wrong / right · **Тэмдэглэл, Дасгал, Шалгалт** notes, practice, check · **Curated by Battumur.D** the credit on everything Batu publishes.
