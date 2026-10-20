@@ -1,9 +1,9 @@
 // Voiceover recorder. runtime.js loads it when "npm run record <CODE>" opens the deck (?record=1).
-// R  record this click, R again to stop and save
-// →  next click; while recording it saves this click and keeps recording the next one
-// ←  back; while recording it saves this click and stops
-// D  redo this click: throws away what you just said and starts it again
-// P  play this click's saved take     X (or Esc)  stop without saving     H  show / hide the keys
+// R  record this slide, R again to stop and save
+// →  next slide; while recording it saves this slide and keeps recording the next one
+// ←  back; while recording it saves this slide and stops
+// D  redo this slide: throws away what you just said and starts it again
+// P  play this slide's saved take     X (or Esc)  stop without saving     H  show / hide the keys
 // The local server (engine/record.js) saves each take as recordings/<CODE>/sNN_MM.wav (slide NN, click MM).
 // Nothing here is ever on a slide: "npm run video" takes its own clean pictures.
 (function () {
@@ -11,7 +11,7 @@
   const CODE = location.pathname.split('/').filter(Boolean).slice(-2)[0];
   const TOTAL = Array.from({ length: H.count() }, (_, i) => H.steps(i) + 1).reduce((a, b) => a + b, 0);
   const id = ([i, s]) => `s${String(i + 1).padStart(2, '0')}_${String(s).padStart(2, '0')}`;
-  const label = (name) => { const m = name.match(/^s(\d+)_(\d+)$/); return `slide ${+m[1]} click ${+m[2]}`; };
+  const label = (name) => { const m = name.match(/^s(\d+)_(\d+)$/); return `slide ${+m[1]}${+m[2] ? ` click ${+m[2]}` : ''}`; };
   const fmt = (sec) => `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`;
   const takes = new Set();
   let ctx = null, mic = false, micError = '';
@@ -50,9 +50,9 @@ body.rec-on #rec-bar .dot{background:#fff;animation:rec-pulse 1s infinite}
   bar.innerHTML = '<span class="dot"></span><span class="state"></span><span class="where"></span><span class="have"></span>' +
     '<span class="meter"><i></i></span><span class="count dim"></span><span class="msg"></span>';
   const help = Object.assign(document.createElement('div'), { id: 'rec-help' });
-  const keys = [['R', 'record this click. R again stops and saves it.'],
-    ['→', 'next click. While recording it saves this click and keeps recording the next one.'],
-    ['←', 'back'], ['D', 'redo this click: throws away what you just said and starts again'], ['P', 'play this click'],
+  const keys = [['R', 'record this slide. R again stops and saves it.'],
+    ['→', 'next slide. While recording it saves this slide and keeps recording the next one.'],
+    ['←', 'back'], ['D', 'redo this slide: throws away what you just said and starts again'], ['P', 'play this slide'],
     ['X', 'stop without saving'], ['N', 'notes window with what to say'], ['F', 'full screen'], ['H', 'show or hide this help']];
   help.innerHTML = `<h2>Recording ${CODE}</h2>${keys.map(([k, t]) => `<div class="k"><b>${k}</b><span>${t}</span></div>`).join('')}
 <div class="dim">A red frame means it is recording. Only the slide goes into the video, never this bar or this box.</div>`;
@@ -78,11 +78,11 @@ body.rec-on #rec-bar .dot{background:#fff;animation:rec-pulse 1s infinite}
   function paint() {
     const [i, s] = H.pos(), name = id([i, s]);
     document.body.classList.toggle('rec-on', recording);
-    $('.where').textContent = `Slide ${i + 1}/${H.count()} · click ${s}/${H.steps(i)}`;
+    $('.where').textContent = `Slide ${i + 1}/${H.count()}${H.steps(i) ? ` · click ${s}/${H.steps(i)}` : ''}`;
     $('.have').innerHTML = takes.has(name) ? '<span class="ok">✓ recorded</span>' : '<span class="dim">not recorded</span>';
     let done = 0;
     for (let a = 0; a < H.count(); a++) for (let b = 0; b <= H.steps(a); b++) if (takes.has(id([a, b]))) done++;
-    $('.count').textContent = `${done} of ${TOTAL} clicks done`;
+    $('.count').textContent = `${done} of ${TOTAL} done`;
     tick();
     H.refreshNotes();
   }
@@ -162,14 +162,14 @@ body.rec-on #rec-bar .dot{background:#fff;animation:rec-pulse 1s infinite}
   function redo() {
     if (!recording) { start(); return; }
     chunks = []; clipped = 0; t0 = performance.now();
-    say('Again: start this click from the beginning');
+    say('Again: start this slide from the beginning');
     paint();
   }
   function nextWhileRecording() {
     const before = H.pos().join();
     take();
     H.next();
-    if (H.pos().join() === before) { say('That was the last click'); paint(); return; }
+    if (H.pos().join() === before) { say('That was the last slide'); paint(); return; }
     start();
   }
 
@@ -207,7 +207,7 @@ body.rec-on #rec-bar .dot{background:#fff;animation:rec-pulse 1s infinite}
   function play() {
     if (recording) return;
     const name = id(H.pos());
-    if (!takes.has(name)) { say('Nothing recorded for this click yet'); return; }
+    if (!takes.has(name)) { say('Nothing recorded for this slide yet'); return; }
     if (audio) audio.pause();
     audio = new Audio(`/recordings/${CODE}/${name}.wav?${Date.now()}`);
     audio.play();

@@ -652,9 +652,15 @@
           "mn": "Угтвар үг нэр үгийн өмнө ордог: in the box"
         }
       ],
-      "say": "Line one: the seven place words. In, on, under, next to, between, behind, in front of. Next to is two words, in front of is three, and between needs two things. [click] Line two: in means inside a space with sides around it. On means touching a surface, and that includes a wall. [click] Line three: in English the preposition comes before the noun, the opposite of Mongolian, and it needs the: in the box. Close: Now you can say exactly where anything is, in a room, a house or a street. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "If the bedroom drawing from slide 9 can sit faintly behind this dark slide, it gives the last ten seconds a visual anchor. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: the seven place words. In, on, under, next to, between, behind, in front of. Next to is two words, in front of is three, and between needs two things. [click] Line two: in means inside a space with sides around it. On means touching a surface, and that includes a wall. [click] Line three: in English the preposition comes before the noun, the opposite of Mongolian, and it needs the: in the box. Close: Now you can say exactly where anything is, in a room, a house or a street.",
+      "teach": "If the bedroom drawing from slide 9 can sit faintly behind this dark slide, it gives the last ten seconds a visual anchor.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

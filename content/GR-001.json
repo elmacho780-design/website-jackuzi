@@ -649,9 +649,15 @@
           "mn": "Тооны дараа олон тоо: three books"
         }
       ],
-      "say": "Line one: the spelling rules. Most nouns add s. Hissing sounds add es, and you can hear the extra syllable. A consonant before y makes ies. [click] Line two: the irregular words have no rule, so learn them as pairs. Man, men. Child, children. Person, people. And women sounds like wi-min. [click] Line three, the one that matters most for a Mongolian speaker: after any number bigger than one, the noun must change. Three books, never three book. Close: Now you can count and talk about more than one of anything, and say the ending so that people actually hear it. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "On line three, lengthen the final s of books slightly so it is unmistakable. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: the spelling rules. Most nouns add s. Hissing sounds add es, and you can hear the extra syllable. A consonant before y makes ies. [click] Line two: the irregular words have no rule, so learn them as pairs. Man, men. Child, children. Person, people. And women sounds like wi-min. [click] Line three, the one that matters most for a Mongolian speaker: after any number bigger than one, the noun must change. Three books, never three book. Close: Now you can count and talk about more than one of anything, and say the ending so that people actually hear it.",
+      "teach": "On line three, lengthen the final s of books slightly so it is unmistakable.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

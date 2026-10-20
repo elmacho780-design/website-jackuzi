@@ -474,9 +474,15 @@
           "mn": "I үргэлж том үсгээр. Өгүүлбэр бүрт өгүүлэгдэхүүн хэрэгтэй."
         }
       ],
-      "say": "Line one: the seven pronouns in their three groups. The speaker, the listener, and everyone else; one or many. [click] Line two, the one to take away: тэр is three words in English. Before you speak, ask yourself: man, woman or thing? [click] Line three: I is always a capital letter, and every English sentence needs a subject, even It is cold. Close: Now you can talk about anyone in your family without repeating their name, and without ever mixing up he and she. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
+      "say": "Line one: the seven pronouns in their three groups. The speaker, the listener, and everyone else; one or many. [click] Line two, the one to take away: тэр is three words in English. Before you speak, ask yourself: man, woman or thing? [click] Line three: I is always a capital letter, and every English sentence needs a subject, even It is cold. Close: Now you can talk about anyone in your family without repeating their name, and without ever mixing up he and she.",
       "teach": "Read each line exactly as it appears, then add its one-sentence reason. Line two gets the most weight; say it slowest. After the closing sentence, stay silent and hold the slide for three seconds so students can screenshot it.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

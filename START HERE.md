@@ -8,30 +8,30 @@ for anything cut off, overlapping or mistyped. The Mongolian is copied exactly f
 Ask Claude Code "start the recorder for GR-003", or type `npm run record GR-003` in a terminal in this folder.
 The lesson opens in Chrome (allow the microphone the first time). Press `N` for the notes window, `F` for full screen.
 
-`R` record this click, `R` again to stop · `→` next click (while recording it saves this click and keeps
-recording the next one, so you can talk through a slide and just press `→` as you go) · `←` back ·
-`D` redo this click · `P` play it back · `X` stop without saving. A red frame means it is recording.
-Each click is saved on its own in `recordings/GR-003/`, so a mistake costs one click, not the whole video.
+`R` record this slide, `R` again to stop · `→` next slide (while recording it saves this slide and keeps
+recording the next one, so you can talk through the lesson and just press `→` as you go) · `←` back ·
+`D` redo this slide · `P` play it back · `X` stop without saving. A red frame means it is recording.
+Each slide is saved on its own in `recordings/GR-003/`, so a mistake costs one slide, not the whole video.
 
 Then `npm run video GR-003` (or ask Claude Code to make the video). It makes
-`export/GR-003 Personal pronouns/GR-003.mp4` (1920 x 1080, each click's slide held for exactly its audio, the
+`export/GR-003 Personal pronouns/GR-003.mp4` (1920 x 1080, each slide held for exactly its audio, the
 last slide held 3 seconds) and `GR-003 timestamps.txt` for the website, so there is no timestamp log to write.
-If a click has no recording yet, it tells you which ones.
+If a slide has no recording yet, it tells you which ones.
 
 ## Or record the screen yourself
 
 **Option A: PowerPoint**
 Open `export/<lesson>/<lesson>.pptx` (or the PowerPoint zip you were sent).
-Every click is already its own slide, so just press the arrow key. The speaker notes under each slide
-show the voiceover guide for that slide (`[click]` marks roughly where the guide expects a click).
+One PowerPoint slide per slide, with everything already showing, so just press the arrow key. The speaker
+notes under each slide show the voiceover guide for that slide. The last slide sends students to the exercises.
 Record with PowerPoint (Record > From current slide) or any screen recorder.
 The slides are pictures: to change a word, use Claude Code (below), not PowerPoint.
 
 **Option B: the browser**
 Open `build/GR-003/index.html` in Chrome.
-`F` full screen · `→` or `Space` next click · `←` back · `N` opens the voiceover notes in a second window
+`F` full screen · `→` or `Space` next slide · `←` back · `N` opens the voiceover notes in a second window
 (drag it to your other screen) · the mouse hides itself after a second.
-Record the screen with OBS, Loom or QuickTime. Slides fade in exactly as designed.
+Record the screen with OBS, Loom or QuickTime.
 
 **Video settings:** 1920 x 1080, 16:9. The PDF in each lesson folder is for checking and sharing, not recording.
 
@@ -55,7 +55,7 @@ where we left off. Shortcuts: `/check-lesson`, `/draft-lesson`, `/build-lesson`,
 | `engine/` | The design and the tools that build, check and export |
 | `assets/` | Logo, fonts (Rubik, has ө and ү), 390+ 3D icons |
 | `build/` | The live decks (`index.html`) and screenshots |
-| `recordings/` | Your voiceover, one file per click, made by the recorder (not shared through git) |
+| `recordings/` | Your voiceover, one file per slide, made by the recorder (not shared through git) |
 | `export/` | PowerPoint, PDF and PNG files, made by `npm run export` |
 | `reference/` | Lesson library, content architecture, below-video content and its rules, the teaching guide, your original files |
 

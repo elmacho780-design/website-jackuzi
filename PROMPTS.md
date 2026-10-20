@@ -52,7 +52,7 @@ lesson, for example after you change words in its content file. Each one runs th
 ```
 Lesson 1: GR-003 Personal pronouns. Work only on content/GR-003.json.
 1. Run "npm run check GR-003" and fix everything marked FIX.
-2. Run "npm run shots GR-003" and look at all 10 screenshots, one by one, against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-003" and look at every screenshot, one by one, against the visual checklist in CLAUDE.md.
 3. Also check: on the Examples slide each arrow starts at the orange pronoun and points back to the
    dotted word it replaces (He to Bat, She to Saraa, It to my phone, We to Bat and I);
    on "One тэр" the three arrows leave тэр and reach he, she and it; on "One you" all three Mongolian words meet at "you".
@@ -64,7 +64,7 @@ Lesson 1: GR-003 Personal pronouns. Work only on content/GR-003.json.
 ```
 Lesson 2: GR-004 to be: positive. Work only on content/GR-004.json.
 1. Run "npm run check GR-004" and fix everything marked FIX.
-2. Run "npm run shots GR-004" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-004" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: am, is, are are the only orange words in the self-introduction; the three rule rows line up
    (subject chips end at the arrows); the seven short forms all fit with both explanations visible;
    on Watch out the red caret sits exactly where the missing word belongs.
@@ -76,7 +76,7 @@ Lesson 2: GR-004 to be: positive. Work only on content/GR-004.json.
 ```
 Lesson 3: GR-005 to be: negative and questions. Work only on content/GR-005.json.
 1. Run "npm run check GR-005" and fix everything marked FIX.
-2. Run "npm run shots GR-005" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-005" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: both dialogues read down the left column first, Saraa and A always on the left side;
    on "Making a question" the two arrows cross between "You are" and "Are you" without touching the Mongolian line;
    the voice arrows point up after yes/no questions and down after question-word questions;
@@ -89,7 +89,7 @@ Lesson 3: GR-005 to be: negative and questions. Work only on content/GR-005.json
 ```
 Lesson 4: GR-001 Nouns: singular and plural. Work only on content/GR-001.json.
 1. Run "npm run check GR-001" and fix everything marked FIX.
-2. Run "npm run shots GR-001" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-001" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: on "One and many" the number of pictures matches the words (two books = 2, three boxes = 3,
    four children = 4); only the ending is orange (book-s, box-es, bab-ies); the /ɪz/ symbol shows correctly;
    the five word cards on Rule 1 and Rule 2 are the same size.
@@ -101,7 +101,7 @@ Lesson 4: GR-001 Nouns: singular and plural. Work only on content/GR-001.json.
 ```
 Lesson 5: GR-002 a and an (11 slides). Work only on content/GR-002.json.
 1. Run "npm run check GR-002" and fix everything marked FIX.
-2. Run "npm run shots GR-002" and look at all 11 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-002" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: the first row of example cards are all "a", the second row all "an";
    the first letters u and h sit in small circles on "Sound, not letter"; the an‿apple link arc sits between
    n and a; on "How a sounds" the stressed part is orange and in capitals.
@@ -113,10 +113,9 @@ Lesson 5: GR-002 a and an (11 slides). Work only on content/GR-002.json.
 ```
 Lesson 6: GR-006 this, that, these, those. Work only on content/GR-006.json.
 1. Run "npm run check GR-006" and fix everything marked FIX.
-2. Run "npm run shots GR-006" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
-3. Also check the clicks, not just the final slide: run "npm run export GR-006" and look at
-   export/GR-006*/steps/s02_*.png. On each click of "Near and far" only the object being named has the
-   orange ring (bag, house, shoes, friends). The grid fills in the order this, these, that, those.
+2. Run "npm run shots GR-006" and look at every screenshot against the visual checklist in CLAUDE.md.
+3. Also check: on "Near and far" the bag and shoes sit next to the boy and the house and friends are far away;
+   the grid reads this, these (near) and that, those (far).
 4. Fix anything that fails. Do not change any Mongolian text.
 5. Export again if you changed anything and tell me what you changed in a short list.
 ```
@@ -125,7 +124,7 @@ Lesson 6: GR-006 this, that, these, those. Work only on content/GR-006.json.
 ```
 Lesson 7: GR-008 Possessive adjectives. Work only on content/GR-008.json.
 1. Run "npm run check GR-008" and fix everything marked FIX.
-2. Run "npm run shots GR-008" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-008" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: every owner picture shows the owner, then an arrow, then the thing (Bat to bag, Saraa to phone,
    the dog to its bowl); the seven owner words sit in three groups that all fit inside the margins;
    its / it's and their / they're / there line up with their glosses underneath.
@@ -137,10 +136,10 @@ Lesson 7: GR-008 Possessive adjectives. Work only on content/GR-008.json.
 ```
 Lesson 8: GR-007 have got. Work only on content/GR-007.json.
 1. Run "npm run check GR-007" and fix everything marked FIX.
-2. Run "npm run shots GR-007" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-007" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: in every sentence only 's got / 've got / has / have / haven't got is orange;
-   on "Describing someone" Nomin is in the middle with her two brothers, the bike and the crossed-out car around her,
-   and the rings follow the clicks; short answers never contain "got".
+   on "Describing someone" Nomin is in the middle with her two brothers, the bike and the crossed-out car around her;
+   short answers never contain "got".
 4. Fix anything that fails. Do not change any Mongolian text.
 5. Run "npm run export GR-007" and tell me what you changed in a short list.
 ```
@@ -149,9 +148,8 @@ Lesson 8: GR-007 have got. Work only on content/GR-007.json.
 ```
 Lesson 9: GR-015 there is and there are. Work only on content/GR-015.json.
 1. Run "npm run check GR-015" and fix everything marked FIX.
-2. Run "npm run shots GR-015" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
-3. Also check: the bedroom picture shows a bed, a desk, two windows, two chairs and books, and the ring follows
-   each line; on "Word order" the arrow goes from "Миний өрөөнд" to "in my room."; the voice arrows go up for
+2. Run "npm run shots GR-015" and look at every screenshot against the visual checklist in CLAUDE.md.
+3. Also check: the bedroom picture shows a bed, a desk, two windows, two chairs and books; on "Word order" the arrow goes from "Миний өрөөнд" to "in my room."; the voice arrows go up for
    yes/no questions and down for How many.
 4. Fix anything that fails. Do not change any Mongolian text.
 5. Run "npm run export GR-015" and tell me what you changed in a short list.
@@ -161,7 +159,7 @@ Lesson 9: GR-015 there is and there are. Work only on content/GR-015.json.
 ```
 Lesson 10: GR-016 Prepositions of place. Work only on content/GR-016.json.
 1. Run "npm run check GR-016" and fix everything marked FIX.
-2. Run "npm run shots GR-016" and look at all 10 screenshots against the visual checklist in CLAUDE.md.
+2. Run "npm run shots GR-016" and look at every screenshot against the visual checklist in CLAUDE.md.
 3. Also check: the box and the ball look the same in every diagram, and every diagram shows exactly its word
    (behind: only the top of the ball shows; near: a clear gap; next to: touching; between: two boxes);
    on "Word order" the arrows go from дотор to in and from дээр to on; the bedroom icons appear with their lines.

@@ -1,11 +1,14 @@
 // Presenter runtime: scales the 1920x1080 stage, steps through clicks, draws arrows.
 // Keys: Right / Space / click = next   Left = back   F = fullscreen   N = presenter notes window   Home / End
+// Whole slides: every slide shows everything at once (Battumur's choice, 20 October 2026).
+// ?builds=1 in the address brings back the old click-by-click reveal, for the browser only.
 // Opened by "npm run record" (?record=1) it also loads the voiceover recorder (engine/recorder.js).
 (function () {
   const stage = document.getElementById('stage');
   const slides = [...document.querySelectorAll('.slide')];
   const EXPORT = /[?&]export=1/.test(location.search);
   const RECORD = /[?&]record=1/.test(location.search);
+  const BUILDS = /[?&]builds=1/.test(location.search);
   if (EXPORT) document.body.classList.add('export');
   let si = 0, st = 0, scale = 1;
 
@@ -14,14 +17,15 @@
     stage.style.transform = `translate(-50%,-50%) scale(${scale})`;
     stage.style.transformOrigin = '50% 50%';
   }
-  const maxStep = (s) => Math.max(0, ...[...s.querySelectorAll('[data-step]')].map((e) => +e.dataset.step));
+  const maxStep = (s) => (BUILDS ? Math.max(0, ...[...s.querySelectorAll('[data-step]')].map((e) => +e.dataset.step)) : 0);
 
   function render() {
     // every slide gets a state: slides before the current one show everything,
     // slides after it show nothing yet, so nothing flickers when you move between them
     slides.forEach((sl, i) => {
       sl.classList.toggle('active', i === si);
-      const k = i === si ? st : (i < si ? 1e9 : 0);
+      // whole slides: everything shown, and the click-following rings stay hidden
+      const k = !BUILDS ? 1e9 : i === si ? st : (i < si ? 1e9 : 0);
       sl.querySelectorAll('[data-step]').forEach((e) => e.classList.toggle('pending', +e.dataset.step > k));
       sl.querySelectorAll('[data-only]').forEach((e) => e.classList.toggle('pending', +e.dataset.only !== k));
     });
@@ -51,7 +55,7 @@
     const extra = window.HML && window.HML.notesExtra ? window.HML.notesExtra() : '';
     notesWin.document.body.innerHTML = extra +
       `<div style="font-size:16px;letter-spacing:.06em;text-transform:uppercase;color:#9CA3AF">Slide ${si + 1} of ${slides.length} · click ${st} of ${max}${s.dataset.time ? ' · ' + s.dataset.time : ''}</div>` +
-      parts.map((p, i) => `<p style="margin:18px 0;${lit < 0 ? '' : i === lit ? 'color:#fff;background:#1F2A44;padding:10px 14px;border-radius:10px' : 'opacity:.45'}">${i ? '<span style="color:#F59E0B;font-weight:700">[click]</span> ' : ''}${esc(p.trim())}</p>`).join('');
+      parts.map((p, i) => `<p style="margin:18px 0;${lit < 0 ? '' : i === lit ? 'color:#fff;background:#1F2A44;padding:10px 14px;border-radius:10px' : 'opacity:.45'}">${i && BUILDS ? '<span style="color:#F59E0B;font-weight:700">[click]</span> ' : ''}${esc(p.trim())}</p>`).join('');
   }
   function next() { if (st < maxStep(slides[si])) st++; else if (si < slides.length - 1) { si++; st = 0; } render(); }
   function prev() { if (st > 0) st--; else if (si > 0) { si--; st = maxStep(slides[si]); } render(); }

@@ -2,7 +2,7 @@
 // Export one lesson (or all) for recording and sharing.
 // Usage: node engine/export.js GR-003      node engine/export.js all
 // Makes, in export/<CODE> <Title>/ :
-//   <CODE> <Title>.pptx   one PowerPoint slide per click (open, press Present, record)
+//   <CODE> <Title>.pptx   one PowerPoint slide per slide, everything visible, voiceover guide in the notes
 //   <CODE> <Title>.pdf    one page per slide, everything visible (for checking and sharing)
 //   slides/               PNG of every slide (final state), 1920x1080
 //   steps/                PNG of every click, in order (for video editors)
@@ -48,7 +48,7 @@ async function exportLesson(page, code) {
       const sl = pptx.addSlide();
       sl.addImage({ data: 'data:image/png;base64,' + png.toString('base64'), x: 0, y: 0, w: '100%', h: '100%' });
       const meta = lesson.slides[i];
-      const sayText = (meta.say || '').split('[click]').map((x) => x.trim()).join('\n\n[click]  ');
+      const sayText = (meta.say || '').split('[click]').map((x) => x.trim()).filter(Boolean).join('\n\n');
       sl.addNotes(`Slide ${i + 1}${max ? `, click ${s} of ${max}` : ''}${meta.time ? ` · ${meta.time}` : ''}\n\nSAY (in Mongolian, in your own words; English examples in English):\n${sayText}${meta.teach ? `\n\nTEACHING NOTE: ${meta.teach}` : ''}`);
       stepCount++;
       if (s === max) {

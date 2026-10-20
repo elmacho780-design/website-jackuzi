@@ -385,4 +385,14 @@ L.summary = (s) => {
   };
 };
 
+// ---------- Last slide of every lesson: go and do the exercises under the video ----------
+// The Mongolian is Battumur's closing line from the teaching guide, copied exactly.
+const CLOSING = { en: 'Now try the exercises below this video.', mn: 'Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.' };
+L.closing = (s) => ({
+  cls: 'dark s-closing',
+  html: `<div class="glow"></div>
+    <div class="cbox">${pic(s.icon || 'memo', 230)}<div class="en">${md(s.en || CLOSING.en)}</div><div class="mn">${md(s.mn || CLOSING.mn)}</div></div>
+    <svg class="down" viewBox="0 0 90 90"><path d="M45 8v64M17 46l28 28 28-28" fill="none" stroke="#FFB35C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+});
+
 module.exports = L;

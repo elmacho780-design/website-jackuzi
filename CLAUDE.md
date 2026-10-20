@@ -29,8 +29,8 @@ content/        one JSON file per lesson (GR-003.json ...). Edit these to change
 engine/         the slide engine: layouts.js, style.css, layouts.css, runtime.js, check.js ...
 assets/         logo.png, logo-light.png, fonts/ (Rubik + Noto Sans IPA), icons/ (Fluent 3D, MIT)
 build/<CODE>/   index.html = the live deck. shots/ = one PNG per slide. sheet.png = all slides.
-recordings/<CODE>/   the voiceover, one WAV per click (s03_02.wav = slide 3, click 2). Not in git.
-export/<CODE> <Title>/   .pptx (one slide per click, speaker notes = what to say), .pdf, PNGs,
+recordings/<CODE>/   the voiceover, one WAV per slide (s03_00.wav = slide 3). Not in git.
+export/<CODE> <Title>/   .pptx (one slide per slide, everything visible, speaker notes = what to say), .pdf, PNGs,
                 <CODE>.mp4 and <CODE> timestamps.txt/.json (made by npm run video)
 reference/      HML_Lesson_Library.xlsx (all 690 lessons, codes, strands, programme routes),
                 HML_Content_Architecture.md (how lessons and programmes fit together),
@@ -49,13 +49,13 @@ npm run shots GR-003       PNG of every slide in build/GR-003/shots/ + build/GR-
 npm run export GR-003      PowerPoint + PDF + PNGs into export/
 npm run check all          every lesson (same for shots/export)
 npm run icons              build/icons.png: every icon you can use, with its name
-npm run record GR-003      record the voiceover inside the deck, one take per click (keeps running: start it in the background)
-npm run video GR-003       MP4 from the takes + timestamp log into export/ (lists any click not recorded yet)
+npm run record GR-003      record the voiceover inside the deck, one take per slide (keeps running: start it in the background)
+npm run video GR-003       MP4 from the takes + timestamp log into export/ (lists any slide not recorded yet)
 ```
 
 The recorder (engine/record.js server, engine/recorder.js in the deck) and the video maker (engine/video.js)
-never put anything on the slides. A take that no longer matches the deck's clicks (because a slide's clicks
-changed) is reported by `npm run video`; that slide must be recorded again.
+never put anything on the slides. A take that no longer matches the deck (a slide was added or removed) is reported by `npm run video`;
+those slides must be recorded again.
 
 ## How to do any job (always this loop)
 
@@ -100,7 +100,8 @@ Change it there and every lesson changes with it. Never style a single slide inl
 - **Pictures:** Fluent 3D icons only (assets/icons). People use the "Light" skin variant
   (black hair) so they look like Mongolian students. Prepositions use the box-and-ball diagrams.
 - **Never:** em dashes, emoji typed as text, photos, a second font, gradients outside the
-  title/summary slides, anything about quizzes, practice, courses, exams, "last lesson" or "next lesson".
+  title/summary/closing slides, anything about quizzes, practice, courses, exams, "last lesson" or "next lesson"
+  (the one exception is the fixed closing slide that sends students to the exercises below the video).
 
 ## Content file format
 
@@ -112,7 +113,7 @@ Change it there and every lesson changes with it. Never style a single slide inl
 }
 ```
 
-Every slide may also have `"say"` (the voiceover guide, shown in speaker notes, `[click]` marks each click),
+Every slide may also have `"say"` (the voiceover guide, shown in speaker notes; old `[click]` marks just start a new paragraph),
 `"teach"` (teaching note) and `"time"`. These never appear on the slide.
 `"mn_review"` at the top says where the Mongolian stands: `"teaching-guide"` (lessons 1 to 10), `"approved"`
 (Battumur approved a new lesson) or `"draft"` (written by you, not yet checked; the checker warns).
@@ -132,11 +133,12 @@ Every slide may also have `"say"` (the voiceover guide, shown in speaker notes, 
 | `[ipa:ə]` | IPA symbol |
 | `\n` | new line inside one sentence block |
 
-### Clicks (what appears when)
+### Whole slides (no click-by-click reveal)
 
-Each layout reveals things in the order teachers expect (one card per click, explanation last).
-Override on any item: `"step": 3` (that click), `"step": 0` (visible from the start), `"with": "prev"`
-(appears with the item before it).
+Battumur decided on 20 October 2026: every slide shows everything at once. No slide is split into
+several PowerPoint slides that add one thing at a time, and the click-following rings stay hidden.
+The `"step"` / `"with"` fields in the content files are kept but ignored; `?builds=1` added to a deck's
+address brings the old reveal back in the browser only, for comparison. Do not turn it back on for exports.
 
 ### Pictures (`"icon"` fields)
 
@@ -163,7 +165,8 @@ save it as `assets/icons/<kebab-name>.png`.
 | `stack` | anything else, built from blocks | `blocks` (below), `wires`, `flow` |
 | `watchout` | the Mongolian speaker's mistake | `context`, `mistakes`: [{wrong, right:{en,mn}}] |
 | `model` | model text | `lines`, `cols` 1/2, `split`, `scene` or `icon` or `band`, `size` |
-| `summary` | last slide (Remember / Санаж ав) | `cards`: 3 x {en, mn} |
+| `summary` | Remember / Санаж ав | `cards`: 3 x {en, mn} |
+| `closing` | the very last slide of every lesson: "Now try the exercises below this video" with Battumur's Mongolian closing line (fixed text in layouts.js) | `say`, `time` only |
 
 **Stack blocks:** `{ "row": [tokens], "mn": "...", "label": {...}, "center": true, "size": "lg" }`,
 `{ "table": { "head": [...], "rows": [[cells]], "cols": "css grid columns", "perRow": true, "tones": [...], "cls": "..." } }`,

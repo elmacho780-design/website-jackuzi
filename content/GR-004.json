@@ -538,9 +538,15 @@
           "mn": "Англи өгүүлбэрт үйл үг заавал байна."
         }
       ],
-      "say": "Line one: the three forms. I am. He, she, it is. You, we, they are. [click] Line two: for any name or noun, swap it for a pronoun in your head, then choose. One thing, is. More than one, are. [click] Line three, the most important one for us. In Mongolian, Би сурагч has no verb. In English every sentence needs one: I am a student. Close: Now you can introduce yourself and describe anyone: their name, their job, what they are like, where they are from and how old they are. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "Say line three slowly and in both languages, because it is the habit that takes longest to break. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: the three forms. I am. He, she, it is. You, we, they are. [click] Line two: for any name or noun, swap it for a pronoun in your head, then choose. One thing, is. More than one, are. [click] Line three, the most important one for us. In Mongolian, Би сурагч has no verb. In English every sentence needs one: I am a student. Close: Now you can introduce yourself and describe anyone: their name, their job, what they are like, where they are from and how old they are.",
+      "teach": "Say line three slowly and in both languages, because it is the habit that takes longest to break.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

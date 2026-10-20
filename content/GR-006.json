@@ -577,9 +577,15 @@
           "mn": "Хариултад it эсвэл they хэрэглэнэ."
         }
       ],
-      "say": "Line one: two questions decide the word. Near or far? One or many? This and these are near. That and those are far. [click] Line two: everything agrees. These books are: the pointing word, the noun and the verb are all plural together. [click] Line three: when someone asks What is this?, answer with it or they: It's a pen. And keep this and these sounding different: a short i with s, a long ee with z. Close: Now you can point to anything around you, in a room or in a shop, introduce a friend, and answer the phone in English. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "Say this, these back to back once more on line three; it is worth the extra two seconds. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: two questions decide the word. Near or far? One or many? This and these are near. That and those are far. [click] Line two: everything agrees. These books are: the pointing word, the noun and the verb are all plural together. [click] Line three: when someone asks What is this?, answer with it or they: It's a pen. And keep this and these sounding different: a short i with s, a long ee with z. Close: Now you can point to anything around you, in a room or in a shop, introduce a friend, and answer the phone in English.",
+      "teach": "Say this, these back to back once more on line three; it is worth the extra two seconds.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

@@ -645,9 +645,15 @@
           "mn": "its = түүний · it's = it is"
         }
       ],
-      "say": "Line one: the seven owner words, one for each person. My, your, his, her, its, our, their. They come right before a noun, and never after the. [click] Line two, the one a Mongolian speaker needs most: the owner decides. Start from the owner, every time. Bat is a boy, so his mother. [click] Line three: its with no apostrophe means түүний. It's means it is. If you can say it is, write the apostrophe. Close: Now you can say who everything belongs to, and write its and it's more correctly than many native speakers do. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "Line two deserves the slowest delivery of the three. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: the seven owner words, one for each person. My, your, his, her, its, our, their. They come right before a noun, and never after the. [click] Line two, the one a Mongolian speaker needs most: the owner decides. Start from the owner, every time. Bat is a boy, so his mother. [click] Line three: its with no apostrophe means түүний. It's means it is. If you can say it is, write the apostrophe. Close: Now you can say who everything belongs to, and write its and it's more correctly than many native speakers do.",
+      "teach": "Line two deserves the slowest delivery of the three.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

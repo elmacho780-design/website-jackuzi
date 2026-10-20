@@ -44,6 +44,7 @@ function slideTitle(s, lesson) {
   if (s.title) return s.title;
   if (s.layout === 'title') return lesson.title;
   if (s.layout === 'summary') return { en: 'Remember', mn: 'Санаж ав' };
+  if (s.layout === 'closing') return { en: 'Now try the exercises', mn: '' };
   return { en: s.layout, mn: '' };
 }
 
@@ -68,7 +69,7 @@ async function makeVideo(page, code) {
   if (missing.length) {
     const bySlide = {};
     for (const t of missing) (bySlide[+t.slice(1, 3)] ||= []).push(+t.slice(4));
-    console.error(`${code}: not recorded yet: ${Object.entries(bySlide).map(([sl, cl]) => `slide ${sl} click ${cl.join(', ')}`).join(' · ')}`);
+    console.error(`${code}: not recorded yet: ${Object.entries(bySlide).map(([sl, cl]) => (steps[sl - 1] ? `slide ${sl} click ${cl.join(', ')}` : `slide ${sl}`)).join(', ')}`);
     console.error(`Record them with: npm run record ${code}`);
     return false;
   }
@@ -128,7 +129,7 @@ async function makeVideo(page, code) {
     });
     fs.writeFileSync(path.join(outDir, `${code} timestamps.txt`), rows.map((r) => `[${r.start}] Slide ${r.slide} · ${r.title_en}`).join('\n') + '\n');
     fs.writeFileSync(path.join(outDir, `${code} timestamps.json`), JSON.stringify({ code, title: lesson.title, video: `${code}.mp4`, duration_sec: +total.toFixed(2), slides: rows }, null, 2) + '\n');
-    console.log(`video ${code}: ${mmss(total)} long, ${n} slides, ${want.length} clicks -> export/${name}/${code}.mp4 (+ timestamps)`);
+    console.log(`video ${code}: ${mmss(total)} long, ${n} slides${want.length > n ? `, ${want.length} clicks` : ''} -> export/${name}/${code}.mp4 (+ timestamps)`);
     if (total > 7 * 60) console.log(`  note: longer than 7 minutes; the teaching guide says to shorten the hook.`);
     return true;
   } finally {

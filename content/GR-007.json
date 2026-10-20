@@ -498,9 +498,15 @@
           "mn": "Богино хариултад got байхгүй."
         }
       ],
-      "say": "Line one: he, she, it take has got. Everyone else takes have got. The same split as is and are. [click] Line two: 's got means has got, never is got. Look at the next word. [click] Line three: in short answers, got disappears. Yes, I have. No, I haven't. And have got is only for owning, never for actions like breakfast. Close: Now you can describe your family, the things you own and what people look like, and tell someone when you are not well. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "The closing sentence deliberately lists all four jobs of have got, which quietly reviews slide 3. Hold the slide silently for three seconds after it.",
+      "say": "Line one: he, she, it take has got. Everyone else takes have got. The same split as is and are. [click] Line two: 's got means has got, never is got. Look at the next word. [click] Line three: in short answers, got disappears. Yes, I have. No, I haven't. And have got is only for owning, never for actions like breakfast. Close: Now you can describe your family, the things you own and what people look like, and tell someone when you are not well.",
+      "teach": "The closing sentence deliberately lists all four jobs of have got, which quietly reviews slide 3.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

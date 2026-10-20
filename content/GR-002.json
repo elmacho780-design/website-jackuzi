@@ -641,9 +641,15 @@
           "mn": "Ажил мэргэжилд a, an заавал хэрэгтэй."
         }
       ],
-      "say": "Line one: a before a consonant sound, an before a vowel sound. [click] Line two: the sound decides, not the letter. An hour, because the h is silent. A university, because it starts with a you sound. And only the very next word counts: an apple, but a red apple. [click] Line three: jobs always need a or an. In Mongolian, Тэр жолооч. In English, He is a driver. And in speech, a is a quick, soft uh. Close: Now you can talk about your family's jobs and describe single things without dropping the small word a Mongolian ear doesn't hear. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "Say every a on this slide as a weak uh, so the final thing students hear models the pronunciation as well as the rule. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: a before a consonant sound, an before a vowel sound. [click] Line two: the sound decides, not the letter. An hour, because the h is silent. A university, because it starts with a you sound. And only the very next word counts: an apple, but a red apple. [click] Line three: jobs always need a or an. In Mongolian, Тэр жолооч. In English, He is a driver. And in speech, a is a quick, soft uh. Close: Now you can talk about your family's jobs and describe single things without dropping the small word a Mongolian ear doesn't hear.",
+      "teach": "Say every a on this slide as a weak uh, so the final thing students hear models the pronunciation as well as the rule.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

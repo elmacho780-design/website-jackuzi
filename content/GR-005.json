@@ -624,9 +624,15 @@
           "mn": "Тийм бол бүтэн хэлбэр, үгүй бол товч хэлбэр."
         }
       ],
-      "say": "Line one: to say no, put not after the verb. Am not, isn't, aren't. And there is no amn't. [click] Line two: to ask, swap. The verb jumps to the front: Are you...? Where is...? Your voice goes up for yes or no questions, and down for question words. [click] Line three: answer with the pronoun and the verb. A yes stays full, Yes, I am. A no can be short, No, I'm not. Close: Now you can meet someone new in English, ask them where they are from and how old they are, and answer their questions naturally. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "Model both intonation arrows once more as you read line two; it is the last thing students hear about them. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: to say no, put not after the verb. Am not, isn't, aren't. And there is no amn't. [click] Line two: to ask, swap. The verb jumps to the front: Are you...? Where is...? Your voice goes up for yes or no questions, and down for question words. [click] Line three: answer with the pronoun and the verb. A yes stays full, Yes, I am. A no can be short, No, I'm not. Close: Now you can meet someone new in English, ask them where they are from and how old they are, and answer their questions naturally.",
+      "teach": "Model both intonation arrows once more as you read line two; it is the last thing students hear about them.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }

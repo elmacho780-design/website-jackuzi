@@ -25,8 +25,7 @@ Builds on: <earlier lessons it relies on>
 - Line 1 MN: ...
 - Explanation EN: ...
 - Explanation MN: ...
-- Build: one line per click, then the explanation.
-- Say: ... [click] ... [click] ...
+- Say: ...
 - Teaching note: ...
 
 ## Slide 3 · Жишээ · 40 sec
@@ -45,4 +44,8 @@ Builds on: <earlier lessons it relies on>
 
 ## Slide 10 · Санаж ав · 45 sec
 <three cards, each EN + MN>
-- Say: ... Close: <what the student can now do>. Then the closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.
+- Say: ... Close: <what the student can now do>.
+
+## Slide 11 · Closing · 5 sec
+- Layout: closing (fixed text: "Now try the exercises below this video." / Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.)
+- Say: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Then hold three seconds.

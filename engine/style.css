@@ -154,6 +154,12 @@ s.x{color:var(--wrong);text-decoration:line-through;text-decoration-thickness:4p
 .s-summary .num{flex:none;width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--sun-1),var(--sun-2));display:flex;align-items:center;justify-content:center;font-size:38px;font-weight:800;color:#fff}
 .s-summary .pair .en{color:#fff;font-size:40px;font-weight:500}
 .s-summary .pair .mn{color:var(--mn-on-dark);font-size:30px}
+.s-closing .glow{position:absolute;left:360px;top:-260px;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(circle,rgba(74,130,214,.30),rgba(14,31,58,0) 65%)}
+.s-closing .cbox{position:absolute;left:var(--pad-x);right:var(--pad-x);top:190px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.s-closing .cbox img{width:230px;height:230px;margin-bottom:44px}
+.s-closing .en{font-size:84px;font-weight:800;letter-spacing:-.02em;line-height:1.08;text-wrap:balance;max-width:1500px}
+.s-closing .mn{font-size:44px;font-weight:500;color:var(--mn-on-dark);margin-top:24px;text-wrap:balance;max-width:1500px}
+.s-closing .down{position:absolute;left:50%;bottom:100px;width:90px;height:90px;margin-left:-45px}
 
 /* ---------- Connector overlay ---------- */
 svg.wires{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:none;overflow:visible}

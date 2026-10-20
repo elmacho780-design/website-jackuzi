@@ -590,9 +590,15 @@
           "mn": "there is (шинэ зүйл) -> it is (тайлбар)"
         }
       ],
-      "say": "Line one: count first. One thing: there is. More than one: there are. In a list, the first thing decides. [click] Line two: the order is the opposite of Mongolian. There is comes first and the place goes at the end: There is a bed in my room. [click] Line three: there is brings something new into the conversation, and it describes it after that. There is a park near my house. It is very big. Close: Now you can describe your room, your school or your town, and ask what is in a place and how many there are. [click] Closing line (spoken, never on the slide): Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай. Hold the slide silently for three seconds.",
-      "teach": "On line two, say the Mongolian sentence and the English sentence one after the other so the order flip is heard, not just seen. Hold the slide silently for three seconds after the closing sentence.",
+      "say": "Line one: count first. One thing: there is. More than one: there are. In a list, the first thing decides. [click] Line two: the order is the opposite of Mongolian. There is comes first and the place goes at the end: There is a bed in my room. [click] Line three: there is brings something new into the conversation, and it describes it after that. There is a park near my house. It is very big. Close: Now you can describe your room, your school or your town, and ask what is in a place and how many there are.",
+      "teach": "On line two, say the Mongolian sentence and the English sentence one after the other so the order flip is heard, not just seen.",
       "time": "45 sec"
+    },
+    {
+      "layout": "closing",
+      "say": "Closing line: Одоо энэ видеоны доорх дасгалаар мэдлэгээ шалгаарай.",
+      "teach": "Say the closing line, then hold the slide silently for three seconds.",
+      "time": "5 sec"
     }
   ]
 }
